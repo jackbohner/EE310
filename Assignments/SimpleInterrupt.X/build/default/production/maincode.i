@@ -27177,9 +27177,9 @@ void __attribute__((picinterrupt(("irq(8),base(0x4008)")))) INT0_ISR(void)
     if(PIR1bits.INT0IF){
         for (int i = 0; i < 10; i++){
             PORTDbits.RD0 = 1;
-
+            _delay((unsigned long)((250)*(4000000/4000.0)));
             PORTDbits.RD0 = 0;
-
+            _delay((unsigned long)((250)*(4000000/4000.0)));
         }
         PIR1bits.INT0IF = 0;
         PORTDbits.RD0 = 0;
@@ -27221,9 +27221,9 @@ void main(void) {
     while(1)
     {
 
-        LATDbits.LATD1 = 1;
-
-        LATDbits.LATD1 = 0;
-
+        PORTDbits.RD1 = 1;
+        _delay((unsigned long)((200)*(4000000/4000.0)));
+        PORTDbits.RD1 = 0;
+        _delay((unsigned long)((200)*(4000000/4000.0)));
     }
 }

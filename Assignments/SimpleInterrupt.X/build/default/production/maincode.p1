@@ -23,7 +23,11 @@ Version 4.0 HI-TECH Software Intermediate Code
 "46901
 [; ;C:/Program Files/Microchip/MPLABX/v6.30/packs/Microchip/PIC18F-K_DFP/1.15.303/xc8\pic\include\proc/pic18f47k42.h: 46901: extern volatile PORTDbits_t PORTDbits __attribute__((address(0x3FCD)));
 [v _PORTDbits `VS2133 ~T0 @X0 0 e@16333 ]
-"46990
+[v F205 `(v ~T0 @X0 1 tf1`ul ]
+"20 C:\Program Files\Microchip\xc8\v3.10\pic\include/builtins.h
+[v __delay `JF205 ~T0 @X0 0 e ]
+[p i __delay ]
+"46990 C:/Program Files/Microchip/MPLABX/v6.30/packs/Microchip/PIC18F-K_DFP/1.15.303/xc8\pic\include\proc/pic18f47k42.h
 [; ;C:/Program Files/Microchip/MPLABX/v6.30/packs/Microchip/PIC18F-K_DFP/1.15.303/xc8\pic\include\proc/pic18f47k42.h: 46990:     struct {
 [s S2138 :1 `uc 1 :1 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S2138 . INT0EDG INT1EDG INT2EDG . IPEN GIEL GIE ]
@@ -125,21 +129,6 @@ Version 4.0 HI-TECH Software Intermediate Code
 "8534
 [; ;C:/Program Files/Microchip/MPLABX/v6.30/packs/Microchip/PIC18F-K_DFP/1.15.303/xc8\pic\include\proc/pic18f47k42.h: 8534: extern volatile WPUBbits_t WPUBbits __attribute__((address(0x3A51)));
 [v _WPUBbits `VS377 ~T0 @X0 0 e@14929 ]
-"46260
-[; ;C:/Program Files/Microchip/MPLABX/v6.30/packs/Microchip/PIC18F-K_DFP/1.15.303/xc8\pic\include\proc/pic18f47k42.h: 46260:     struct {
-[s S2112 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S2112 . LATD0 LATD1 LATD2 LATD3 LATD4 LATD5 LATD6 LATD7 ]
-"46270
-[; ;C:/Program Files/Microchip/MPLABX/v6.30/packs/Microchip/PIC18F-K_DFP/1.15.303/xc8\pic\include\proc/pic18f47k42.h: 46270:     struct {
-[s S2113 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S2113 . LD0 LD1 LD2 LD3 LD4 LD5 LD6 LD7 ]
-"46259
-[; ;C:/Program Files/Microchip/MPLABX/v6.30/packs/Microchip/PIC18F-K_DFP/1.15.303/xc8\pic\include\proc/pic18f47k42.h: 46259: typedef union {
-[u S2111 `S2112 1 `S2113 1 ]
-[n S2111 . . . ]
-"46281
-[; ;C:/Program Files/Microchip/MPLABX/v6.30/packs/Microchip/PIC18F-K_DFP/1.15.303/xc8\pic\include\proc/pic18f47k42.h: 46281: extern volatile LATDbits_t LATDbits __attribute__((address(0x3FBD)));
-[v _LATDbits `VS2111 ~T0 @X0 0 e@16317 ]
 "16 maincode.c
 [p x FEXTOSC  =  LP      ]
 "17
@@ -2455,9 +2444,15 @@ Version 4.0 HI-TECH Software Intermediate Code
 "77
 [; ;maincode.c: 77:             PORTDbits.RD0 = 1;
 [e = . . _PORTDbits 0 0 -> -> 1 `i `uc ]
+"78
+[; ;maincode.c: 78:             _delay((unsigned long)((250)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 250 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 "79
 [; ;maincode.c: 79:             PORTDbits.RD0 = 0;
 [e = . . _PORTDbits 0 0 -> -> 0 `i `uc ]
+"80
+[; ;maincode.c: 80:             _delay((unsigned long)((250)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 250 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 "81
 [; ;maincode.c: 81:         }
 }
@@ -2559,11 +2554,17 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;maincode.c: 120:     {
 {
 "122
-[; ;maincode.c: 122:         LATDbits.LATD1 = 1;
-[e = . . _LATDbits 0 1 -> -> 1 `i `uc ]
+[; ;maincode.c: 122:         PORTDbits.RD1 = 1;
+[e = . . _PORTDbits 0 1 -> -> 1 `i `uc ]
+"123
+[; ;maincode.c: 123:         _delay((unsigned long)((200)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 200 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 "124
-[; ;maincode.c: 124:         LATDbits.LATD1 = 0;
-[e = . . _LATDbits 0 1 -> -> 0 `i `uc ]
+[; ;maincode.c: 124:         PORTDbits.RD1 = 0;
+[e = . . _PORTDbits 0 1 -> -> 0 `i `uc ]
+"125
+[; ;maincode.c: 125:         _delay((unsigned long)((200)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 200 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 "126
 [; ;maincode.c: 126:     }
 }

@@ -1,7 +1,7 @@
 ### HEXMate logfile and output summary ###
 
 ### Command-line arguments ###
- C:\Users\jackj\AppData\Local\Temp\xcAskfk.0\driver_tmp_3.o
+ C:\Users\jackj\AppData\Local\Temp\xcAsauo.0\driver_tmp_3.o
  -Odist/default/debug\SimpleInterrupt.X.debug.hex
  -logfile=dist/default/debug\SimpleInterrupt.X.debug.hxl
  -addressing=1
@@ -9,11 +9,11 @@
 
 ### Memory Usage ###
  Input file ranges:
-  0h - 3h		(C:\Users\jackj\AppData\Local\Temp\xcAskfk.0\driver_tmp_3.o)
-  2000h - 2001h		(C:\Users\jackj\AppData\Local\Temp\xcAskfk.0\driver_tmp_3.o)
-  4008h - 40B1h		(C:\Users\jackj\AppData\Local\Temp\xcAskfk.0\driver_tmp_3.o)
-  40B4h - 419Fh		(C:\Users\jackj\AppData\Local\Temp\xcAskfk.0\driver_tmp_3.o)
-  300000h - 300009h		(C:\Users\jackj\AppData\Local\Temp\xcAskfk.0\driver_tmp_3.o)
+  0h - 3h		(C:\Users\jackj\AppData\Local\Temp\xcAsauo.0\driver_tmp_3.o)
+  2000h - 2001h		(C:\Users\jackj\AppData\Local\Temp\xcAsauo.0\driver_tmp_3.o)
+  4008h - 40B1h		(C:\Users\jackj\AppData\Local\Temp\xcAsauo.0\driver_tmp_3.o)
+  40B4h - 419Fh		(C:\Users\jackj\AppData\Local\Temp\xcAsauo.0\driver_tmp_3.o)
+  300000h - 300009h		(C:\Users\jackj\AppData\Local\Temp\xcAsauo.0\driver_tmp_3.o)
  Unused ranges:
   4h - 1FFFh
   2002h - 4007h
@@ -23,7 +23,7 @@
 ### Hex Memory Map ###
  Legend:
   -- = Unused memory
-  H1 = Input file             (C:\Users\jackj\AppData\Local\Temp\xcAskfk.0\driver_tmp_3.o)
+  H1 = Input file             (C:\Users\jackj\AppData\Local\Temp\xcAsauo.0\driver_tmp_3.o)
 ----------------------------------------------------------
          | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
 ----------------------------------------------------------

@@ -69,7 +69,7 @@
 [v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
 "101
 [v _main main `(v  1 e 1 0 ]
-[s S92 . 1 `uc 1 INT0IP 1 0 :1:0 
+[s S98 . 1 `uc 1 INT0IP 1 0 :1:0 
 `uc 1 ZCDIP 1 0 :1:1 
 `uc 1 ADIP 1 0 :1:2 
 `uc 1 ADTIP 1 0 :1:3 
@@ -79,9 +79,9 @@
 `uc 1 SMT1PWAIP 1 0 :1:7 
 ]
 "2786 C:/Program Files/Microchip/MPLABX/v6.30/packs/Microchip/PIC18F-K_DFP/1.15.303/xc8\pic\include\proc/pic18f47k42.h
-[u S101 . 1 `S92 1 . 1 0 ]
-[v _IPR1bits IPR1bits `VES101  1 e 1 @14721 ]
-[s S113 . 1 `uc 1 INT0IE 1 0 :1:0 
+[u S107 . 1 `S98 1 . 1 0 ]
+[v _IPR1bits IPR1bits `VES107  1 e 1 @14721 ]
+[s S119 . 1 `uc 1 INT0IE 1 0 :1:0 
 `uc 1 ZCDIE 1 0 :1:1 
 `uc 1 ADIE 1 0 :1:2 
 `uc 1 ADTIE 1 0 :1:3 
@@ -91,8 +91,8 @@
 `uc 1 SMT1PWAIE 1 0 :1:7 
 ]
 "3351
-[u S122 . 1 `S113 1 . 1 0 ]
-[v _PIE1bits PIE1bits `VES122  1 e 1 @14737 ]
+[u S128 . 1 `S119 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES128  1 e 1 @14737 ]
 [s S24 . 1 `uc 1 INT0IF 1 0 :1:0 
 `uc 1 ZCDIF 1 0 :1:1 
 `uc 1 ADIF 1 0 :1:2 
@@ -105,7 +105,7 @@
 "3916
 [u S33 . 1 `S24 1 . 1 0 ]
 [v _PIR1bits PIR1bits `VES33  1 e 1 @14753 ]
-[s S200 . 1 `uc 1 ANSELB0 1 0 :1:0 
+[s S206 . 1 `uc 1 ANSELB0 1 0 :1:0 
 `uc 1 ANSELB1 1 0 :1:1 
 `uc 1 ANSELB2 1 0 :1:2 
 `uc 1 ANSELB3 1 0 :1:3 
@@ -115,9 +115,9 @@
 `uc 1 ANSELB7 1 0 :1:7 
 ]
 "8472
-[u S209 . 1 `S200 1 . 1 0 ]
-[v _ANSELBbits ANSELBbits `VES209  1 e 1 @14928 ]
-[s S221 . 1 `uc 1 WPUB0 1 0 :1:0 
+[u S215 . 1 `S206 1 . 1 0 ]
+[v _ANSELBbits ANSELBbits `VES215  1 e 1 @14928 ]
+[s S227 . 1 `uc 1 WPUB0 1 0 :1:0 
 `uc 1 WPUB1 1 0 :1:1 
 `uc 1 WPUB2 1 0 :1:2 
 `uc 1 WPUB3 1 0 :1:3 
@@ -127,9 +127,9 @@
 `uc 1 WPUB7 1 0 :1:7 
 ]
 "8534
-[u S230 . 1 `S221 1 . 1 0 ]
-[v _WPUBbits WPUBbits `VES230  1 e 1 @14929 ]
-[s S179 . 1 `uc 1 ANSELD0 1 0 :1:0 
+[u S236 . 1 `S227 1 . 1 0 ]
+[v _WPUBbits WPUBbits `VES236  1 e 1 @14929 ]
+[s S185 . 1 `uc 1 ANSELD0 1 0 :1:0 
 `uc 1 ANSELD1 1 0 :1:1 
 `uc 1 ANSELD2 1 0 :1:2 
 `uc 1 ANSELD3 1 0 :1:3 
@@ -139,33 +139,9 @@
 `uc 1 ANSELD7 1 0 :1:7 
 ]
 "9896
-[u S188 . 1 `S179 1 . 1 0 ]
-[v _ANSELDbits ANSELDbits `VES188  1 e 1 @14960 ]
-[s S242 . 1 `uc 1 LATD0 1 0 :1:0 
-`uc 1 LATD1 1 0 :1:1 
-`uc 1 LATD2 1 0 :1:2 
-`uc 1 LATD3 1 0 :1:3 
-`uc 1 LATD4 1 0 :1:4 
-`uc 1 LATD5 1 0 :1:5 
-`uc 1 LATD6 1 0 :1:6 
-`uc 1 LATD7 1 0 :1:7 
-]
-"46281
-[s S251 . 1 `uc 1 LD0 1 0 :1:0 
-`uc 1 LD1 1 0 :1:1 
-`uc 1 LD2 1 0 :1:2 
-`uc 1 LD3 1 0 :1:3 
-`uc 1 LD4 1 0 :1:4 
-`uc 1 LD5 1 0 :1:5 
-`uc 1 LD6 1 0 :1:6 
-`uc 1 LD7 1 0 :1:7 
-]
-"46281
-[u S260 . 1 `S242 1 . 1 0 `S251 1 . 1 0 ]
-"46281
-"46281
-[v _LATDbits LATDbits `VES260  1 e 1 @16317 ]
-[s S158 . 1 `uc 1 TRISB0 1 0 :1:0 
+[u S194 . 1 `S185 1 . 1 0 ]
+[v _ANSELDbits ANSELDbits `VES194  1 e 1 @14960 ]
+[s S164 . 1 `uc 1 TRISB0 1 0 :1:0 
 `uc 1 TRISB1 1 0 :1:1 
 `uc 1 TRISB2 1 0 :1:2 
 `uc 1 TRISB3 1 0 :1:3 
@@ -175,11 +151,11 @@
 `uc 1 TRISB7 1 0 :1:7 
 ]
 "46497
-[u S167 . 1 `S158 1 . 1 0 ]
+[u S173 . 1 `S164 1 . 1 0 ]
 "46497
 "46497
-[v _TRISBbits TRISBbits `VES167  1 e 1 @16323 ]
-[s S137 . 1 `uc 1 TRISD0 1 0 :1:0 
+[v _TRISBbits TRISBbits `VES173  1 e 1 @16323 ]
+[s S143 . 1 `uc 1 TRISD0 1 0 :1:0 
 `uc 1 TRISD1 1 0 :1:1 
 `uc 1 TRISD2 1 0 :1:2 
 `uc 1 TRISD3 1 0 :1:3 
@@ -189,10 +165,10 @@
 `uc 1 TRISD7 1 0 :1:7 
 ]
 "46621
-[u S146 . 1 `S137 1 . 1 0 ]
+[u S152 . 1 `S143 1 . 1 0 ]
 "46621
 "46621
-[v _TRISDbits TRISDbits `VES146  1 e 1 @16325 ]
+[v _TRISDbits TRISDbits `VES152  1 e 1 @16325 ]
 [s S45 . 1 `uc 1 RD0 1 0 :1:0 
 `uc 1 RD1 1 0 :1:1 
 `uc 1 RD2 1 0 :1:2 
@@ -207,7 +183,7 @@
 "46901
 "46901
 [v _PORTDbits PORTDbits `VES54  1 e 1 @16333 ]
-[s S66 . 1 `uc 1 INT0EDG 1 0 :1:0 
+[s S72 . 1 `uc 1 INT0EDG 1 0 :1:0 
 `uc 1 INT1EDG 1 0 :1:1 
 `uc 1 INT2EDG 1 0 :1:2 
 `uc 1 . 1 0 :2:3 
@@ -216,14 +192,14 @@
 `uc 1 GIE 1 0 :1:7 
 ]
 "47004
-[s S74 . 1 `uc 1 . 1 0 :7:0 
+[s S80 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 GIEH 1 0 :1:7 
 ]
 "47004
-[u S77 . 1 `S66 1 . 1 0 `S74 1 . 1 0 ]
+[u S83 . 1 `S72 1 . 1 0 `S80 1 . 1 0 ]
 "47004
 "47004
-[v _INTCON0bits INTCON0bits `VES77  1 e 1 @16338 ]
+[v _INTCON0bits INTCON0bits `VES83  1 e 1 @16338 ]
 "47109
 "47109
 [v _IVTBASEL IVTBASEL `VEuc  1 e 1 @16341 ]
@@ -245,6 +221,6 @@
 [v _INT0_ISR INT0_ISR `IIH(v  1 e 1 0 ]
 {
 "76
-[v INT0_ISR@i i `i  1 a 2 0 ]
+[v INT0_ISR@i i `i  1 a 2 2 ]
 "85
 } 0

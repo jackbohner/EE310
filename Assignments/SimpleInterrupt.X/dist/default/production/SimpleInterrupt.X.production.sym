@@ -1,8 +1,8 @@
-__S0 4144 0 ABS 0
-__S1 3 0 ABS 0
+__S0 41A0 0 ABS 0
+__S1 7 0 ABS 0
 __S4 0 0 ABS 0
 __S5 0 0 ABS 0
-_main 40F6 0 CODE 0
+_main 4122 0 CODE 0
 ___sp 0 0 STACK 2
 start 40AE 0 CODE 0
 __Hirdata 0 0 CODE 0
@@ -37,7 +37,6 @@ __Heeprom_data 0 0 EEDATA 0
 __Leeprom_data 0 0 EEDATA 0
 _PIR1bits 39A1 0 ABS 0
 _IPR1bits 3981 0 ABS 0
-_LATDbits 3FBD 0 ABS 0
 __Hintsave_regs 0 0 BIGRAM 1
 __Lintsave_regs 0 0 BIGRAM 1
 _WPUBbits 3A51 0 ABS 0
@@ -75,13 +74,13 @@ __Lrbit 0 0 COMRAM 1
 __Hinit 40B2 0 CODE 0
 __Linit 40AE 0 CODE 0
 __Hrbss 0 0 COMRAM 1
-__end_of_main 4116 0 CODE 0
+__end_of_main 4172 0 CODE 0
 __Lrbss 0 0 COMRAM 1
 __Htext 0 0 ABS 0
 __Ltext 0 0 ABS 0
-__end_of_INTERRUPT_Initialize 4132 0 CODE 0
+__end_of_INTERRUPT_Initialize 418E 0 CODE 0
 ___heap_lo 0 0 ABS 0
-end_of_initialization 413E 0 CODE 0
+end_of_initialization 419A 0 CODE 0
 _TRISBbits 3FC3 0 ABS 0
 _TRISDbits 3FC5 0 ABS 0
 _PORTDbits 3FCD 0 ABS 0
@@ -119,15 +118,15 @@ __Hbank9 0 0 ABS 0
 __Lbank9 0 0 ABS 0
 __Htext1 0 0 ABS 0
 __Ltext1 0 0 ABS 0
-__ptext0 40F6 0 CODE 0
+__ptext0 4122 0 CODE 0
 __Htext2 0 0 ABS 0
 __Ltext2 0 0 ABS 0
-__ptext1 4116 0 CODE 0
+__ptext1 4172 0 CODE 0
 __ptext2 40B4 0 CODE 0
 ___stack_hi 0 0 STACK 2
 __Hclrtext 0 0 ABS 0
 __Lclrtext 0 0 ABS 0
-__end_of__initialization 413E 0 CODE 0
+__end_of__initialization 419A 0 CODE 0
 ___rparam_used 1 0 ABS 0
 __H__absolute__ 0 0 ABS 0
 __L__absolute__ 0 0 ABS 0
@@ -141,12 +140,12 @@ __Hstack 0 0 STACK 2
 __Lstack 0 0 STACK 2
 __Hparam 0 0 COMRAM 1
 __Lparam 0 0 COMRAM 1
-__Hspace_0 4144 0 ABS 0
+__Hspace_0 41A0 0 ABS 0
 __HcstackCOMRAM 0 0 ABS 0
 __Lspace_0 0 0 ABS 0
 __LcstackCOMRAM 0 0 ABS 0
 __pcstackCOMRAM 1 0 COMRAM 1
-__Hspace_1 3 0 ABS 0
+__Hspace_1 7 0 ABS 0
 __Lspace_1 0 0 ABS 0
 __Hsmallconst 2002 0 SMALLCONST 0
 __Lsmallconst 2000 0 SMALLCONST 0
@@ -157,7 +156,7 @@ __Hnvbit 0 0 COMRAM 1
 __Lnvbit 0 0 COMRAM 1
 __Hcinit 0 0 ABS 0
 __Lcinit 0 0 ABS 0
-__pcinit 4132 0 CODE 0
+__pcinit 418E 0 CODE 0
 __ramtop 2000 0 RAM 0
 __mediumconst 2000 0 SMALLCONST 0
 __Hconst 0 0 CONST 0
@@ -184,7 +183,7 @@ __Lbank22 0 0 ABS 0
 __Hbank13 0 0 ABS 0
 __Lbank13 0 0 ABS 0
 __Hbank23 0 0 ABS 0
-_INTERRUPT_Initialize 4116 0 CODE 0
+_INTERRUPT_Initialize 4172 0 CODE 0
 __Lbank23 0 0 ABS 0
 __Hbank14 0 0 ABS 0
 __Lbank14 0 0 ABS 0
@@ -223,7 +222,7 @@ __Hreset_vec 4 0 CODE 0
 __Lreset_vec 0 0 CODE 0
 _IVTBASEL 3FD5 0 ABS 0
 __accesstop 60 0 ABS 0
-__end_of_INT0_ISR 40F6 0 CODE 0
+__end_of_INT0_ISR 4122 0 CODE 0
 intlevel0 0 0 CODE 0
 intlevel1 0 0 CODE 0
 intlevel2 0 0 CODE 0
@@ -231,65 +230,69 @@ _IVTBASEU 3FD7 0 ABS 0
 intlevel3 0 0 CODE 0
 _INT0_ISR 40B4 0 CODE 0
 ___inthi_stack_lo 0 0 STACK 2
-start_initialization 4132 0 CODE 0
+start_initialization 418E 0 CODE 0
 ___intlo_stack_lo 0 0 STACK 2
-INT0_ISR@i 1 0 COMRAM 1
-__initialization 4132 0 CODE 0
+INT0_ISR@i 3 0 COMRAM 1
+__initialization 418E 0 CODE 0
 __activetblptr 0 0 ABS 0
 %segments
 ivt0x4008 4008 40B1 CODE 4008 0
 reset_vec 0 3 CODE 0 0
 smallconst 2000 2001 SMALLCONST 2000 0
-cstackCOMRAM 1 2 COMRAM 1 1
-text2 40B4 4143 CODE 40B4 0
+cstackCOMRAM 1 6 COMRAM 1 1
+text2 40B4 419F CODE 40B4 0
 %locals
 dist/default/production\SimpleInterrupt.X.production.o
-C:\Users\jackj\AppData\Local\Temp\xcAsa2g.0\driver_tmp_1.s
-1671 4132 0 CODE 0
-1673 4132 0 CODE 0
-1676 4132 0 CODE 0
-1684 4132 0 CODE 0
-1685 4134 0 CODE 0
-1686 4136 0 CODE 0
-1687 4138 0 CODE 0
-1688 413A 0 CODE 0
-1689 413C 0 CODE 0
-1695 413E 0 CODE 0
-1697 413E 0 CODE 0
-1698 4140 0 CODE 0
+C:\Users\jackj\AppData\Local\Temp\xcAswjo.0\driver_tmp_1.s
+1669 418E 0 CODE 0
+1671 418E 0 CODE 0
+1674 418E 0 CODE 0
+1682 418E 0 CODE 0
+1683 4190 0 CODE 0
+1684 4192 0 CODE 0
+1685 4194 0 CODE 0
+1686 4196 0 CODE 0
+1687 4198 0 CODE 0
+1693 419A 0 CODE 0
+1695 419A 0 CODE 0
+1696 419C 0 CODE 0
 maincode.c
-101 40F6 0 CODE 0
-104 40F6 0 CODE 0
-105 40F8 0 CODE 0
-106 40FA 0 CODE 0
-108 40FC 0 CODE 0
-109 4100 0 CODE 0
-110 4102 0 CODE 0
-113 4104 0 CODE 0
-116 4106 0 CODE 0
-122 410A 0 CODE 0
-124 410C 0 CODE 0
+101 4122 0 CODE 0
+104 4122 0 CODE 0
+105 4124 0 CODE 0
+106 4126 0 CODE 0
+108 4128 0 CODE 0
+109 412C 0 CODE 0
+110 412E 0 CODE 0
+113 4130 0 CODE 0
+116 4132 0 CODE 0
+122 4136 0 CODE 0
+123 4138 0 CODE 0
+124 4150 0 CODE 0
+125 4152 0 CODE 0
 maincode.c
-87 4116 0 CODE 0
-89 4116 0 CODE 0
-90 4118 0 CODE 0
-91 411A 0 CODE 0
-92 411C 0 CODE 0
-93 411E 0 CODE 0
-94 4122 0 CODE 0
-95 4124 0 CODE 0
-97 4126 0 CODE 0
-98 4128 0 CODE 0
-99 412C 0 CODE 0
-100 4130 0 CODE 0
+87 4172 0 CODE 0
+89 4172 0 CODE 0
+90 4174 0 CODE 0
+91 4176 0 CODE 0
+92 4178 0 CODE 0
+93 417A 0 CODE 0
+94 417E 0 CODE 0
+95 4180 0 CODE 0
+97 4182 0 CODE 0
+98 4184 0 CODE 0
+99 4188 0 CODE 0
+100 418C 0 CODE 0
 maincode.c
 100 40B4 0 CODE 0
 73 40B4 0 CODE 0
 75 40B4 0 CODE 0
 76 40C4 0 CODE 0
 77 40CA 0 CODE 0
-79 40CC 0 CODE 0
-81 40CE 0 CODE 0
-82 40EE 0 CODE 0
-83 40F2 0 CODE 0
-85 40F4 0 CODE 0
+78 40CC 0 CODE 0
+79 40E2 0 CODE 0
+80 40E4 0 CODE 0
+81 40FA 0 CODE 0
+82 411A 0 CODE 0
+83 411E 0 CODE 0
+85 4120 0 CODE 0

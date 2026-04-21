@@ -1,7 +1,7 @@
 ### HEXMate logfile and output summary ###
 
 ### Command-line arguments ###
- C:\Users\jackj\AppData\Local\Temp\xcAsa2g.0\driver_tmp_3.o
+ C:\Users\jackj\AppData\Local\Temp\xcAswjo.0\driver_tmp_3.o
  -Odist/default/production\SimpleInterrupt.X.production.hex
  -logfile=dist/default/production\SimpleInterrupt.X.production.hxl
  -addressing=1
@@ -9,21 +9,21 @@
 
 ### Memory Usage ###
  Input file ranges:
-  0h - 3h		(C:\Users\jackj\AppData\Local\Temp\xcAsa2g.0\driver_tmp_3.o)
-  2000h - 2001h		(C:\Users\jackj\AppData\Local\Temp\xcAsa2g.0\driver_tmp_3.o)
-  4008h - 40B1h		(C:\Users\jackj\AppData\Local\Temp\xcAsa2g.0\driver_tmp_3.o)
-  40B4h - 4143h		(C:\Users\jackj\AppData\Local\Temp\xcAsa2g.0\driver_tmp_3.o)
-  300000h - 300009h		(C:\Users\jackj\AppData\Local\Temp\xcAsa2g.0\driver_tmp_3.o)
+  0h - 3h		(C:\Users\jackj\AppData\Local\Temp\xcAswjo.0\driver_tmp_3.o)
+  2000h - 2001h		(C:\Users\jackj\AppData\Local\Temp\xcAswjo.0\driver_tmp_3.o)
+  4008h - 40B1h		(C:\Users\jackj\AppData\Local\Temp\xcAswjo.0\driver_tmp_3.o)
+  40B4h - 419Fh		(C:\Users\jackj\AppData\Local\Temp\xcAswjo.0\driver_tmp_3.o)
+  300000h - 300009h		(C:\Users\jackj\AppData\Local\Temp\xcAswjo.0\driver_tmp_3.o)
  Unused ranges:
   4h - 1FFFh
   2002h - 4007h
   40B2h - 40B3h
-  4144h - 2FFFFFh
+  41A0h - 2FFFFFh
 
 ### Hex Memory Map ###
  Legend:
   -- = Unused memory
-  H1 = Input file             (C:\Users\jackj\AppData\Local\Temp\xcAsa2g.0\driver_tmp_3.o)
+  H1 = Input file             (C:\Users\jackj\AppData\Local\Temp\xcAswjo.0\driver_tmp_3.o)
 ----------------------------------------------------------
          | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
 ----------------------------------------------------------
@@ -51,7 +51,12 @@
 00004110 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 00004120 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 00004130 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
-00004140 | H1 H1 H1 H1 -- -- -- -- -- -- -- -- -- -- -- --
+00004140 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00004150 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00004160 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00004170 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00004180 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00004190 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 ----------------------------------------------------------
 00300000 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 -- -- -- -- -- --
 00300010 | --
