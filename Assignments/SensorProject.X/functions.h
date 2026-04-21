@@ -9,7 +9,7 @@ volatile unsigned char melody_flag = 0;
 
 void __interrupt(irq(IRQ_INT0), base(8)) INT0_ISR(void)
 {
-    melody_flag = 1;        // just set flag
+    melody_flag = 1;        // set flag
     PIR1bits.INT0IF = 0;    // clear interrupt
 }
 

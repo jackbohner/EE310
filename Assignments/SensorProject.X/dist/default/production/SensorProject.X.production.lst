@@ -1,7 +1,7 @@
 
 
 Microchip MPLAB XC8 Assembler V3.10 build 20250813170317 
-                                                                                               Mon Apr 20 20:47:36 2026
+                                                                                               Mon Apr 20 23:18:59 2026
 
 Microchip MPLAB XC8 C Compiler v3.10 (Free license) build 20250813170317 Og1 
      1                           	processor	18F47K42
@@ -1027,7 +1027,7 @@ Microchip MPLAB XC8 C Compiler v3.10 (Free license) build 20250813170317 Og1
   1013 ;;
   1014 ;; *************** function _main *****************
   1015 ;; Defined at:
-  1016 ;;		line 9 in file "maincode.c"
+  1016 ;;		line 70 in file "maincode.c"
   1017 ;; Parameters:    Size  Location     Type
   1018 ;;		None
   1019 ;; Auto vars:     Size  Location     Type
@@ -1079,36 +1079,36 @@ Microchip MPLAB XC8 C Compiler v3.10 (Free license) build 20250813170317 Og1
   1055   00215E                     _main:
   1056                           	callstack 29
   1057   00215E                     
-  1058                           ;maincode.c: 11:     initializePorts();
+  1058                           ;maincode.c: 72:     initializePorts();
   1059   00215E  ECCD  F011         	call	_initializePorts	;wreg free
   1060   002162                     
-  1061                           ;maincode.c: 12:     int sdigit1 = 1;
+  1061                           ;maincode.c: 73:     int sdigit1 = 1;
   1062   002162  6A18               	clrf	(main@sdigit1+1)^0,c
   1063   002164  0E01               	movlw	1
   1064   002166  6E17               	movwf	main@sdigit1^0,c
   1065   002168                     
-  1066                           ;maincode.c: 13:     int sdigit2 = 1;
+  1066                           ;maincode.c: 74:     int sdigit2 = 1;
   1067   002168  6A1A               	clrf	(main@sdigit2+1)^0,c
   1068   00216A  0E01               	movlw	1
   1069   00216C  6E19               	movwf	main@sdigit2^0,c
   1070   00216E                     
-  1071                           ;maincode.c: 14:     int toggle = 0;
+  1071                           ;maincode.c: 75:     int toggle = 0;
   1072   00216E  6A20               	clrf	(main@toggle+1)^0,c
   1073   002170  0E00               	movlw	0
   1074   002172  6E1F               	movwf	main@toggle^0,c
   1075   002174                     
-  1076                           ;maincode.c: 15:     int scheck1 = 0;
+  1076                           ;maincode.c: 76:     int scheck1 = 0;
   1077   002174  6A1C               	clrf	(main@scheck1+1)^0,c
   1078   002176  0E00               	movlw	0
   1079   002178  6E1B               	movwf	main@scheck1^0,c
   1080   00217A                     
-  1081                           ;maincode.c: 16:     int scheck2 = 0;
+  1081                           ;maincode.c: 77:     int scheck2 = 0;
   1082   00217A  6A1E               	clrf	(main@scheck2+1)^0,c
   1083   00217C  0E00               	movlw	0
   1084   00217E  6E1D               	movwf	main@scheck2^0,c
   1085   002180                     l1093:
   1086                           
-  1087                           ;maincode.c: 20:         if (melody_flag){
+  1087                           ;maincode.c: 81:         if (melody_flag){
   1088   002180  5035               	movf	_melody_flag^0,w,c	;volatile
   1089   002182  B4D8               	btfsc	status,2,c
   1090   002184  EFC6  F010         	goto	u311
@@ -1117,21 +1117,21 @@ Microchip MPLAB XC8 C Compiler v3.10 (Free license) build 20250813170317 Og1
   1093   00218C  EFCB  F010         	goto	l1099
   1094   002190                     u310:
   1095   002190                     
-  1096                           ;maincode.c: 21:             play_melody();
+  1096                           ;maincode.c: 82:             play_melody();
   1097   002190  EC7B  F011         	call	_play_melody	;wreg free
   1098   002194                     
-  1099                           ;maincode.c: 22:             melody_flag = 0;
+  1099                           ;maincode.c: 83:             melody_flag = 0;
   1100   002194  6A35               	clrf	_melody_flag^0,c	;volatile
   1101   002196                     l1099:
   1102                           
-  1103                           ;maincode.c: 24:         photoresistorCheck1(toggle, &scheck1);
+  1103                           ;maincode.c: 85:         photoresistorCheck1(toggle, &scheck1);
   1104   002196  C01F  F001         	movff	main@toggle,photoresistorCheck1@toggle
   1105   00219A  C020  F002         	movff	main@toggle+1,photoresistorCheck1@toggle+1
   1106   00219E  0E1B               	movlw	low main@scheck1
   1107   0021A0  6E03               	movwf	photoresistorCheck1@scheck1^0,c
   1108   0021A2  EC44  F011         	call	_photoresistorCheck1	;wreg free
   1109   0021A6                     
-  1110                           ;maincode.c: 25:         if (toggle == 0){
+  1110                           ;maincode.c: 86:         if (toggle == 0){
   1111   0021A6  501F               	movf	main@toggle^0,w,c
   1112   0021A8  1020               	iorwf	(main@toggle+1)^0,w,c
   1113   0021AA  A4D8               	btfss	status,2,c
@@ -1141,20 +1141,20 @@ Microchip MPLAB XC8 C Compiler v3.10 (Free license) build 20250813170317 Og1
   1117   0021B4  EFE2  F010         	goto	l1105
   1118   0021B8                     u320:
   1119   0021B8                     
-  1120                           ;maincode.c: 26:             update_seven_segment(scheck1);
+  1120                           ;maincode.c: 87:             update_seven_segment(scheck1);
   1121   0021B8  C01B  F001         	movff	main@scheck1,update_seven_segment@display_number
   1122   0021BC  C01C  F002         	movff	main@scheck1+1,update_seven_segment@display_number+1
   1123   0021C0  ECBA  F011         	call	_update_seven_segment	;wreg free
   1124   0021C4                     l1105:
   1125                           
-  1126                           ;maincode.c: 28:         photoresistorCheck2(toggle, &scheck2);
+  1126                           ;maincode.c: 89:         photoresistorCheck2(toggle, &scheck2);
   1127   0021C4  C01F  F001         	movff	main@toggle,photoresistorCheck2@toggle
   1128   0021C8  C020  F002         	movff	main@toggle+1,photoresistorCheck2@toggle+1
   1129   0021CC  0E1D               	movlw	low main@scheck2
   1130   0021CE  6E03               	movwf	photoresistorCheck2@scheck2^0,c
   1131   0021D0  EC0D  F011         	call	_photoresistorCheck2	;wreg free
   1132   0021D4                     
-  1133                           ;maincode.c: 29:         buttonPress(&toggle, &scheck1, &scheck2, sdigit1, sdigit2);
+  1133                           ;maincode.c: 90:         buttonPress(&toggle, &scheck1, &scheck2, sdigit1, sdigit2);
   1134   0021D4  0E1F               	movlw	low main@toggle
   1135   0021D6  6E01               	movwf	buttonPress@toggle^0,c
   1136   0021D8  0E1B               	movlw	low main@scheck1
@@ -1167,7 +1167,7 @@ Microchip MPLAB XC8 C Compiler v3.10 (Free license) build 20250813170317 Og1
   1143   0021EC  C01A  F007         	movff	main@sdigit2+1,buttonPress@sdigit2+1
   1144   0021F0  EC01  F010         	call	_buttonPress	;wreg free
   1145   0021F4                     
-  1146                           ;maincode.c: 30:         if (toggle == 1){
+  1146                           ;maincode.c: 91:         if (toggle == 1){
   1147   0021F4  041F               	decf	main@toggle^0,w,c
   1148   0021F6  1020               	iorwf	(main@toggle+1)^0,w,c
   1149   0021F8  A4D8               	btfss	status,2,c
@@ -1177,7 +1177,7 @@ Microchip MPLAB XC8 C Compiler v3.10 (Free license) build 20250813170317 Og1
   1153   002202  EFC0  F010         	goto	l1093
   1154   002206                     u330:
   1155   002206                     
-  1156                           ;maincode.c: 31:             update_seven_segment(scheck2);
+  1156                           ;maincode.c: 92:             update_seven_segment(scheck2);
   1157   002206  C01D  F001         	movff	main@scheck2,update_seven_segment@display_number
   1158   00220A  C01E  F002         	movff	main@scheck2+1,update_seven_segment@display_number+1
   1159   00220E  ECBA  F011         	call	_update_seven_segment	;wreg free
@@ -2887,7 +2887,7 @@ DATA                 0      0      53      0.0%
 
 
 Microchip Technology PIC18 Macro Assembler V3.10 build 20250813170317 
-Symbol Table                                                                                   Mon Apr 20 20:47:36 2026
+Symbol Table                                                                                   Mon Apr 20 23:18:59 2026
 
                                      l61 2112                                       l70 23BE  
                                      l47 22F4                                       l55 2286  

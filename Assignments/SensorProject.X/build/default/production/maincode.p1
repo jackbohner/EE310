@@ -2950,93 +2950,93 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :UE 2289 ]
 }
 [v $root$_main `(v ~T0 @X0 0 e ]
-"9 maincode.c
-[; ;maincode.c: 9: void main (void)
+"70 maincode.c
+[; ;maincode.c: 70: void main (void)
 [v _main `(v ~T0 @X0 1 ef ]
-"10
-[; ;maincode.c: 10: {
+"71
+[; ;maincode.c: 71: {
 {
 [e :U _main ]
 [f ]
-"11
-[; ;maincode.c: 11:     initializePorts();
+"72
+[; ;maincode.c: 72:     initializePorts();
 [e ( _initializePorts ..  ]
-"12
-[; ;maincode.c: 12:     int sdigit1 = 1;
+"73
+[; ;maincode.c: 73:     int sdigit1 = 1;
 [v _sdigit1 `i ~T0 @X0 1 a ]
 [e = _sdigit1 -> 1 `i ]
-"13
-[; ;maincode.c: 13:     int sdigit2 = 1;
+"74
+[; ;maincode.c: 74:     int sdigit2 = 1;
 [v _sdigit2 `i ~T0 @X0 1 a ]
 [e = _sdigit2 -> 1 `i ]
-"14
-[; ;maincode.c: 14:     int toggle = 0;
+"75
+[; ;maincode.c: 75:     int toggle = 0;
 [v _toggle `i ~T0 @X0 1 a ]
 [e = _toggle -> 0 `i ]
-"15
-[; ;maincode.c: 15:     int scheck1 = 0;
+"76
+[; ;maincode.c: 76:     int scheck1 = 0;
 [v _scheck1 `i ~T0 @X0 1 a ]
 [e = _scheck1 -> 0 `i ]
-"16
-[; ;maincode.c: 16:     int scheck2 = 0;
+"77
+[; ;maincode.c: 77:     int scheck2 = 0;
 [v _scheck2 `i ~T0 @X0 1 a ]
 [e = _scheck2 -> 0 `i ]
-"19
-[; ;maincode.c: 19:     while(1){
+"80
+[; ;maincode.c: 80:     while(1){
 [e :U 2295 ]
 {
-"20
-[; ;maincode.c: 20:         if (melody_flag){
+"81
+[; ;maincode.c: 81:         if (melody_flag){
 [e $ ! != -> _melody_flag `i -> 0 `i 2297  ]
 {
-"21
-[; ;maincode.c: 21:             play_melody();
+"82
+[; ;maincode.c: 82:             play_melody();
 [e ( _play_melody ..  ]
-"22
-[; ;maincode.c: 22:             melody_flag = 0;
+"83
+[; ;maincode.c: 83:             melody_flag = 0;
 [e = _melody_flag -> -> 0 `i `uc ]
-"23
-[; ;maincode.c: 23:         }
+"84
+[; ;maincode.c: 84:         }
 }
 [e :U 2297 ]
-"24
-[; ;maincode.c: 24:         photoresistorCheck1(toggle, &scheck1);
+"85
+[; ;maincode.c: 85:         photoresistorCheck1(toggle, &scheck1);
 [e ( _photoresistorCheck1 (2 , _toggle &U _scheck1 ]
-"25
-[; ;maincode.c: 25:         if (toggle == 0){
+"86
+[; ;maincode.c: 86:         if (toggle == 0){
 [e $ ! == _toggle -> 0 `i 2298  ]
 {
-"26
-[; ;maincode.c: 26:             update_seven_segment(scheck1);
+"87
+[; ;maincode.c: 87:             update_seven_segment(scheck1);
 [e ( _update_seven_segment (1 _scheck1 ]
-"27
-[; ;maincode.c: 27:         }
+"88
+[; ;maincode.c: 88:         }
 }
 [e :U 2298 ]
-"28
-[; ;maincode.c: 28:         photoresistorCheck2(toggle, &scheck2);
+"89
+[; ;maincode.c: 89:         photoresistorCheck2(toggle, &scheck2);
 [e ( _photoresistorCheck2 (2 , _toggle &U _scheck2 ]
-"29
-[; ;maincode.c: 29:         buttonPress(&toggle, &scheck1, &scheck2, sdigit1, sdigit2);
+"90
+[; ;maincode.c: 90:         buttonPress(&toggle, &scheck1, &scheck2, sdigit1, sdigit2);
 [e ( _buttonPress (4 , , , , &U _toggle &U _scheck1 &U _scheck2 _sdigit1 _sdigit2 ]
-"30
-[; ;maincode.c: 30:         if (toggle == 1){
+"91
+[; ;maincode.c: 91:         if (toggle == 1){
 [e $ ! == _toggle -> 1 `i 2299  ]
 {
-"31
-[; ;maincode.c: 31:             update_seven_segment(scheck2);
+"92
+[; ;maincode.c: 92:             update_seven_segment(scheck2);
 [e ( _update_seven_segment (1 _scheck2 ]
-"32
-[; ;maincode.c: 32:         }
+"93
+[; ;maincode.c: 93:         }
 }
 [e :U 2299 ]
-"33
-[; ;maincode.c: 33:     }
+"94
+[; ;maincode.c: 94:     }
 }
 [e :U 2294 ]
 [e $U 2295  ]
 [e :U 2296 ]
-"34
-[; ;maincode.c: 34: }
+"95
+[; ;maincode.c: 95: }
 [e :UE 2293 ]
 }

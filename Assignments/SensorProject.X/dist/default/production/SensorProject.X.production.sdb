@@ -77,7 +77,7 @@
 [v ___lmul __lmul `(ul  1 e 4 0 ]
 "91 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul64.c
 [v ___omul __omul `(uo  1 e 8 0 ]
-"9 C:\Users\jackj\MPLABXProjects\SensorProject.X\maincode.c
+"70 C:\Users\jackj\MPLABXProjects\SensorProject.X\maincode.c
 [v _main main `(v  1 e 1 0 ]
 "8 C:\Users\jackj\MPLABXProjects\SensorProject.X/functions.h
 [v _melody_flag melody_flag `VEuc  1 e 1 0 ]
@@ -170,20 +170,20 @@
 "47004
 "47004
 [v _INTCON0bits INTCON0bits `VES114  1 e 1 @16338 ]
-"9 C:\Users\jackj\MPLABXProjects\SensorProject.X\maincode.c
+"70 C:\Users\jackj\MPLABXProjects\SensorProject.X\maincode.c
 [v _main main `(v  1 e 1 0 ]
 {
-"14
+"75
 [v main@toggle toggle `i  1 a 2 30 ]
-"16
+"77
 [v main@scheck2 scheck2 `i  1 a 2 28 ]
-"15
+"76
 [v main@scheck1 scheck1 `i  1 a 2 26 ]
-"13
+"74
 [v main@sdigit2 sdigit2 `i  1 a 2 24 ]
-"12
+"73
 [v main@sdigit1 sdigit1 `i  1 a 2 22 ]
-"34
+"95
 } 0
 "93 C:\Users\jackj\MPLABXProjects\SensorProject.X/functions.h
 [v _update_seven_segment update_seven_segment `(v  1 e 1 0 ]
