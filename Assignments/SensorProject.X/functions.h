@@ -5,13 +5,6 @@
 #include "Myheader.h"
 #include "define.h"
 
-volatile unsigned char melody_flag = 0;
-
-void __interrupt(irq(IRQ_INT0), base(8)) INT0_ISR(void)
-{
-    melody_flag = 1;        // set flag
-    PIR1bits.INT0IF = 0;    // clear interrupt
-}
 
 void photoresistorCheck1(int toggle, int *scheck1){
 if (light_switch1 == 1 && toggle == 0){
@@ -102,4 +95,10 @@ void play_melody(){
         buzzer = 0;
         __delay_ms(100);
     }
+}
+
+void __interrupt(irq(IRQ_INT0), base(8)) INT0_ISR(void)
+{
+    play_melody();
+    PIR1bits.INT0IF = 0;    // clear interrupt
 }

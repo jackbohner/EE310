@@ -7,7 +7,7 @@
 # 1 "C:\\Program Files\\Microchip\\xc8\\v3.10\\pic\\include/language_support.h" 1 3
 # 2 "<built-in>" 2
 # 1 "maincode.c" 2
-# 65 "maincode.c"
+# 66 "maincode.c"
 # 1 "C:\\Program Files\\Microchip\\xc8\\v3.10\\pic\\include/xc.h" 1 3
 # 18 "C:\\Program Files\\Microchip\\xc8\\v3.10\\pic\\include/xc.h" 3
 extern const char __xc8_OPTIM_SPEED;
@@ -27115,7 +27115,7 @@ __attribute__((__unsupported__("The READTIMER" "0" "() macro is not available wi
 unsigned char __t1rd16on(void);
 unsigned char __t3rd16on(void);
 # 34 "C:\\Program Files\\Microchip\\xc8\\v3.10\\pic\\include/xc.h" 2 3
-# 66 "maincode.c" 2
+# 67 "maincode.c" 2
 # 1 "./Myheader.h" 1
 # 14 "./Myheader.h"
 #pragma config FEXTOSC = LP
@@ -27166,7 +27166,7 @@ unsigned char __t3rd16on(void);
 
 
 #pragma config CP = OFF
-# 67 "maincode.c" 2
+# 68 "maincode.c" 2
 # 1 "./define.h" 1
 # 1 "./Myheader.h" 1
 # 14 "./Myheader.h"
@@ -27219,7 +27219,7 @@ unsigned char __t3rd16on(void);
 
 #pragma config CP = OFF
 # 2 "./define.h" 2
-# 68 "maincode.c" 2
+# 69 "maincode.c" 2
 # 1 "./functions.h" 1
 
 # 1 "C:\\Program Files\\Microchip\\xc8\\v3.10\\pic\\include\\c99/stdio.h" 1 3
@@ -27854,13 +27854,6 @@ double yn(int, double);
 # 2 "./define.h" 2
 # 7 "./functions.h" 2
 
-volatile unsigned char melody_flag = 0;
-
-void __attribute__((picinterrupt(("irq(8), base(8)")))) INT0_ISR(void)
-{
-    melody_flag = 1;
-    PIR1bits.INT0IF = 0;
-}
 
 void photoresistorCheck1(int toggle, int *scheck1){
 if (PORTCbits.RC2 == 1 && toggle == 0){
@@ -27952,7 +27945,13 @@ void play_melody(){
         _delay((unsigned long)((100)*(4000000/4000.0)));
     }
 }
-# 69 "maincode.c" 2
+
+void __attribute__((picinterrupt(("irq(8), base(8)")))) INT0_ISR(void)
+{
+    play_melody();
+    PIR1bits.INT0IF = 0;
+}
+# 70 "maincode.c" 2
 
 void main (void)
 {
@@ -27965,10 +27964,6 @@ void main (void)
 
 
     while(1){
-        if (melody_flag){
-            play_melody();
-            melody_flag = 0;
-        }
         photoresistorCheck1(toggle, &scheck1);
         if (toggle == 0){
             update_seven_segment(scheck1);

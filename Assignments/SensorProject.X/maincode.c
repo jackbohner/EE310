@@ -79,10 +79,6 @@ void main (void)
 
 
     while(1){
-        if (melody_flag){
-            play_melody();
-            melody_flag = 0;
-        }
         photoresistorCheck1(toggle, &scheck1);
         if (toggle == 0){
             update_seven_segment(scheck1);  

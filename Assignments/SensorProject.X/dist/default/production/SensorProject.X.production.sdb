@@ -3,20 +3,20 @@
 [d edition pro ]
 [d chip 18F47K42 ]
 [d frameptr 16353 ]
-"10 C:\Users\jackj\MPLABXProjects\SensorProject.X/functions.h
-[v _INT0_ISR INT0_ISR `IIH(v  1 e 1 0 ]
-"16
+"9 C:\Users\jackj\MPLABXProjects\SensorProject.X/functions.h
 [v _photoresistorCheck1 photoresistorCheck1 `(v  1 e 1 0 ]
-"28
+"21
 [v _photoresistorCheck2 photoresistorCheck2 `(v  1 e 1 0 ]
-"39
+"32
 [v _buttonPress buttonPress `(v  1 e 1 0 ]
-"74
+"67
 [v _initializePorts initializePorts `(v  1 e 1 0 ]
-"93
+"86
 [v _update_seven_segment update_seven_segment `(v  1 e 1 0 ]
-"98
+"91
 [v _play_melody play_melody `(v  1 e 1 0 ]
+"100
+[v _INT0_ISR INT0_ISR `IIH(v  1 e 1 0 ]
 "7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\__lldiv.c
 [v ___lldiv __lldiv `(ul  1 e 4 0 ]
 "7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\aldiv.c
@@ -77,10 +77,8 @@
 [v ___lmul __lmul `(ul  1 e 4 0 ]
 "91 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul64.c
 [v ___omul __omul `(uo  1 e 8 0 ]
-"70 C:\Users\jackj\MPLABXProjects\SensorProject.X\maincode.c
+"71 C:\Users\jackj\MPLABXProjects\SensorProject.X\maincode.c
 [v _main main `(v  1 e 1 0 ]
-"8 C:\Users\jackj\MPLABXProjects\SensorProject.X/functions.h
-[v _melody_flag melody_flag `VEuc  1 e 1 0 ]
 [s S129 . 1 `uc 1 INT0IE 1 0 :1:0 
 `uc 1 ZCDIE 1 0 :1:1 
 `uc 1 ADIE 1 0 :1:2 
@@ -93,7 +91,7 @@
 "3351 C:/Program Files/Microchip/MPLABX/v6.30/packs/Microchip/PIC18F-K_DFP/1.15.303/xc8\pic\include\proc/pic18f47k42.h
 [u S138 . 1 `S129 1 . 1 0 ]
 [v _PIE1bits PIE1bits `VES138  1 e 1 @14737 ]
-[s S24 . 1 `uc 1 INT0IF 1 0 :1:0 
+[s S108 . 1 `uc 1 INT0IF 1 0 :1:0 
 `uc 1 ZCDIF 1 0 :1:1 
 `uc 1 ADIF 1 0 :1:2 
 `uc 1 ADTIF 1 0 :1:3 
@@ -103,8 +101,8 @@
 `uc 1 SMT1PWAIF 1 0 :1:7 
 ]
 "3916
-[u S33 . 1 `S24 1 . 1 0 ]
-[v _PIR1bits PIR1bits `VES33  1 e 1 @14753 ]
+[u S117 . 1 `S108 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES117  1 e 1 @14753 ]
 "7959
 [v _ANSELA ANSELA `VEuc  1 e 1 @14912 ]
 "8455
@@ -123,7 +121,7 @@
 [v _TRISD TRISD `VEuc  1 e 1 @16325 ]
 "46698
 [v _PORTA PORTA `VEuc  1 e 1 @16330 ]
-[s S72 . 1 `uc 1 RA0 1 0 :1:0 
+[s S51 . 1 `uc 1 RA0 1 0 :1:0 
 `uc 1 RA1 1 0 :1:1 
 `uc 1 RA2 1 0 :1:2 
 `uc 1 RA3 1 0 :1:3 
@@ -133,11 +131,11 @@
 `uc 1 RA7 1 0 :1:7 
 ]
 "46715
-[u S81 . 1 `S72 1 . 1 0 ]
+[u S60 . 1 `S51 1 . 1 0 ]
 "46715
 "46715
-[v _PORTAbits PORTAbits `VES81  1 e 1 @16330 ]
-[s S45 . 1 `uc 1 RC0 1 0 :1:0 
+[v _PORTAbits PORTAbits `VES60  1 e 1 @16330 ]
+[s S24 . 1 `uc 1 RC0 1 0 :1:0 
 `uc 1 RC1 1 0 :1:1 
 `uc 1 RC2 1 0 :1:2 
 `uc 1 RC3 1 0 :1:3 
@@ -147,13 +145,13 @@
 `uc 1 RC7 1 0 :1:7 
 ]
 "46839
-[u S54 . 1 `S45 1 . 1 0 ]
+[u S33 . 1 `S24 1 . 1 0 ]
 "46839
 "46839
-[v _PORTCbits PORTCbits `VES54  1 e 1 @16332 ]
+[v _PORTCbits PORTCbits `VES33  1 e 1 @16332 ]
 "46884
 [v _PORTD PORTD `VEuc  1 e 1 @16333 ]
-[s S103 . 1 `uc 1 INT0EDG 1 0 :1:0 
+[s S82 . 1 `uc 1 INT0EDG 1 0 :1:0 
 `uc 1 INT1EDG 1 0 :1:1 
 `uc 1 INT2EDG 1 0 :1:2 
 `uc 1 . 1 0 :2:3 
@@ -162,77 +160,77 @@
 `uc 1 GIE 1 0 :1:7 
 ]
 "47004
-[s S111 . 1 `uc 1 . 1 0 :7:0 
+[s S90 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 GIEH 1 0 :1:7 
 ]
 "47004
-[u S114 . 1 `S103 1 . 1 0 `S111 1 . 1 0 ]
+[u S93 . 1 `S82 1 . 1 0 `S90 1 . 1 0 ]
 "47004
 "47004
-[v _INTCON0bits INTCON0bits `VES114  1 e 1 @16338 ]
-"70 C:\Users\jackj\MPLABXProjects\SensorProject.X\maincode.c
+[v _INTCON0bits INTCON0bits `VES93  1 e 1 @16338 ]
+"71 C:\Users\jackj\MPLABXProjects\SensorProject.X\maincode.c
 [v _main main `(v  1 e 1 0 ]
 {
-"75
-[v main@toggle toggle `i  1 a 2 30 ]
-"77
-[v main@scheck2 scheck2 `i  1 a 2 28 ]
 "76
-[v main@scheck1 scheck1 `i  1 a 2 26 ]
+[v main@toggle toggle `i  1 a 2 33 ]
+"78
+[v main@scheck2 scheck2 `i  1 a 2 31 ]
+"77
+[v main@scheck1 scheck1 `i  1 a 2 29 ]
+"75
+[v main@sdigit2 sdigit2 `i  1 a 2 27 ]
 "74
-[v main@sdigit2 sdigit2 `i  1 a 2 24 ]
-"73
-[v main@sdigit1 sdigit1 `i  1 a 2 22 ]
-"95
+[v main@sdigit1 sdigit1 `i  1 a 2 25 ]
+"92
 } 0
-"93 C:\Users\jackj\MPLABXProjects\SensorProject.X/functions.h
+"86 C:\Users\jackj\MPLABXProjects\SensorProject.X/functions.h
 [v _update_seven_segment update_seven_segment `(v  1 e 1 0 ]
 {
-"94
-[v update_seven_segment@seven_segment_array seven_segment_array `[10]i  1 a 20 2 ]
-"93
-[v update_seven_segment@display_number display_number `i  1 p 2 0 ]
-[v update_seven_segment@F16930 F16930 `[10]i  1 s 20 F16930 ]
-"96
+"87
+[v update_seven_segment@seven_segment_array seven_segment_array `[10]i  1 a 20 5 ]
+"86
+[v update_seven_segment@display_number display_number `i  1 p 2 3 ]
+[v update_seven_segment@F16928 F16928 `[10]i  1 s 20 F16928 ]
+"89
 } 0
-"98
-[v _play_melody play_melody `(v  1 e 1 0 ]
-{
-"99
-[v play_melody@i i `i  1 a 2 1 ]
-"105
-} 0
-"28
+"21
 [v _photoresistorCheck2 photoresistorCheck2 `(v  1 e 1 0 ]
 {
-[v photoresistorCheck2@toggle toggle `i  1 p 2 0 ]
-[v photoresistorCheck2@scheck2 scheck2 `*.30i  1 p 1 2 ]
-"37
+[v photoresistorCheck2@toggle toggle `i  1 p 2 3 ]
+[v photoresistorCheck2@scheck2 scheck2 `*.30i  1 p 1 5 ]
+"30
 } 0
-"16
+"9
 [v _photoresistorCheck1 photoresistorCheck1 `(v  1 e 1 0 ]
 {
-[v photoresistorCheck1@toggle toggle `i  1 p 2 0 ]
-[v photoresistorCheck1@scheck1 scheck1 `*.30i  1 p 1 2 ]
-"26
+[v photoresistorCheck1@toggle toggle `i  1 p 2 3 ]
+[v photoresistorCheck1@scheck1 scheck1 `*.30i  1 p 1 5 ]
+"19
 } 0
-"74
+"67
 [v _initializePorts initializePorts `(v  1 e 1 0 ]
 {
-"91
+"84
 } 0
-"39
+"32
 [v _buttonPress buttonPress `(v  1 e 1 0 ]
 {
-[v buttonPress@toggle toggle `*.30i  1 p 1 0 ]
-[v buttonPress@scheck1 scheck1 `*.30i  1 p 1 1 ]
-[v buttonPress@scheck2 scheck2 `*.30i  1 p 1 2 ]
-[v buttonPress@sdigit1 sdigit1 `i  1 p 2 3 ]
-[v buttonPress@sdigit2 sdigit2 `i  1 p 2 5 ]
-"73
+[v buttonPress@toggle toggle `*.30i  1 p 1 3 ]
+[v buttonPress@scheck1 scheck1 `*.30i  1 p 1 4 ]
+[v buttonPress@scheck2 scheck2 `*.30i  1 p 1 5 ]
+[v buttonPress@sdigit1 sdigit1 `i  1 p 2 6 ]
+[v buttonPress@sdigit2 sdigit2 `i  1 p 2 8 ]
+"66
 } 0
-"10
+"100
 [v _INT0_ISR INT0_ISR `IIH(v  1 e 1 0 ]
 {
-"14
+"104
+} 0
+"91
+[v _play_melody play_melody `(v  1 e 1 0 ]
+{
+"92
+[v play_melody@i i `i  1 a 2 1 ]
+"98
 } 0
