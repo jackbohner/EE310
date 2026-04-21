@@ -79,6 +79,12 @@ void main (void)
 
 
     while(1){
+        if (emergency_flag){
+            scheck1 = 0;
+            scheck2 = 0;
+            toggle = 0;
+            emergency_flag = 0;
+        }
         photoresistorCheck1(toggle, &scheck1);
         if (toggle == 0){
             update_seven_segment(scheck1);  

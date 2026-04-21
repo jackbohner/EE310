@@ -27854,6 +27854,7 @@ double yn(int, double);
 # 2 "./define.h" 2
 # 7 "./functions.h" 2
 
+unsigned char emergency_flag = 0;
 
 void photoresistorCheck1(int toggle, int *scheck1){
 if (PORTCbits.RC2 == 1 && toggle == 0){
@@ -27948,6 +27949,7 @@ void play_melody(){
 
 void __attribute__((picinterrupt(("irq(8), base(8)")))) INT0_ISR(void)
 {
+    emergency_flag = 1;
     play_melody();
     PIR1bits.INT0IF = 0;
 }
@@ -27964,6 +27966,12 @@ void main (void)
 
 
     while(1){
+        if (emergency_flag){
+            scheck1 = 0;
+            scheck2 = 0;
+            toggle = 0;
+            emergency_flag = 0;
+        }
         photoresistorCheck1(toggle, &scheck1);
         if (toggle == 0){
             update_seven_segment(scheck1);

@@ -7,10 +7,10 @@ Linker command line:
   -pivt0x8=08h -cn \
   -h+dist/default/production\SensorProject.X.production.sym \
   --cmf=dist/default/production\SensorProject.X.production.cmf -z \
-  -Q18F47K42 -oC:\Users\jackj\AppData\Local\Temp\xcAs1818.0\driver_tmp_3.o \
+  -Q18F47K42 -oC:\Users\jackj\AppData\Local\Temp\xcAsquk.0\driver_tmp_3.o \
   --defsym=__MPLAB_BUILD=1 --fixupoverflow=error \
   -Mdist/default/production/SensorProject.X.production.map \
-  --md=C:\Users\jackj\AppData\Local\Temp\xcAs1818.0\driver_tmp_0.dat -E1 \
+  --md=C:\Users\jackj\AppData\Local\Temp\xcAsquk.0\driver_tmp_0.dat -E1 \
   -ver=XC8 Compiler -ACODE=00h-01FFFFh -ACONST=00h-01FFFFh \
   -ASMALLCONST=02000h-020FFhx224,012000h-0120FFhx224 \
   -AMEDIUMCONST=02000h-0FFFFh,012000h-01FFFFh -ACOMRAM=01h-05Fh \
@@ -35,7 +35,7 @@ Linker command line:
   -pfarbss=FARRAM,fardata=FARRAM,nvFARRAM=FARRAM \
   -pintsave_regs=BIGRAM,bigbss=BIGRAM,bigdata=BIGRAM -pbss=RAM \
   -pidata=CODE,irdata=CODE,ibigdata=CODE,ifardata=CODE -prparam=COMRAM \
-  C:\Users\jackj\AppData\Local\Temp\xcAs1818.0\driver_tmp_9.o \
+  C:\Users\jackj\AppData\Local\Temp\xcAsquk.0\driver_tmp_9.o \
   dist/default/production\SensorProject.X.production.o 
 
 Object code version is 3.11
@@ -45,7 +45,7 @@ Machine type is 18F47K42
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-C:\Users\jackj\AppData\Local\Temp\xcAs1818.0\driver_tmp_9.o
+C:\Users\jackj\AppData\Local\Temp\xcAsquk.0\driver_tmp_9.o
                 config                           300000   300000        A        0       4
                 init                                 AE       AE        4        4       0
                 reset_vec                             0        0        4        0       0
@@ -53,34 +53,35 @@ dist/default/production\SensorProject.X.production.o
                 config                           300000   300000        A        0       4
                 smallconst                         2000     2000        2     1000       0
                 ivt0x8                                8        8       A6        4       0
-                text7                              22E0     22E0       48     1001       0
-                text6                              23BC     23BC        A     1001       0
+                text7                              2304     2304       48     1001       0
+                text6                              23E4     23E4        E      8F9       0
                 text5                              2002     2002      15C     1001       0
-                text4                              2382     2382       26     1001       0
-                text3                              2272     2272       6E     1001       0
-                text2                              2204     2204       6E     1001       0
-                text1                              235C     235C       26     1001       0
-                text0                              215E     215E       A6     1001       0
+                text4                              23A8     23A8       26     1001       0
+                text3                              2296     2296       6E     1001       0
+                text2                              2228     2228       6E     1001       0
+                text1                              2382     2382       26     1001       0
+                text0                              215E     215E       CA     1001       0
                 cstackCOMRAM                          1        1       23        1       1
                 dataCOMRAM                           24       24       14        1       1
-                cinit                              2328     2328       34     1001       0
-                idataCOMRAM                        23A8     23A8       14     1001       0
+                bssCOMRAM                            38       38        1        1       1
+                cinit                              234C     234C       36     1001       0
+                idataCOMRAM                        23CE     23CE       14     1001       0
 
 TOTAL           Name                               Link     Load   Length     Space
         CLASS   CODE           
                 init                                 AE       AE        4         0
                 reset_vec                             0        0        4         0
                 ivt0x8                                8        8       A6         0
-                text7                              22E0     22E0       48         0
-                text6                              23BC     23BC        A         0
+                text7                              2304     2304       48         0
+                text6                              23E4     23E4        E         0
                 text5                              2002     2002      15C         0
-                text4                              2382     2382       26         0
-                text3                              2272     2272       6E         0
-                text2                              2204     2204       6E         0
-                text1                              235C     235C       26         0
-                text0                              215E     215E       A6         0
-                cinit                              2328     2328       34         0
-                idataCOMRAM                        23A8     23A8       14         0
+                text4                              23A8     23A8       26         0
+                text3                              2296     2296       6E         0
+                text2                              2228     2228       6E         0
+                text1                              2382     2382       26         0
+                text0                              215E     215E       CA         0
+                cinit                              234C     234C       36         0
+                idataCOMRAM                        23CE     23CE       14         0
 
         CLASS   CONST          
 
@@ -92,6 +93,7 @@ TOTAL           Name                               Link     Load   Length     Sp
         CLASS   COMRAM         
                 cstackCOMRAM                          1        1       23         1
                 dataCOMRAM                           24       24       14         1
+                bssCOMRAM                            38       38        1         1
 
         CLASS   ABS1           
 
@@ -185,10 +187,11 @@ TOTAL           Name                               Link     Load   Length     Sp
 SEGMENTS        Name                           Load    Length   Top    Selector   Space  Class
 
                 reset_vec                      000000  000004  000004         0       0  CODE    
-                cstackCOMRAM                   000001  000037  000038         1       1  COMRAM  
+                cstackCOMRAM                   000001  000038  000039         1       1  COMRAM  
                 ivt0x8                         000008  0000AA  0000B2         4       0  CODE    
                 smallconst                     002000  000002  002002      1000       0  SMALLCON
-                text5                          002002  0003C4  0023C6      1001       0  CODE    
+                text5                          002002  0003E0  0023E2      1001       0  CODE    
+                text6                          0023E4  00000E  0023F2       8F9       0  CODE    
 
 
 UNUSED ADDRESS RANGES
@@ -226,22 +229,26 @@ UNUSED ADDRESS RANGES
         BANK7            000700-0007FF              100
         BANK8            000800-0008FF              100
         BANK9            000900-0009FF              100
-        BIGRAM           000038-001FFF             1FC8
+        BIGRAM           000039-001FFF             1FC7
         BIGSFR           003800-003FFF              800
         CODE             000004-000007                4
                          0000B2-001FFF             1F4E
-                         0023C6-01FFFF            1DC3A
-        COMRAM           000038-00005F               28
+                         0023E2-0023E3                2
+                         0023F2-01FFFF            1DC0E
+        COMRAM           000039-00005F               27
         CONST            000004-000007                4
                          0000B2-001FFF             1F4E
-                         0023C6-01FFFF            1DC3A
+                         0023E2-0023E3                2
+                         0023F2-01FFFF            1DC0E
         EEDATA           310000-3103FF              400
         IDLOC            200000-20000F               10
-        MEDIUMCONST      0023C6-00FFFF             DC3A
+        MEDIUMCONST      0023E2-0023E3                2
+                         0023F2-00FFFF             DC0E
                          012000-01FFFF             E000
         RAM              000060-001FFF              100
         SFR              003800-003FFF              100
-        SMALLCONST       0023C6-00FFFF              100
+        SMALLCONST       0023E2-0023E3                2
+                         0023F2-00FFFF              100
                          012000-01FFFF              100
 
                                   Symbol Table
@@ -253,7 +260,7 @@ _ANSELA                                  (abs)        003A40
 _ANSELB                                  (abs)        003A50
 _ANSELC                                  (abs)        003A60
 _ANSELD                                  (abs)        003A70
-_INT0_ISR                                text6        0023BC
+_INT0_ISR                                text6        0023E4
 _INTCON0bits                             (abs)        003FD2
 _PIE1bits                                (abs)        003991
 _PIR1bits                                (abs)        0039A1
@@ -305,6 +312,7 @@ __Hbigdata                               bigdata      000000
 __Hbigram                                bigram       000000
 __Hbigsfr                                bigsfr       000000
 __Hbss                                   bss          000000
+__HbssCOMRAM                             bssCOMRAM    000000
 __Hcinit                                 cinit        000000
 __Hclrtext                               clrtext      000000
 __Hcomram                                comram       000000
@@ -341,8 +349,8 @@ __Hreset_vec                             reset_vec    000004
 __Hrparam                                rparam       000000
 __Hsfr                                   sfr          000000
 __Hsmallconst                            smallconst   002002
-__Hspace_0                               (abs)        0023C6
-__Hspace_1                               (abs)        000038
+__Hspace_0                               (abs)        0023F2
+__Hspace_1                               (abs)        000039
 __Hspace_2                               (abs)        000000
 __Hspace_4                               (abs)        60000A
 __Hstack                                 stack        000000
@@ -397,6 +405,7 @@ __Lbigdata                               bigdata      000000
 __Lbigram                                bigram       000000
 __Lbigsfr                                bigsfr       000000
 __Lbss                                   bss          000000
+__LbssCOMRAM                             bssCOMRAM    000000
 __Lcinit                                 cinit        000000
 __Lclrtext                               clrtext      000000
 __Lcomram                                comram       000000
@@ -449,8 +458,8 @@ __Ltext4                                 text4        000000
 __Ltext5                                 text5        000000
 __Ltext6                                 text6        000000
 __Ltext7                                 text7        000000
-__S0                                     (abs)        0023C6
-__S1                                     (abs)        000038
+__S0                                     (abs)        0023F2
+__S1                                     (abs)        000039
 __S4                                     (abs)        000000
 __S5                                     (abs)        000000
 ___heap_hi                               (abs)        000000
@@ -468,46 +477,48 @@ ___stack_hi                              stack        000000
 ___stack_lo                              stack        000000
 __accesstop                              (abs)        000060
 __activetblptr                           (abs)        000000
-__end_of_INT0_ISR                        text6        0023C6
-__end_of__initialization                 cinit        002356
+__end_of_INT0_ISR                        text6        0023F2
+__end_of__initialization                 cinit        00237C
 __end_of_buttonPress                     text5        00215E
-__end_of_initializePorts                 text4        0023A8
-__end_of_main                            text0        002204
-__end_of_photoresistorCheck1             text3        0022E0
-__end_of_photoresistorCheck2             text2        002272
-__end_of_play_melody                     text7        002328
-__end_of_update_seven_segment            text1        002382
-__initialization                         cinit        002328
+__end_of_initializePorts                 text4        0023CE
+__end_of_main                            text0        002228
+__end_of_photoresistorCheck1             text3        002304
+__end_of_photoresistorCheck2             text2        002296
+__end_of_play_melody                     text7        00234C
+__end_of_update_seven_segment            text1        0023A8
+__initialization                         cinit        00234C
 __mediumconst                            smallconst   002000
-__pcinit                                 cinit        002328
+__pbssCOMRAM                             bssCOMRAM    000038
+__pcinit                                 cinit        00234C
 __pcstackCOMRAM                          cstackCOMRAM 000001
 __pdataCOMRAM                            dataCOMRAM   000024
-__pidataCOMRAM                           idataCOMRAM  0023A8
+__pidataCOMRAM                           idataCOMRAM  0023CE
 __pivt0x8                                ivt0x8       000008
 __psmallconst                            smallconst   002000
 __ptext0                                 text0        00215E
-__ptext1                                 text1        00235C
-__ptext2                                 text2        002204
-__ptext3                                 text3        002272
-__ptext4                                 text4        002382
+__ptext1                                 text1        002382
+__ptext2                                 text2        002228
+__ptext3                                 text3        002296
+__ptext4                                 text4        0023A8
 __ptext5                                 text5        002002
-__ptext6                                 text6        0023BC
-__ptext7                                 text7        0022E0
+__ptext6                                 text6        0023E4
+__ptext7                                 text7        002304
 __ramtop                                 ramtop       002000
 __smallconst                             smallconst   002000
 _buttonPress                             text5        002002
-_initializePorts                         text4        002382
+_emergency_flag                          bssCOMRAM    000038
+_initializePorts                         text4        0023A8
 _main                                    text0        00215E
-_photoresistorCheck1                     text3        002272
-_photoresistorCheck2                     text2        002204
-_play_melody                             text7        0022E0
-_update_seven_segment                    text1        00235C
+_photoresistorCheck1                     text3        002296
+_photoresistorCheck2                     text2        002228
+_play_melody                             text7        002304
+_update_seven_segment                    text1        002382
 buttonPress@scheck1                      cstackCOMRAM 000005
 buttonPress@scheck2                      cstackCOMRAM 000006
 buttonPress@sdigit1                      cstackCOMRAM 000007
 buttonPress@sdigit2                      cstackCOMRAM 000009
 buttonPress@toggle                       cstackCOMRAM 000004
-end_of_initialization                    cinit        002356
+end_of_initialization                    cinit        00237C
 intlevel0                                text         000000
 intlevel1                                text         000000
 intlevel2                                text         000000
@@ -529,8 +540,8 @@ play_melody@i                            cstackCOMRAM 000002
 stackhi                                  (abs)        000000
 stacklo                                  (abs)        000000
 start                                    init         0000AE
-start_initialization                     cinit        002328
-update_seven_segment@F16928              dataCOMRAM   000024
+start_initialization                     cinit        00234C
+update_seven_segment@F16929              dataCOMRAM   000024
 update_seven_segment@display_number      cstackCOMRAM 000004
 update_seven_segment@seven_segment_array cstackCOMRAM 000006
 
@@ -539,23 +550,23 @@ MODULE INFORMATION
 
 Module		Function		Class		Link	Load	Size
 ./functions.h
-		_initializePorts		CODE           	2382	0000	38
-		_play_melody   		CODE           	22E0	0000	72
-		_photoresistorCheck1		CODE           	2272	0000	110
-		_update_seven_segment		CODE           	235C	0000	38
+		_initializePorts		CODE           	23A8	0000	38
+		_play_melody   		CODE           	2304	0000	72
+		_photoresistorCheck1		CODE           	2296	0000	110
+		_update_seven_segment		CODE           	2382	0000	38
 		_buttonPress   		CODE           	2002	0000	348
-		_photoresistorCheck2		CODE           	2204	0000	110
-		_INT0_ISR      		CODE           	23BC	0000	10
+		_photoresistorCheck2		CODE           	2228	0000	110
+		_INT0_ISR      		CODE           	23E4	0000	14
 
-./functions.h estimated size: 726
+./functions.h estimated size: 730
 
 shared
-		__initialization		CODE           	2328	0000	46
+		__initialization		CODE           	234C	0000	48
 
-shared estimated size: 46
+shared estimated size: 48
 
 maincode.c
-		_main          		CODE           	215E	0000	166
+		_main          		CODE           	215E	0000	202
 
-maincode.c estimated size: 166
+maincode.c estimated size: 202
 

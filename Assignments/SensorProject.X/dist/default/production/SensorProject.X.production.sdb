@@ -3,19 +3,19 @@
 [d edition pro ]
 [d chip 18F47K42 ]
 [d frameptr 16353 ]
-"9 C:\Users\jackj\MPLABXProjects\SensorProject.X/functions.h
+"10 C:\Users\jackj\MPLABXProjects\SensorProject.X/functions.h
 [v _photoresistorCheck1 photoresistorCheck1 `(v  1 e 1 0 ]
-"21
+"22
 [v _photoresistorCheck2 photoresistorCheck2 `(v  1 e 1 0 ]
-"32
+"33
 [v _buttonPress buttonPress `(v  1 e 1 0 ]
-"67
+"68
 [v _initializePorts initializePorts `(v  1 e 1 0 ]
-"86
+"87
 [v _update_seven_segment update_seven_segment `(v  1 e 1 0 ]
-"91
+"92
 [v _play_melody play_melody `(v  1 e 1 0 ]
-"100
+"101
 [v _INT0_ISR INT0_ISR `IIH(v  1 e 1 0 ]
 "7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\__lldiv.c
 [v ___lldiv __lldiv `(ul  1 e 4 0 ]
@@ -79,6 +79,8 @@
 [v ___omul __omul `(uo  1 e 8 0 ]
 "71 C:\Users\jackj\MPLABXProjects\SensorProject.X\maincode.c
 [v _main main `(v  1 e 1 0 ]
+"8 C:\Users\jackj\MPLABXProjects\SensorProject.X/functions.h
+[v _emergency_flag emergency_flag `uc  1 e 1 0 ]
 [s S129 . 1 `uc 1 INT0IE 1 0 :1:0 
 `uc 1 ZCDIE 1 0 :1:1 
 `uc 1 ADIE 1 0 :1:2 
@@ -181,38 +183,38 @@
 [v main@sdigit2 sdigit2 `i  1 a 2 27 ]
 "74
 [v main@sdigit1 sdigit1 `i  1 a 2 25 ]
-"92
+"98
 } 0
-"86 C:\Users\jackj\MPLABXProjects\SensorProject.X/functions.h
+"87 C:\Users\jackj\MPLABXProjects\SensorProject.X/functions.h
 [v _update_seven_segment update_seven_segment `(v  1 e 1 0 ]
 {
-"87
+"88
 [v update_seven_segment@seven_segment_array seven_segment_array `[10]i  1 a 20 5 ]
-"86
+"87
 [v update_seven_segment@display_number display_number `i  1 p 2 3 ]
-[v update_seven_segment@F16928 F16928 `[10]i  1 s 20 F16928 ]
-"89
+[v update_seven_segment@F16929 F16929 `[10]i  1 s 20 F16929 ]
+"90
 } 0
-"21
+"22
 [v _photoresistorCheck2 photoresistorCheck2 `(v  1 e 1 0 ]
 {
 [v photoresistorCheck2@toggle toggle `i  1 p 2 3 ]
 [v photoresistorCheck2@scheck2 scheck2 `*.30i  1 p 1 5 ]
-"30
+"31
 } 0
-"9
+"10
 [v _photoresistorCheck1 photoresistorCheck1 `(v  1 e 1 0 ]
 {
 [v photoresistorCheck1@toggle toggle `i  1 p 2 3 ]
 [v photoresistorCheck1@scheck1 scheck1 `*.30i  1 p 1 5 ]
-"19
+"20
 } 0
-"67
+"68
 [v _initializePorts initializePorts `(v  1 e 1 0 ]
 {
-"84
+"85
 } 0
-"32
+"33
 [v _buttonPress buttonPress `(v  1 e 1 0 ]
 {
 [v buttonPress@toggle toggle `*.30i  1 p 1 3 ]
@@ -220,17 +222,17 @@
 [v buttonPress@scheck2 scheck2 `*.30i  1 p 1 5 ]
 [v buttonPress@sdigit1 sdigit1 `i  1 p 2 6 ]
 [v buttonPress@sdigit2 sdigit2 `i  1 p 2 8 ]
-"66
+"67
 } 0
-"100
+"101
 [v _INT0_ISR INT0_ISR `IIH(v  1 e 1 0 ]
 {
-"104
+"106
 } 0
-"91
+"92
 [v _play_melody play_melody `(v  1 e 1 0 ]
 {
-"92
+"93
 [v play_melody@i i `i  1 a 2 1 ]
-"98
+"99
 } 0

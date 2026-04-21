@@ -5,6 +5,7 @@
 #include "Myheader.h"
 #include "define.h"
 
+unsigned char emergency_flag = 0;
 
 void photoresistorCheck1(int toggle, int *scheck1){
 if (light_switch1 == 1 && toggle == 0){
@@ -99,6 +100,7 @@ void play_melody(){
 
 void __interrupt(irq(IRQ_INT0), base(8)) INT0_ISR(void)
 {
+    emergency_flag = 1;
     play_melody();
     PIR1bits.INT0IF = 0;    // clear interrupt
 }
