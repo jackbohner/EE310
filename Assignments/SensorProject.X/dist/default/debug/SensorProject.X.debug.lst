@@ -1,7 +1,7 @@
 
 
 Microchip MPLAB XC8 Assembler V3.10 build 20250813170317 
-                                                                                               Tue Apr 21 14:12:41 2026
+                                                                                               Tue Apr 21 17:34:58 2026
 
 Microchip MPLAB XC8 C Compiler v3.10 (Free license) build 20250813170317 Og1 
      1                           	processor	18F47K42
@@ -1917,14 +1917,14 @@ Microchip MPLAB XC8 C Compiler v3.10 (Free license) build 20250813170317 Og1
   1831   0023E4                     _INT0_ISR:
   1832                           	callstack 28
   1833   0023E4                     
-  1834                           ;./functions.h: 103:     emergency_flag = 1;
+  1834                           ;./functions.h: 102:     emergency_flag = 1;
   1835   0023E4  0E01               	movlw	1
   1836   0023E6  6E38               	movwf	_emergency_flag^0,c
   1837   0023E8                     
-  1838                           ;./functions.h: 104:     play_melody();
+  1838                           ;./functions.h: 103:     play_melody();
   1839   0023E8  EC82  F011         	call	_play_melody	;wreg free
   1840   0023EC                     
-  1841                           ;./functions.h: 105:     PIR1bits.INT0IF = 0;
+  1841                           ;./functions.h: 104:     PIR1bits.INT0IF = 0;
   1842   0023EC  0139               	movlb	57	; () banked
   1843   0023EE  91A1               	bcf	161,0,b	;volatile
   1844   0023F0                     
@@ -2907,7 +2907,7 @@ DATA                 0      0      56      0.0%
 
 
 Microchip Technology PIC18 Macro Assembler V3.10 build 20250813170317 
-Symbol Table                                                                                   Tue Apr 21 14:12:41 2026
+Symbol Table                                                                                   Tue Apr 21 17:34:58 2026
 
                                      l42 2302                                       l50 2294  
                                      l62 215C                                       l70 23A6  

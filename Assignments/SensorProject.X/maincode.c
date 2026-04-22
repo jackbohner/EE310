@@ -71,27 +71,27 @@
 void main (void)
 {
     initializePorts();
-    int sdigit1 = 1;
-    int sdigit2 = 1;
-    int toggle = 0;
-    int scheck1 = 0;
-    int scheck2 = 0;
+    int sdigit1 = 1;    //secret digit 1
+    int sdigit2 = 1;    //secret digit 2
+    int toggle = 0; //button state
+    int scheck1 = 0;    //photoresistor 1 count 
+    int scheck2 = 0;    //photoresistor 2 count
 
 
-    while(1){
-        if (emergency_flag){
+    while(1){   //main loop
+        if (emergency_flag){    //if emergency button is pressed
             scheck1 = 0;
             scheck2 = 0;
-            toggle = 0;
-            emergency_flag = 0;
+            toggle = 0; //reset program values
+            emergency_flag = 0; //reset emergency flag
         }
-        photoresistorCheck1(toggle, &scheck1);
-        if (toggle == 0){
+        photoresistorCheck1(toggle, &scheck1);  //check photoresistor 1
+        if (toggle == 0){   //if photoresistor 1 is active, update seven segment with photoresistor 1 count
             update_seven_segment(scheck1);  
         }
-        photoresistorCheck2(toggle, &scheck2);
-        buttonPress(&toggle, &scheck1, &scheck2, sdigit1, sdigit2);
-        if (toggle == 1){
+        photoresistorCheck2(toggle, &scheck2);  //check photoresistor 2
+        buttonPress(&toggle, &scheck1, &scheck2, sdigit1, sdigit2); //check button
+        if (toggle == 1){   //if photoresistor 2 is active, update seven segment with photoresistor 2 count
             update_seven_segment(scheck2);
         }
     }

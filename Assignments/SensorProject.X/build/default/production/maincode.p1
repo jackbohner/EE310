@@ -2932,24 +2932,22 @@ Version 4.0 HI-TECH Software Intermediate Code
 }
 [v $root$_INT0_ISR `(v ~T0 @X0 0 e ]
 "101
-[; ;./functions.h: 101: void __attribute__((picinterrupt(("irq(8), base(8)")))) INT0_ISR(void)
+[; ;./functions.h: 101: void __attribute__((picinterrupt(("irq(8), base(8)")))) INT0_ISR(void){
 [v _INT0_ISR `(v ~T1 @X0 1 ef ]
-"102
-[; ;./functions.h: 102: {
 {
 [e :U _INT0_ISR ]
 [f ]
-"103
-[; ;./functions.h: 103:     emergency_flag = 1;
+"102
+[; ;./functions.h: 102:     emergency_flag = 1;
 [e = _emergency_flag -> -> 1 `i `uc ]
-"104
-[; ;./functions.h: 104:     play_melody();
+"103
+[; ;./functions.h: 103:     play_melody();
 [e ( _play_melody ..  ]
-"105
-[; ;./functions.h: 105:     PIR1bits.INT0IF = 0;
+"104
+[; ;./functions.h: 104:     PIR1bits.INT0IF = 0;
 [e = . . _PIR1bits 0 0 -> -> 0 `i `uc ]
-"106
-[; ;./functions.h: 106: }
+"105
+[; ;./functions.h: 105: }
 [e :UE 2292 ]
 }
 [v $root$_main `(v ~T0 @X0 0 e ]

@@ -27947,8 +27947,7 @@ void play_melody(){
     }
 }
 
-void __attribute__((picinterrupt(("irq(8), base(8)")))) INT0_ISR(void)
-{
+void __attribute__((picinterrupt(("irq(8), base(8)")))) INT0_ISR(void){
     emergency_flag = 1;
     play_melody();
     PIR1bits.INT0IF = 0;
