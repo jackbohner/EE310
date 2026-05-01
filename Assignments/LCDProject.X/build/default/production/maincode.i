@@ -7,6 +7,7 @@
 # 1 "C:\\Program Files\\Microchip\\xc8\\v3.10\\pic\\include/language_support.h" 1 3
 # 2 "<built-in>" 2
 # 1 "maincode.c" 2
+# 50 "maincode.c"
 # 1 "C:\\Program Files\\Microchip\\xc8\\v3.10\\pic\\include/xc.h" 1 3
 # 18 "C:\\Program Files\\Microchip\\xc8\\v3.10\\pic\\include/xc.h" 3
 extern const char __xc8_OPTIM_SPEED;
@@ -27114,7 +27115,7 @@ __attribute__((__unsupported__("The READTIMER" "0" "() macro is not available wi
 unsigned char __t1rd16on(void);
 unsigned char __t3rd16on(void);
 # 34 "C:\\Program Files\\Microchip\\xc8\\v3.10\\pic\\include/xc.h" 2 3
-# 2 "maincode.c" 2
+# 51 "maincode.c" 2
 # 1 "C:\\Program Files\\Microchip\\xc8\\v3.10\\pic\\include\\c99/stdio.h" 1 3
 # 24 "C:\\Program Files\\Microchip\\xc8\\v3.10\\pic\\include\\c99/stdio.h" 3
 # 1 "C:\\Program Files\\Microchip\\xc8\\v3.10\\pic\\include\\c99/bits/alltypes.h" 1 3
@@ -27267,7 +27268,7 @@ char *ctermid(char *);
 
 
 char *tempnam(const char *, const char *);
-# 3 "maincode.c" 2
+# 52 "maincode.c" 2
 # 1 "C:\\Program Files\\Microchip\\xc8\\v3.10\\pic\\include\\c99/string.h" 1 3
 # 25 "C:\\Program Files\\Microchip\\xc8\\v3.10\\pic\\include\\c99/string.h" 3
 # 1 "C:\\Program Files\\Microchip\\xc8\\v3.10\\pic\\include\\c99/bits/alltypes.h" 1 3
@@ -27325,7 +27326,7 @@ size_t strxfrm_l (char *restrict, const char *restrict, size_t, locale_t);
 
 
 void *memccpy (void *restrict, const void *restrict, int, size_t);
-# 4 "maincode.c" 2
+# 53 "maincode.c" 2
 
 
 
@@ -27369,7 +27370,7 @@ void *memccpy (void *restrict, const void *restrict, int, size_t);
 #pragma config LVP = ON
 
 #pragma config CP = OFF
-# 56 "maincode.c"
+# 105 "maincode.c"
 int digital;
 float voltage;
 char data[16];
@@ -27478,11 +27479,11 @@ void LCD_Print_Status(unsigned int x_adc, unsigned int y_adc, unsigned int z_adc
     {
         LCD_String_xy(1, 0, "SHAKING");
     }
-    else if(x_adc > 1460)
+    else if(x_adc > 1550)
     {
         LCD_String_xy(1, 0, "TILTING LEFT");
     }
-    else if(x_adc < 1360)
+    else if(x_adc < 1400)
     {
         LCD_String_xy(1, 0, "TILTING RIGHT");
     }

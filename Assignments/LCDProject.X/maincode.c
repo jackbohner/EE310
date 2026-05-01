@@ -1,3 +1,52 @@
+/*
+;---------------------------------------------------------------
+; Title: Assignment: Analog to Digital Converters
+;---------------------------------------------------------------
+; Program Details:
+;   This program constantly reads the orientation of an accelerometer using the built in ADC.
+;   Based on this value, either "FLAT", "TILTING RIGHT", "TILTING LEFT", or "SHAKING" are displayed on
+;   the LCD screen. When the interrupt button is pressed, the system pauses for 10 seconds and flashes
+;   a status LED to let the user know the interrupt has been triggered.
+;
+; Inputs:
+;   - RA1 : Accelerometer x-output
+;   - RA2 : Accelerometer y-output
+;   - RA3 : Accelerometer z-output
+;   - RC3 : Interrupt Button
+;
+; Outputs:
+;   - PORTB : LCD
+;   - RD2   : Status LED
+;
+; Setup:
+;   - PIC18F47K42 mounted on breadboard
+;   - Accelerometer mounted on separate breadboard connected to ADC pins
+;   - LCD to display accelerometer reading connected to PORTB 
+;   - One pushbutton connected to external interrupt
+;   - One potentiometer to adjust LCD contrast
+;   - One status LED to indicate interrupt has been triggered
+;
+;
+; Date:
+;   April 18, 2028
+;
+; File Dependencies / Libraries:
+;   - xc.h
+;   - stdio.h
+;   - string.h
+;   - stdlib.h
+;
+; Compiler:
+;   XC8 v3.10
+;
+; Author:
+;   Jack Bohner
+;
+; Versions:
+;   V1.0 : Original version
+;---------------------------------------------------------------
+*/
+
 #include <xc.h>
 #include <stdio.h>
 #include <string.h>
@@ -161,11 +210,11 @@ void LCD_Print_Status(unsigned int x_adc, unsigned int y_adc, unsigned int z_adc
     {
         LCD_String_xy(1, 0, "SHAKING");
     }
-    else if(x_adc > 1460)
+    else if(x_adc > 1550)
     {
         LCD_String_xy(1, 0, "TILTING LEFT");
     }
-    else if(x_adc < 1360)
+    else if(x_adc < 1400)
     {
         LCD_String_xy(1, 0, "TILTING RIGHT");
     }

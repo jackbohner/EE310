@@ -65,27 +65,27 @@
 [v ___lmul __lmul `(ul  1 e 4 0 ]
 "91 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul64.c
 [v ___omul __omul `(uo  1 e 8 0 ]
-"71 C:\Users\jackj\MPLABXProjects\LCDProject.X\maincode.c
+"120 C:\Users\jackj\MPLABXProjects\LCDProject.X\maincode.c
 [v _main main `(v  1 e 1 0 ]
-"123
+"172
 [v _ISR ISR `IIH(v  1 e 1 0 ]
-"144
+"193
 [v _LCD_Print_Status LCD_Print_Status `(v  1 e 1 0 ]
-"178
+"227
 [v _ADC_Read ADC_Read `(ui  1 e 2 0 ]
-"189
+"238
 [v _LCD_Init LCD_Init `(v  1 e 1 0 ]
-"224
+"273
 [v _LCD_Clear LCD_Clear `(v  1 e 1 0 ]
-"230
+"279
 [v _LCD_Command LCD_Command `(v  1 e 1 0 ]
-"244
+"293
 [v _LCD_Char LCD_Char `(v  1 e 1 0 ]
-"258
+"307
 [v _LCD_String LCD_String `(v  1 e 1 0 ]
-"267
+"316
 [v _LCD_String_xy LCD_String_xy `(v  1 e 1 0 ]
-"284
+"333
 [v _ADC_Init ADC_Init `(v  1 e 1 0 ]
 [s S239 . 1 `uc 1 SWIE 1 0 :1:0 
 `uc 1 HLVDIE 1 0 :1:1 
@@ -325,35 +325,35 @@
 "47004
 "47004
 [v _INTCON0bits INTCON0bits `VES271  1 e 1 @16338 ]
-"71 C:\Users\jackj\MPLABXProjects\LCDProject.X\maincode.c
+"120 C:\Users\jackj\MPLABXProjects\LCDProject.X\maincode.c
 [v _main main `(v  1 e 1 0 ]
 {
-"109
+"158
 [v main@z_adc z_adc `ui  1 a 2 26 ]
 [v main@y_adc y_adc `ui  1 a 2 24 ]
 [v main@x_adc x_adc `ui  1 a 2 22 ]
-"121
+"170
 } 0
-"144
+"193
 [v _LCD_Print_Status LCD_Print_Status `(v  1 e 1 0 ]
 {
-"152
+"201
 [v LCD_Print_Status@dz dz `i  1 a 2 19 ]
-"151
+"200
 [v LCD_Print_Status@dy dy `i  1 a 2 17 ]
-"150
+"199
 [v LCD_Print_Status@dx dx `i  1 a 2 15 ]
-"144
+"193
 [v LCD_Print_Status@x_adc x_adc `ui  1 p 2 9 ]
 [v LCD_Print_Status@y_adc y_adc `ui  1 p 2 11 ]
 [v LCD_Print_Status@z_adc z_adc `ui  1 p 2 13 ]
-"146
+"195
 [v LCD_Print_Status@last_x last_x `ui  1 s 2 last_x ]
-"147
+"196
 [v LCD_Print_Status@last_y last_y `ui  1 s 2 last_y ]
-"148
+"197
 [v LCD_Print_Status@last_z last_z `ui  1 s 2 last_z ]
-"176
+"225
 } 0
 "1 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\abs.c
 [v _abs abs `(i  1 e 2 0 ]
@@ -361,72 +361,72 @@
 [v abs@a a `i  1 p 2 3 ]
 "4
 } 0
-"267 C:\Users\jackj\MPLABXProjects\LCDProject.X\maincode.c
+"316 C:\Users\jackj\MPLABXProjects\LCDProject.X\maincode.c
 [v _LCD_String_xy LCD_String_xy `(v  1 e 1 0 ]
 {
 [v LCD_String_xy@row row `uc  1 p 1 wreg ]
-"269
+"318
 [v LCD_String_xy@location location `uc  1 a 1 8 ]
-"267
+"316
 [v LCD_String_xy@row row `uc  1 p 1 wreg ]
 [v LCD_String_xy@pos pos `uc  1 p 1 5 ]
 [v LCD_String_xy@msg msg `*.31Cuc  1 p 1 6 ]
-"271
+"320
 [v LCD_String_xy@row row `uc  1 p 1 7 ]
-"282
+"331
 } 1
-"258
+"307
 [v _LCD_String LCD_String `(v  1 e 1 0 ]
 {
 [v LCD_String@msg msg `*.31Cuc  1 p 1 4 ]
-"265
+"314
 } 0
-"244
+"293
 [v _LCD_Char LCD_Char `(v  1 e 1 0 ]
 {
 [v LCD_Char@dat dat `uc  1 p 1 wreg ]
 [v LCD_Char@dat dat `uc  1 p 1 wreg ]
-"246
+"295
 [v LCD_Char@dat dat `uc  1 p 1 3 ]
-"256
+"305
 } 1
-"224
+"273
 [v _LCD_Clear LCD_Clear `(v  1 e 1 0 ]
 {
-"228
+"277
 } 0
-"189
+"238
 [v _LCD_Init LCD_Init `(v  1 e 1 0 ]
 {
-"222
+"271
 } 0
-"230
+"279
 [v _LCD_Command LCD_Command `(v  1 e 1 0 ]
 {
 [v LCD_Command@cmd cmd `uc  1 p 1 wreg ]
 [v LCD_Command@cmd cmd `uc  1 p 1 wreg ]
-"232
+"281
 [v LCD_Command@cmd cmd `uc  1 p 1 3 ]
-"242
+"291
 } 1
-"178
+"227
 [v _ADC_Read ADC_Read `(ui  1 e 2 0 ]
 {
 [v ADC_Read@channel channel `uc  1 p 1 wreg ]
 [v ADC_Read@channel channel `uc  1 p 1 wreg ]
-"180
+"229
 [v ADC_Read@channel channel `uc  1 p 1 7 ]
-"187
+"236
 } 1
-"284
+"333
 [v _ADC_Init ADC_Init `(v  1 e 1 0 ]
 {
-"304
+"353
 } 0
-"123
+"172
 [v _ISR ISR `IIH(v  1 e 1 0 ]
 {
-"131
+"180
 [v ISR@i i `i  1 a 2 1 ]
-"142
+"191
 } 0
