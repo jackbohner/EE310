@@ -27360,14 +27360,14 @@ void main (void) {
         pwmStatus = PWM2_OutputStatusGet();
         PORTBbits.RB2 = pwmStatus;
         if (PORTDbits.RD1){
-            if (duty_value > 16){
+            if (duty_value > 10){
                 duty_value--;
             }
             PWM2_LoadDutyValue(duty_value);
             _delay((unsigned long)((70)*(4000000/4000.0)));
         }
         if (PORTDbits.RD0){
-            if (duty_value < 70){
+            if (duty_value < 78){
                 duty_value++;
             }
             PWM2_LoadDutyValue(duty_value);

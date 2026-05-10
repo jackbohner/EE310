@@ -2943,8 +2943,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e $ ! != -> . . _PORTDbits 0 1 `i -> 0 `i 2284  ]
 {
 "72
-[; ;maincode.c: 72:             if (duty_value > 16){
-[e $ ! > _duty_value -> 16 `i 2285  ]
+[; ;maincode.c: 72:             if (duty_value > 10){
+[e $ ! > _duty_value -> 10 `i 2285  ]
 {
 "73
 [; ;maincode.c: 73:                 duty_value--;
@@ -2968,8 +2968,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e $ ! != -> . . _PORTDbits 0 0 `i -> 0 `i 2286  ]
 {
 "79
-[; ;maincode.c: 79:             if (duty_value < 70){
-[e $ ! < _duty_value -> 70 `i 2287  ]
+[; ;maincode.c: 79:             if (duty_value < 78){
+[e $ ! < _duty_value -> 78 `i 2287  ]
 {
 "80
 [; ;maincode.c: 80:                 duty_value++;

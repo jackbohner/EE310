@@ -1,7 +1,7 @@
 
 
 Microchip MPLAB XC8 Assembler V3.10 build 20250813170317 
-                                                                                               Sat May  9 16:16:44 2026
+                                                                                               Sat May  9 19:50:04 2026
 
 Microchip MPLAB XC8 C Compiler v3.10 (Free license) build 20250813170317 Og1 
      1                           	processor	18F47K42
@@ -1160,12 +1160,12 @@ Microchip MPLAB XC8 C Compiler v3.10 (Free license) build 20250813170317 Og1
   1143   0020C4  EF82  F010         	goto	l1154
   1144   0020C8                     u220:
   1145   0020C8                     
-  1146                           ;maincode.c: 72:             if (duty_value > 16){
+  1146                           ;maincode.c: 72:             if (duty_value > 10){
   1147   0020C8  BE1D               	btfsc	(_duty_value+1)^0,7,c
   1148   0020CA  EF70  F010         	goto	u231
   1149   0020CE  501D               	movf	(_duty_value+1)^0,w,c
   1150   0020D0  E109               	bnz	u230
-  1151   0020D2  0E11               	movlw	17
+  1151   0020D2  0E0B               	movlw	11
   1152   0020D4  5C1C               	subwf	_duty_value^0,w,c
   1153   0020D6  A0D8               	btfss	status,0,c
   1154   0020D8  EF70  F010         	goto	u231
@@ -1204,12 +1204,12 @@ Microchip MPLAB XC8 C Compiler v3.10 (Free license) build 20250813170317 Og1
   1187   00210E  EF55  F010         	goto	l1140
   1188   002112                     u240:
   1189   002112                     
-  1190                           ;maincode.c: 79:             if (duty_value < 70){
+  1190                           ;maincode.c: 79:             if (duty_value < 78){
   1191   002112  BE1D               	btfsc	(_duty_value+1)^0,7,c
   1192   002114  EF97  F010         	goto	u250
   1193   002118  501D               	movf	(_duty_value+1)^0,w,c
   1194   00211A  E107               	bnz	u251
-  1195   00211C  0E46               	movlw	70
+  1195   00211C  0E4E               	movlw	78
   1196   00211E  5C1C               	subwf	_duty_value^0,w,c
   1197   002120  B0D8               	btfsc	status,0,c
   1198   002122  EF95  F010         	goto	u251
@@ -2421,7 +2421,7 @@ DATA                 0      0      37      0.0%
 
 
 Microchip Technology PIC18 Macro Assembler V3.10 build 20250813170317 
-Symbol Table                                                                                   Sat May  9 16:16:44 2026
+Symbol Table                                                                                   Sat May  9 19:50:04 2026
 
        ?_PWM_Output_D8_Enable 0001                            l61 22DE                            l64 2336  
                           l67 2332                            l94 22FC                            u30 2324  

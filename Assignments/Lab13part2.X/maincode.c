@@ -69,14 +69,14 @@ void main (void) {
         pwmStatus = PWM2_OutputStatusGet();
         PORTBbits.RB2 = pwmStatus;
         if (BUTTONright){
-            if (duty_value > 16){
+            if (duty_value > 10){
                 duty_value--;
             }
             PWM2_LoadDutyValue(duty_value);
             __delay_ms(70);
         }
         if (BUTTONleft){
-            if (duty_value < 70){
+            if (duty_value < 78){
                 duty_value++;
             }
             PWM2_LoadDutyValue(duty_value);
