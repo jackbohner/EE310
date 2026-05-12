@@ -1,24 +1,43 @@
 /*
-* The purpose of this program is to generate a PWM with different pulse width 
-* The output of the PWM will be on RB2
-* myLED is connected to RB0 and it toggles very slowly
-* In order to change the PULSE period and width you need to do the following: 
-
- * PWM Period=
- * [T2PR+1]*4*Tosc*PreScale
-
- * Pulse Width=
- * Tosc*Prescale*CCPR2
-
- * Duty Cycle Ratio %=
- * CCPR2 / [4*(T2PR+1)]
-
- * The presale value for the timer is defined in T2CON register. 
- * The ACTUAL value of CCP2 MUST be varied by changing
- * PWM2_INITIALIZE_DUTY_VALUE set to the equivalent decimal value for CCPR2
-
- * Author: Farid Farahmand
- */
+;---------------------------------------------------------------
+; Title: Assignment_Servo_Oscillation
+;---------------------------------------------------------------
+; Program Details:
+;   This program controls a servo using two buttons. When button1 is pressed, the servo
+;   moves to the left until the button is released. When button2 is pressed, the servo moves
+;   to the right until the button is released. When no buttons are pressed, the servo
+;   holds its position. The servo stops when it reaches it limit in either direction.
+;
+; Inputs:
+;   - RD0 : Push Button to move servo to the left
+;   - RD1 : Push Button to move servo to the right
+;
+; Outputs:
+;   - RB3 : MG90S Micro Servo
+;
+; Setup:
+;   - PIC18F47K42 mounted on breadboard
+;   - Two pushbuttons used as servo directional input
+;   - One servo connected as an output
+;
+; Date:
+;   May 12, 2026
+;
+; File Dependencies / Libraries:
+;   - xc.h
+;   - config.h
+;   - header.h
+;
+; Compiler:
+;   XC8 v3.10
+;
+; Author:
+;   Jack Bohner
+;
+; Versions:
+;   V1.1
+;---------------------------------------------------------------
+*/
 
 
 
