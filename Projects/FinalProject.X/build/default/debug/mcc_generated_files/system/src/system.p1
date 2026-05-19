@@ -1,0 +1,2269 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"56 mcc_generated_files/system/src/../../system/clock.h
+[; ;mcc_generated_files/system/src/../../system/clock.h: 56: void CLOCK_Initialize(void);
+[v _CLOCK_Initialize `(v ~T0 @X0 0 ef ]
+"178 mcc_generated_files/system/src/../../system/pins.h
+[; ;mcc_generated_files/system/src/../../system/pins.h: 178: void PIN_MANAGER_Initialize (void);
+[v _PIN_MANAGER_Initialize `(v ~T0 @X0 0 ef ]
+"62 mcc_generated_files/system/src/../../adc/adc.h
+[; ;mcc_generated_files/system/src/../../adc/adc.h: 62: void ADC_Initialize(void);
+[v _ADC_Initialize `(v ~T0 @X0 0 ef ]
+"91 mcc_generated_files/system/src/../../uart/uart2.h
+[; ;mcc_generated_files/system/src/../../uart/uart2.h: 91: void UART2_Initialize(void);
+[v _UART2_Initialize `(v ~T0 @X0 0 ef ]
+"69 mcc_generated_files/system/src/../../system/interrupt.h
+[; ;mcc_generated_files/system/src/../../system/interrupt.h: 69: void INTERRUPT_Initialize (void);
+[v _INTERRUPT_Initialize `(v ~T0 @X0 0 ef ]
+"178 C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 178: __asm("STATUS_CSHAD equ 03880h");
+[; <" STATUS_CSHAD equ 03880h ;# ">
+"267
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 267: __asm("WREG_CSHAD equ 03881h");
+[; <" WREG_CSHAD equ 03881h ;# ">
+"287
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 287: __asm("BSR_CSHAD equ 03882h");
+[; <" BSR_CSHAD equ 03882h ;# ">
+"294
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 294: __asm("SHADCON equ 03883h");
+[; <" SHADCON equ 03883h ;# ">
+"314
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 314: __asm("STATUS_SHAD equ 03884h");
+[; <" STATUS_SHAD equ 03884h ;# ">
+"403
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 403: __asm("WREG_SHAD equ 03885h");
+[; <" WREG_SHAD equ 03885h ;# ">
+"423
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 423: __asm("BSR_SHAD equ 03886h");
+[; <" BSR_SHAD equ 03886h ;# ">
+"430
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 430: __asm("PCLATH_SHAD equ 03887h");
+[; <" PCLATH_SHAD equ 03887h ;# ">
+"450
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 450: __asm("PCLATU_SHAD equ 03888h");
+[; <" PCLATU_SHAD equ 03888h ;# ">
+"470
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 470: __asm("FSR0SH equ 03889h");
+[; <" FSR0SH equ 03889h ;# ">
+"477
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 477: __asm("FSR0L_SHAD equ 03889h");
+[; <" FSR0L_SHAD equ 03889h ;# ">
+"497
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 497: __asm("FSR0H_SHAD equ 0388Ah");
+[; <" FSR0H_SHAD equ 0388Ah ;# ">
+"517
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 517: __asm("FSR1SH equ 0388Bh");
+[; <" FSR1SH equ 0388Bh ;# ">
+"524
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 524: __asm("FSR1L_SHAD equ 0388Bh");
+[; <" FSR1L_SHAD equ 0388Bh ;# ">
+"544
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 544: __asm("FSR1H_SHAD equ 0388Ch");
+[; <" FSR1H_SHAD equ 0388Ch ;# ">
+"564
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 564: __asm("FSR2SH equ 0388Dh");
+[; <" FSR2SH equ 0388Dh ;# ">
+"571
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 571: __asm("FSR2L_SHAD equ 0388Dh");
+[; <" FSR2L_SHAD equ 0388Dh ;# ">
+"591
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 591: __asm("FSR2H_SHAD equ 0388Eh");
+[; <" FSR2H_SHAD equ 0388Eh ;# ">
+"611
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 611: __asm("PRODSH equ 0388Fh");
+[; <" PRODSH equ 0388Fh ;# ">
+"618
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 618: __asm("PRODL_SHAD equ 0388Fh");
+[; <" PRODL_SHAD equ 0388Fh ;# ">
+"638
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 638: __asm("PRODH_SHAD equ 03890h");
+[; <" PRODH_SHAD equ 03890h ;# ">
+"658
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 658: __asm("IVTADL equ 0389Dh");
+[; <" IVTADL equ 0389Dh ;# ">
+"678
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 678: __asm("IVTADH equ 0389Eh");
+[; <" IVTADH equ 0389Eh ;# ">
+"698
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 698: __asm("IVTADU equ 0389Fh");
+[; <" IVTADU equ 0389Fh ;# ">
+"718
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 718: __asm("WDTCON0 equ 0395Bh");
+[; <" WDTCON0 equ 0395Bh ;# ">
+"793
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 793: __asm("WDTCON1 equ 0395Ch");
+[; <" WDTCON1 equ 0395Ch ;# ">
+"887
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 887: __asm("WDTPSL equ 0395Dh");
+[; <" WDTPSL equ 0395Dh ;# ">
+"1015
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 1015: __asm("WDTPSH equ 0395Eh");
+[; <" WDTPSH equ 0395Eh ;# ">
+"1143
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 1143: __asm("WDTTMR equ 0395Fh");
+[; <" WDTTMR equ 0395Fh ;# ">
+"1231
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 1231: __asm("CRCDATA equ 03960h");
+[; <" CRCDATA equ 03960h ;# ">
+"1238
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 1238: __asm("CRCDATL equ 03960h");
+[; <" CRCDATL equ 03960h ;# ">
+"1300
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 1300: __asm("CRCDATH equ 03961h");
+[; <" CRCDATH equ 03961h ;# ">
+"1362
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 1362: __asm("CRCACC equ 03962h");
+[; <" CRCACC equ 03962h ;# ">
+"1369
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 1369: __asm("CRCACCL equ 03962h");
+[; <" CRCACCL equ 03962h ;# ">
+"1431
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 1431: __asm("CRCACCH equ 03963h");
+[; <" CRCACCH equ 03963h ;# ">
+"1493
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 1493: __asm("CRCSHFT equ 03964h");
+[; <" CRCSHFT equ 03964h ;# ">
+"1500
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 1500: __asm("CRCSHIFTL equ 03964h");
+[; <" CRCSHIFTL equ 03964h ;# ">
+"1562
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 1562: __asm("CRCSHIFTH equ 03965h");
+[; <" CRCSHIFTH equ 03965h ;# ">
+"1624
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 1624: __asm("CRCXOR equ 03966h");
+[; <" CRCXOR equ 03966h ;# ">
+"1631
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 1631: __asm("CRCXORL equ 03966h");
+[; <" CRCXORL equ 03966h ;# ">
+"1688
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 1688: __asm("CRCXORH equ 03967h");
+[; <" CRCXORH equ 03967h ;# ">
+"1750
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 1750: __asm("CRCCON0 equ 03968h");
+[; <" CRCCON0 equ 03968h ;# ">
+"1810
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 1810: __asm("CRCCON1 equ 03969h");
+[; <" CRCCON1 equ 03969h ;# ">
+"1888
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 1888: __asm("SCANLADR equ 03976h");
+[; <" SCANLADR equ 03976h ;# ">
+"1895
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 1895: __asm("SCANLADRL equ 03976h");
+[; <" SCANLADRL equ 03976h ;# ">
+"2023
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 2023: __asm("SCANLADRH equ 03977h");
+[; <" SCANLADRH equ 03977h ;# ">
+"2151
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 2151: __asm("SCANLADRU equ 03978h");
+[; <" SCANLADRU equ 03978h ;# ">
+"2257
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 2257: __asm("SCANHADR equ 03979h");
+[; <" SCANHADR equ 03979h ;# ">
+"2264
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 2264: __asm("SCANHADRL equ 03979h");
+[; <" SCANHADRL equ 03979h ;# ">
+"2392
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 2392: __asm("SCANHADRH equ 0397Ah");
+[; <" SCANHADRH equ 0397Ah ;# ">
+"2520
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 2520: __asm("SCANHADRU equ 0397Bh");
+[; <" SCANHADRU equ 0397Bh ;# ">
+"2624
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 2624: __asm("SCANCON0 equ 0397Ch");
+[; <" SCANCON0 equ 0397Ch ;# ">
+"2675
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 2675: __asm("SCANTRIG equ 0397Dh");
+[; <" SCANTRIG equ 0397Dh ;# ">
+"2695
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 2695: __asm("IPR0 equ 03980h");
+[; <" IPR0 equ 03980h ;# ">
+"2757
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 2757: __asm("IPR1 equ 03981h");
+[; <" IPR1 equ 03981h ;# ">
+"2819
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 2819: __asm("IPR2 equ 03982h");
+[; <" IPR2 equ 03982h ;# ">
+"2881
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 2881: __asm("IPR3 equ 03983h");
+[; <" IPR3 equ 03983h ;# ">
+"2943
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 2943: __asm("IPR4 equ 03984h");
+[; <" IPR4 equ 03984h ;# ">
+"3000
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 3000: __asm("IPR5 equ 03985h");
+[; <" IPR5 equ 03985h ;# ">
+"3062
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 3062: __asm("IPR6 equ 03986h");
+[; <" IPR6 equ 03986h ;# ">
+"3124
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 3124: __asm("IPR7 equ 03987h");
+[; <" IPR7 equ 03987h ;# ">
+"3169
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 3169: __asm("IPR8 equ 03988h");
+[; <" IPR8 equ 03988h ;# ">
+"3196
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 3196: __asm("IPR9 equ 03989h");
+[; <" IPR9 equ 03989h ;# ">
+"3234
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 3234: __asm("IPR10 equ 0398Ah");
+[; <" IPR10 equ 0398Ah ;# ">
+"3260
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 3260: __asm("PIE0 equ 03990h");
+[; <" PIE0 equ 03990h ;# ">
+"3322
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 3322: __asm("PIE1 equ 03991h");
+[; <" PIE1 equ 03991h ;# ">
+"3384
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 3384: __asm("PIE2 equ 03992h");
+[; <" PIE2 equ 03992h ;# ">
+"3446
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 3446: __asm("PIE3 equ 03993h");
+[; <" PIE3 equ 03993h ;# ">
+"3508
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 3508: __asm("PIE4 equ 03994h");
+[; <" PIE4 equ 03994h ;# ">
+"3565
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 3565: __asm("PIE5 equ 03995h");
+[; <" PIE5 equ 03995h ;# ">
+"3627
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 3627: __asm("PIE6 equ 03996h");
+[; <" PIE6 equ 03996h ;# ">
+"3689
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 3689: __asm("PIE7 equ 03997h");
+[; <" PIE7 equ 03997h ;# ">
+"3734
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 3734: __asm("PIE8 equ 03998h");
+[; <" PIE8 equ 03998h ;# ">
+"3761
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 3761: __asm("PIE9 equ 03999h");
+[; <" PIE9 equ 03999h ;# ">
+"3799
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 3799: __asm("PIE10 equ 0399Ah");
+[; <" PIE10 equ 0399Ah ;# ">
+"3825
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 3825: __asm("PIR0 equ 039A0h");
+[; <" PIR0 equ 039A0h ;# ">
+"3887
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 3887: __asm("PIR1 equ 039A1h");
+[; <" PIR1 equ 039A1h ;# ">
+"3949
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 3949: __asm("PIR2 equ 039A2h");
+[; <" PIR2 equ 039A2h ;# ">
+"4011
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 4011: __asm("PIR3 equ 039A3h");
+[; <" PIR3 equ 039A3h ;# ">
+"4073
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 4073: __asm("PIR4 equ 039A4h");
+[; <" PIR4 equ 039A4h ;# ">
+"4130
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 4130: __asm("PIR5 equ 039A5h");
+[; <" PIR5 equ 039A5h ;# ">
+"4192
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 4192: __asm("PIR6 equ 039A6h");
+[; <" PIR6 equ 039A6h ;# ">
+"4254
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 4254: __asm("PIR7 equ 039A7h");
+[; <" PIR7 equ 039A7h ;# ">
+"4299
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 4299: __asm("PIR8 equ 039A8h");
+[; <" PIR8 equ 039A8h ;# ">
+"4326
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 4326: __asm("PIR9 equ 039A9h");
+[; <" PIR9 equ 039A9h ;# ">
+"4364
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 4364: __asm("PIR10 equ 039AAh");
+[; <" PIR10 equ 039AAh ;# ">
+"4390
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 4390: __asm("PMD0 equ 039C0h");
+[; <" PMD0 equ 039C0h ;# ">
+"4452
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 4452: __asm("PMD1 equ 039C1h");
+[; <" PMD1 equ 039C1h ;# ">
+"4514
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 4514: __asm("PMD2 equ 039C2h");
+[; <" PMD2 equ 039C2h ;# ">
+"4559
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 4559: __asm("PMD3 equ 039C3h");
+[; <" PMD3 equ 039C3h ;# ">
+"4621
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 4621: __asm("PMD4 equ 039C4h");
+[; <" PMD4 equ 039C4h ;# ">
+"4654
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 4654: __asm("PMD5 equ 039C5h");
+[; <" PMD5 equ 039C5h ;# ">
+"4699
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 4699: __asm("PMD6 equ 039C6h");
+[; <" PMD6 equ 039C6h ;# ">
+"4749
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 4749: __asm("PMD7 equ 039C7h");
+[; <" PMD7 equ 039C7h ;# ">
+"4775
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 4775: __asm("BORCON equ 039D0h");
+[; <" BORCON equ 039D0h ;# ">
+"4802
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 4802: __asm("VREGCON equ 039D1h");
+[; <" VREGCON equ 039D1h ;# ">
+"4823
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 4823: __asm("CPUDOZE equ 039D8h");
+[; <" CPUDOZE equ 039D8h ;# ">
+"4888
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 4888: __asm("OSCCON1 equ 039D9h");
+[; <" OSCCON1 equ 039D9h ;# ">
+"4958
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 4958: __asm("OSCCON2 equ 039DAh");
+[; <" OSCCON2 equ 039DAh ;# ">
+"5028
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 5028: __asm("OSCCON3 equ 039DBh");
+[; <" OSCCON3 equ 039DBh ;# ">
+"5068
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 5068: __asm("OSCSTAT equ 039DCh");
+[; <" OSCSTAT equ 039DCh ;# ">
+"5073
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 5073: __asm("OSCSTAT1 equ 039DCh");
+[; <" OSCSTAT1 equ 039DCh ;# ">
+"5180
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 5180: __asm("OSCEN equ 039DDh");
+[; <" OSCEN equ 039DDh ;# ">
+"5231
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 5231: __asm("OSCTUNE equ 039DEh");
+[; <" OSCTUNE equ 039DEh ;# ">
+"5335
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 5335: __asm("OSCFRQ equ 039DFh");
+[; <" OSCFRQ equ 039DFh ;# ">
+"5415
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 5415: __asm("NVMADRL equ 039E0h");
+[; <" NVMADRL equ 039E0h ;# ">
+"5543
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 5543: __asm("NVMADRH equ 039E1h");
+[; <" NVMADRH equ 039E1h ;# ">
+"5599
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 5599: __asm("NVMDAT equ 039E3h");
+[; <" NVMDAT equ 039E3h ;# ">
+"5727
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 5727: __asm("NVMCON1 equ 039E5h");
+[; <" NVMCON1 equ 039E5h ;# ">
+"5817
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 5817: __asm("NVMCON2 equ 039E6h");
+[; <" NVMCON2 equ 039E6h ;# ">
+"5837
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 5837: __asm("PRLOCK equ 039EFh");
+[; <" PRLOCK equ 039EFh ;# ">
+"5857
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 5857: __asm("ISRPR equ 039F1h");
+[; <" ISRPR equ 039F1h ;# ">
+"5925
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 5925: __asm("MAINPR equ 039F2h");
+[; <" MAINPR equ 039F2h ;# ">
+"5993
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 5993: __asm("DMA1PR equ 039F3h");
+[; <" DMA1PR equ 039F3h ;# ">
+"6061
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 6061: __asm("DMA2PR equ 039F4h");
+[; <" DMA2PR equ 039F4h ;# ">
+"6129
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 6129: __asm("SCANPR equ 039F7h");
+[; <" SCANPR equ 039F7h ;# ">
+"6197
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 6197: __asm("RA0PPS equ 03A00h");
+[; <" RA0PPS equ 03A00h ;# ">
+"6247
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 6247: __asm("RA1PPS equ 03A01h");
+[; <" RA1PPS equ 03A01h ;# ">
+"6297
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 6297: __asm("RA2PPS equ 03A02h");
+[; <" RA2PPS equ 03A02h ;# ">
+"6347
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 6347: __asm("RA3PPS equ 03A03h");
+[; <" RA3PPS equ 03A03h ;# ">
+"6397
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 6397: __asm("RA4PPS equ 03A04h");
+[; <" RA4PPS equ 03A04h ;# ">
+"6447
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 6447: __asm("RA5PPS equ 03A05h");
+[; <" RA5PPS equ 03A05h ;# ">
+"6497
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 6497: __asm("RA6PPS equ 03A06h");
+[; <" RA6PPS equ 03A06h ;# ">
+"6547
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 6547: __asm("RA7PPS equ 03A07h");
+[; <" RA7PPS equ 03A07h ;# ">
+"6597
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 6597: __asm("RB0PPS equ 03A08h");
+[; <" RB0PPS equ 03A08h ;# ">
+"6647
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 6647: __asm("RB1PPS equ 03A09h");
+[; <" RB1PPS equ 03A09h ;# ">
+"6697
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 6697: __asm("RB2PPS equ 03A0Ah");
+[; <" RB2PPS equ 03A0Ah ;# ">
+"6747
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 6747: __asm("RB3PPS equ 03A0Bh");
+[; <" RB3PPS equ 03A0Bh ;# ">
+"6797
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 6797: __asm("RB4PPS equ 03A0Ch");
+[; <" RB4PPS equ 03A0Ch ;# ">
+"6847
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 6847: __asm("RB5PPS equ 03A0Dh");
+[; <" RB5PPS equ 03A0Dh ;# ">
+"6897
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 6897: __asm("RB6PPS equ 03A0Eh");
+[; <" RB6PPS equ 03A0Eh ;# ">
+"6947
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 6947: __asm("RB7PPS equ 03A0Fh");
+[; <" RB7PPS equ 03A0Fh ;# ">
+"6997
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 6997: __asm("RC0PPS equ 03A10h");
+[; <" RC0PPS equ 03A10h ;# ">
+"7047
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 7047: __asm("RC1PPS equ 03A11h");
+[; <" RC1PPS equ 03A11h ;# ">
+"7097
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 7097: __asm("RC2PPS equ 03A12h");
+[; <" RC2PPS equ 03A12h ;# ">
+"7147
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 7147: __asm("RC3PPS equ 03A13h");
+[; <" RC3PPS equ 03A13h ;# ">
+"7197
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 7197: __asm("RC4PPS equ 03A14h");
+[; <" RC4PPS equ 03A14h ;# ">
+"7247
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 7247: __asm("RC5PPS equ 03A15h");
+[; <" RC5PPS equ 03A15h ;# ">
+"7297
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 7297: __asm("RC6PPS equ 03A16h");
+[; <" RC6PPS equ 03A16h ;# ">
+"7347
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 7347: __asm("RC7PPS equ 03A17h");
+[; <" RC7PPS equ 03A17h ;# ">
+"7397
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 7397: __asm("RD0PPS equ 03A18h");
+[; <" RD0PPS equ 03A18h ;# ">
+"7447
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 7447: __asm("RD1PPS equ 03A19h");
+[; <" RD1PPS equ 03A19h ;# ">
+"7497
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 7497: __asm("RD2PPS equ 03A1Ah");
+[; <" RD2PPS equ 03A1Ah ;# ">
+"7547
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 7547: __asm("RD3PPS equ 03A1Bh");
+[; <" RD3PPS equ 03A1Bh ;# ">
+"7597
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 7597: __asm("RD4PPS equ 03A1Ch");
+[; <" RD4PPS equ 03A1Ch ;# ">
+"7647
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 7647: __asm("RD5PPS equ 03A1Dh");
+[; <" RD5PPS equ 03A1Dh ;# ">
+"7697
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 7697: __asm("RD6PPS equ 03A1Eh");
+[; <" RD6PPS equ 03A1Eh ;# ">
+"7747
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 7747: __asm("RD7PPS equ 03A1Fh");
+[; <" RD7PPS equ 03A1Fh ;# ">
+"7797
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 7797: __asm("RE0PPS equ 03A20h");
+[; <" RE0PPS equ 03A20h ;# ">
+"7847
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 7847: __asm("RE1PPS equ 03A21h");
+[; <" RE1PPS equ 03A21h ;# ">
+"7897
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 7897: __asm("RE2PPS equ 03A22h");
+[; <" RE2PPS equ 03A22h ;# ">
+"7947
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 7947: __asm("ANSELA equ 03A40h");
+[; <" ANSELA equ 03A40h ;# ">
+"8009
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 8009: __asm("WPUA equ 03A41h");
+[; <" WPUA equ 03A41h ;# ">
+"8071
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 8071: __asm("ODCONA equ 03A42h");
+[; <" ODCONA equ 03A42h ;# ">
+"8133
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 8133: __asm("SLRCONA equ 03A43h");
+[; <" SLRCONA equ 03A43h ;# ">
+"8195
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 8195: __asm("INLVLA equ 03A44h");
+[; <" INLVLA equ 03A44h ;# ">
+"8257
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 8257: __asm("IOCAP equ 03A45h");
+[; <" IOCAP equ 03A45h ;# ">
+"8319
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 8319: __asm("IOCAN equ 03A46h");
+[; <" IOCAN equ 03A46h ;# ">
+"8381
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 8381: __asm("IOCAF equ 03A47h");
+[; <" IOCAF equ 03A47h ;# ">
+"8443
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 8443: __asm("ANSELB equ 03A50h");
+[; <" ANSELB equ 03A50h ;# ">
+"8505
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 8505: __asm("WPUB equ 03A51h");
+[; <" WPUB equ 03A51h ;# ">
+"8567
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 8567: __asm("ODCONB equ 03A52h");
+[; <" ODCONB equ 03A52h ;# ">
+"8629
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 8629: __asm("SLRCONB equ 03A53h");
+[; <" SLRCONB equ 03A53h ;# ">
+"8691
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 8691: __asm("INLVLB equ 03A54h");
+[; <" INLVLB equ 03A54h ;# ">
+"8753
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 8753: __asm("IOCBP equ 03A55h");
+[; <" IOCBP equ 03A55h ;# ">
+"8815
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 8815: __asm("IOCBN equ 03A56h");
+[; <" IOCBN equ 03A56h ;# ">
+"8877
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 8877: __asm("IOCBF equ 03A57h");
+[; <" IOCBF equ 03A57h ;# ">
+"8939
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 8939: __asm("RB1I2C equ 03A5Ah");
+[; <" RB1I2C equ 03A5Ah ;# ">
+"9047
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 9047: __asm("RB2I2C equ 03A5Bh");
+[; <" RB2I2C equ 03A5Bh ;# ">
+"9155
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 9155: __asm("ANSELC equ 03A60h");
+[; <" ANSELC equ 03A60h ;# ">
+"9217
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 9217: __asm("WPUC equ 03A61h");
+[; <" WPUC equ 03A61h ;# ">
+"9279
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 9279: __asm("ODCONC equ 03A62h");
+[; <" ODCONC equ 03A62h ;# ">
+"9341
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 9341: __asm("SLRCONC equ 03A63h");
+[; <" SLRCONC equ 03A63h ;# ">
+"9403
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 9403: __asm("INLVLC equ 03A64h");
+[; <" INLVLC equ 03A64h ;# ">
+"9465
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 9465: __asm("IOCCP equ 03A65h");
+[; <" IOCCP equ 03A65h ;# ">
+"9527
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 9527: __asm("IOCCN equ 03A66h");
+[; <" IOCCN equ 03A66h ;# ">
+"9589
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 9589: __asm("IOCCF equ 03A67h");
+[; <" IOCCF equ 03A67h ;# ">
+"9651
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 9651: __asm("RC3I2C equ 03A6Ah");
+[; <" RC3I2C equ 03A6Ah ;# ">
+"9759
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 9759: __asm("RC4I2C equ 03A6Bh");
+[; <" RC4I2C equ 03A6Bh ;# ">
+"9867
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 9867: __asm("ANSELD equ 03A70h");
+[; <" ANSELD equ 03A70h ;# ">
+"9929
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 9929: __asm("WPUD equ 03A71h");
+[; <" WPUD equ 03A71h ;# ">
+"9991
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 9991: __asm("ODCOND equ 03A72h");
+[; <" ODCOND equ 03A72h ;# ">
+"10053
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 10053: __asm("SLRCOND equ 03A73h");
+[; <" SLRCOND equ 03A73h ;# ">
+"10115
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 10115: __asm("INLVLD equ 03A74h");
+[; <" INLVLD equ 03A74h ;# ">
+"10177
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 10177: __asm("RD0I2C equ 03A7Ah");
+[; <" RD0I2C equ 03A7Ah ;# ">
+"10285
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 10285: __asm("RD1I2C equ 03A7Bh");
+[; <" RD1I2C equ 03A7Bh ;# ">
+"10393
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 10393: __asm("ANSELE equ 03A80h");
+[; <" ANSELE equ 03A80h ;# ">
+"10425
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 10425: __asm("WPUE equ 03A81h");
+[; <" WPUE equ 03A81h ;# ">
+"10463
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 10463: __asm("ODCONE equ 03A82h");
+[; <" ODCONE equ 03A82h ;# ">
+"10495
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 10495: __asm("SLRCONE equ 03A83h");
+[; <" SLRCONE equ 03A83h ;# ">
+"10527
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 10527: __asm("INLVLE equ 03A84h");
+[; <" INLVLE equ 03A84h ;# ">
+"10565
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 10565: __asm("IOCEP equ 03A85h");
+[; <" IOCEP equ 03A85h ;# ">
+"10586
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 10586: __asm("IOCEN equ 03A86h");
+[; <" IOCEN equ 03A86h ;# ">
+"10607
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 10607: __asm("IOCEF equ 03A87h");
+[; <" IOCEF equ 03A87h ;# ">
+"10628
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 10628: __asm("PPSLOCK equ 03ABFh");
+[; <" PPSLOCK equ 03ABFh ;# ">
+"10648
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 10648: __asm("INT0PPS equ 03AC0h");
+[; <" INT0PPS equ 03AC0h ;# ">
+"10668
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 10668: __asm("INT1PPS equ 03AC1h");
+[; <" INT1PPS equ 03AC1h ;# ">
+"10688
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 10688: __asm("INT2PPS equ 03AC2h");
+[; <" INT2PPS equ 03AC2h ;# ">
+"10708
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 10708: __asm("T0CKIPPS equ 03AC3h");
+[; <" T0CKIPPS equ 03AC3h ;# ">
+"10728
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 10728: __asm("T1CKIPPS equ 03AC4h");
+[; <" T1CKIPPS equ 03AC4h ;# ">
+"10748
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 10748: __asm("T1GPPS equ 03AC5h");
+[; <" T1GPPS equ 03AC5h ;# ">
+"10768
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 10768: __asm("T3CKIPPS equ 03AC6h");
+[; <" T3CKIPPS equ 03AC6h ;# ">
+"10788
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 10788: __asm("T3GPPS equ 03AC7h");
+[; <" T3GPPS equ 03AC7h ;# ">
+"10808
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 10808: __asm("T5CKIPPS equ 03AC8h");
+[; <" T5CKIPPS equ 03AC8h ;# ">
+"10828
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 10828: __asm("T5GPPS equ 03AC9h");
+[; <" T5GPPS equ 03AC9h ;# ">
+"10848
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 10848: __asm("T2INPPS equ 03ACAh");
+[; <" T2INPPS equ 03ACAh ;# ">
+"10868
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 10868: __asm("T4INPPS equ 03ACBh");
+[; <" T4INPPS equ 03ACBh ;# ">
+"10888
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 10888: __asm("T6INPPS equ 03ACCh");
+[; <" T6INPPS equ 03ACCh ;# ">
+"10908
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 10908: __asm("CCP1PPS equ 03ACDh");
+[; <" CCP1PPS equ 03ACDh ;# ">
+"10928
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 10928: __asm("CCP2PPS equ 03ACEh");
+[; <" CCP2PPS equ 03ACEh ;# ">
+"10948
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 10948: __asm("CCP3PPS equ 03ACFh");
+[; <" CCP3PPS equ 03ACFh ;# ">
+"10968
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 10968: __asm("CCP4PPS equ 03AD0h");
+[; <" CCP4PPS equ 03AD0h ;# ">
+"10988
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 10988: __asm("SMT1WINPPS equ 03AD1h");
+[; <" SMT1WINPPS equ 03AD1h ;# ">
+"11008
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 11008: __asm("SMT1SIGPPS equ 03AD2h");
+[; <" SMT1SIGPPS equ 03AD2h ;# ">
+"11028
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 11028: __asm("CWG1INPPS equ 03AD3h");
+[; <" CWG1INPPS equ 03AD3h ;# ">
+"11048
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 11048: __asm("CWG2INPPS equ 03AD4h");
+[; <" CWG2INPPS equ 03AD4h ;# ">
+"11068
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 11068: __asm("CWG3INPPS equ 03AD5h");
+[; <" CWG3INPPS equ 03AD5h ;# ">
+"11088
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 11088: __asm("MD1CARLPPS equ 03AD6h");
+[; <" MD1CARLPPS equ 03AD6h ;# ">
+"11108
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 11108: __asm("MD1CARHPPS equ 03AD7h");
+[; <" MD1CARHPPS equ 03AD7h ;# ">
+"11128
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 11128: __asm("MD1SRCPPS equ 03AD8h");
+[; <" MD1SRCPPS equ 03AD8h ;# ">
+"11148
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 11148: __asm("CLCIN0PPS equ 03AD9h");
+[; <" CLCIN0PPS equ 03AD9h ;# ">
+"11168
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 11168: __asm("CLCIN1PPS equ 03ADAh");
+[; <" CLCIN1PPS equ 03ADAh ;# ">
+"11188
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 11188: __asm("CLCIN2PPS equ 03ADBh");
+[; <" CLCIN2PPS equ 03ADBh ;# ">
+"11208
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 11208: __asm("CLCIN3PPS equ 03ADCh");
+[; <" CLCIN3PPS equ 03ADCh ;# ">
+"11228
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 11228: __asm("ADACTPPS equ 03ADDh");
+[; <" ADACTPPS equ 03ADDh ;# ">
+"11248
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 11248: __asm("SPI1SCKPPS equ 03ADEh");
+[; <" SPI1SCKPPS equ 03ADEh ;# ">
+"11268
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 11268: __asm("SPI1SDIPPS equ 03ADFh");
+[; <" SPI1SDIPPS equ 03ADFh ;# ">
+"11288
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 11288: __asm("SPI1SSPPS equ 03AE0h");
+[; <" SPI1SSPPS equ 03AE0h ;# ">
+"11308
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 11308: __asm("I2C1SCLPPS equ 03AE1h");
+[; <" I2C1SCLPPS equ 03AE1h ;# ">
+"11328
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 11328: __asm("I2C1SDAPPS equ 03AE2h");
+[; <" I2C1SDAPPS equ 03AE2h ;# ">
+"11348
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 11348: __asm("I2C2SCLPPS equ 03AE3h");
+[; <" I2C2SCLPPS equ 03AE3h ;# ">
+"11368
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 11368: __asm("I2C2SDAPPS equ 03AE4h");
+[; <" I2C2SDAPPS equ 03AE4h ;# ">
+"11388
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 11388: __asm("U1RXPPS equ 03AE5h");
+[; <" U1RXPPS equ 03AE5h ;# ">
+"11408
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 11408: __asm("U1CTSPPS equ 03AE6h");
+[; <" U1CTSPPS equ 03AE6h ;# ">
+"11428
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 11428: __asm("U2RXPPS equ 03AE8h");
+[; <" U2RXPPS equ 03AE8h ;# ">
+"11448
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 11448: __asm("U2CTSPPS equ 03AE9h");
+[; <" U2CTSPPS equ 03AE9h ;# ">
+"11468
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 11468: __asm("DMA2BUF equ 03BC9h");
+[; <" DMA2BUF equ 03BC9h ;# ">
+"11596
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 11596: __asm("DMA2DCNT equ 03BCAh");
+[; <" DMA2DCNT equ 03BCAh ;# ">
+"11603
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 11603: __asm("DMA2DCNTL equ 03BCAh");
+[; <" DMA2DCNTL equ 03BCAh ;# ">
+"11731
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 11731: __asm("DMA2DCNTH equ 03BCBh");
+[; <" DMA2DCNTH equ 03BCBh ;# ">
+"11811
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 11811: __asm("DMA2DPTR equ 03BCCh");
+[; <" DMA2DPTR equ 03BCCh ;# ">
+"11818
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 11818: __asm("DMA2DPTRL equ 03BCCh");
+[; <" DMA2DPTRL equ 03BCCh ;# ">
+"11946
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 11946: __asm("DMA2DPTRH equ 03BCDh");
+[; <" DMA2DPTRH equ 03BCDh ;# ">
+"12074
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 12074: __asm("DMA2DSZ equ 03BCEh");
+[; <" DMA2DSZ equ 03BCEh ;# ">
+"12081
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 12081: __asm("DMA2DSZL equ 03BCEh");
+[; <" DMA2DSZL equ 03BCEh ;# ">
+"12209
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 12209: __asm("DMA2DSZH equ 03BCFh");
+[; <" DMA2DSZH equ 03BCFh ;# ">
+"12289
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 12289: __asm("DMA2DSA equ 03BD0h");
+[; <" DMA2DSA equ 03BD0h ;# ">
+"12296
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 12296: __asm("DMA2DSAL equ 03BD0h");
+[; <" DMA2DSAL equ 03BD0h ;# ">
+"12424
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 12424: __asm("DMA2DSAH equ 03BD1h");
+[; <" DMA2DSAH equ 03BD1h ;# ">
+"12552
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 12552: __asm("DMA2SCNT equ 03BD2h");
+[; <" DMA2SCNT equ 03BD2h ;# ">
+"12559
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 12559: __asm("DMA2SCNTL equ 03BD2h");
+[; <" DMA2SCNTL equ 03BD2h ;# ">
+"12687
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 12687: __asm("DMA2SCNTH equ 03BD3h");
+[; <" DMA2SCNTH equ 03BD3h ;# ">
+"12769
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 12769: __asm("DMA2SPTR equ 03BD4h");
+[; <" DMA2SPTR equ 03BD4h ;# ">
+"12776
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 12776: __asm("DMA2SPTRL equ 03BD4h");
+[; <" DMA2SPTRL equ 03BD4h ;# ">
+"12904
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 12904: __asm("DMA2SPTRH equ 03BD5h");
+[; <" DMA2SPTRH equ 03BD5h ;# ">
+"13032
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 13032: __asm("DMA2SPTRU equ 03BD6h");
+[; <" DMA2SPTRU equ 03BD6h ;# ">
+"13136
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 13136: __asm("DMA2SSZ equ 03BD7h");
+[; <" DMA2SSZ equ 03BD7h ;# ">
+"13143
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 13143: __asm("DMA2SSZL equ 03BD7h");
+[; <" DMA2SSZL equ 03BD7h ;# ">
+"13271
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 13271: __asm("DMA2SSZH equ 03BD8h");
+[; <" DMA2SSZH equ 03BD8h ;# ">
+"13353
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 13353: __asm("DMA2SSA equ 03BD9h");
+[; <" DMA2SSA equ 03BD9h ;# ">
+"13360
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 13360: __asm("DMA2SSAL equ 03BD9h");
+[; <" DMA2SSAL equ 03BD9h ;# ">
+"13488
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 13488: __asm("DMA2SSAH equ 03BDAh");
+[; <" DMA2SSAH equ 03BDAh ;# ">
+"13616
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 13616: __asm("DMA2SSAU equ 03BDBh");
+[; <" DMA2SSAU equ 03BDBh ;# ">
+"13720
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 13720: __asm("DMA2CON0 equ 03BDCh");
+[; <" DMA2CON0 equ 03BDCh ;# ">
+"13800
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 13800: __asm("DMA2CON1 equ 03BDDh");
+[; <" DMA2CON1 equ 03BDDh ;# ">
+"13844
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 13844: __asm("DMA2AIRQ equ 03BDEh");
+[; <" DMA2AIRQ equ 03BDEh ;# ">
+"13960
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 13960: __asm("DMA2SIRQ equ 03BDFh");
+[; <" DMA2SIRQ equ 03BDFh ;# ">
+"14076
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 14076: __asm("DMA1BUF equ 03BE9h");
+[; <" DMA1BUF equ 03BE9h ;# ">
+"14204
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 14204: __asm("DMA1DCNT equ 03BEAh");
+[; <" DMA1DCNT equ 03BEAh ;# ">
+"14211
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 14211: __asm("DMA1DCNTL equ 03BEAh");
+[; <" DMA1DCNTL equ 03BEAh ;# ">
+"14339
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 14339: __asm("DMA1DCNTH equ 03BEBh");
+[; <" DMA1DCNTH equ 03BEBh ;# ">
+"14419
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 14419: __asm("DMA1DPTR equ 03BECh");
+[; <" DMA1DPTR equ 03BECh ;# ">
+"14426
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 14426: __asm("DMA1DPTRL equ 03BECh");
+[; <" DMA1DPTRL equ 03BECh ;# ">
+"14554
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 14554: __asm("DMA1DPTRH equ 03BEDh");
+[; <" DMA1DPTRH equ 03BEDh ;# ">
+"14682
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 14682: __asm("DMA1DSZ equ 03BEEh");
+[; <" DMA1DSZ equ 03BEEh ;# ">
+"14689
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 14689: __asm("DMA1DSZL equ 03BEEh");
+[; <" DMA1DSZL equ 03BEEh ;# ">
+"14817
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 14817: __asm("DMA1DSZH equ 03BEFh");
+[; <" DMA1DSZH equ 03BEFh ;# ">
+"14897
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 14897: __asm("DMA1DSA equ 03BF0h");
+[; <" DMA1DSA equ 03BF0h ;# ">
+"14904
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 14904: __asm("DMA1DSAL equ 03BF0h");
+[; <" DMA1DSAL equ 03BF0h ;# ">
+"15032
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 15032: __asm("DMA1DSAH equ 03BF1h");
+[; <" DMA1DSAH equ 03BF1h ;# ">
+"15160
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 15160: __asm("DMA1SCNT equ 03BF2h");
+[; <" DMA1SCNT equ 03BF2h ;# ">
+"15167
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 15167: __asm("DMA1SCNTL equ 03BF2h");
+[; <" DMA1SCNTL equ 03BF2h ;# ">
+"15295
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 15295: __asm("DMA1SCNTH equ 03BF3h");
+[; <" DMA1SCNTH equ 03BF3h ;# ">
+"15377
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 15377: __asm("DMA1SPTR equ 03BF4h");
+[; <" DMA1SPTR equ 03BF4h ;# ">
+"15384
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 15384: __asm("DMA1SPTRL equ 03BF4h");
+[; <" DMA1SPTRL equ 03BF4h ;# ">
+"15512
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 15512: __asm("DMA1SPTRH equ 03BF5h");
+[; <" DMA1SPTRH equ 03BF5h ;# ">
+"15640
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 15640: __asm("DMA1SPTRU equ 03BF6h");
+[; <" DMA1SPTRU equ 03BF6h ;# ">
+"15744
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 15744: __asm("DMA1SSZ equ 03BF7h");
+[; <" DMA1SSZ equ 03BF7h ;# ">
+"15751
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 15751: __asm("DMA1SSZL equ 03BF7h");
+[; <" DMA1SSZL equ 03BF7h ;# ">
+"15879
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 15879: __asm("DMA1SSZH equ 03BF8h");
+[; <" DMA1SSZH equ 03BF8h ;# ">
+"15961
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 15961: __asm("DMA1SSA equ 03BF9h");
+[; <" DMA1SSA equ 03BF9h ;# ">
+"15968
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 15968: __asm("DMA1SSAL equ 03BF9h");
+[; <" DMA1SSAL equ 03BF9h ;# ">
+"16096
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 16096: __asm("DMA1SSAH equ 03BFAh");
+[; <" DMA1SSAH equ 03BFAh ;# ">
+"16224
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 16224: __asm("DMA1SSAU equ 03BFBh");
+[; <" DMA1SSAU equ 03BFBh ;# ">
+"16328
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 16328: __asm("DMA1CON0 equ 03BFCh");
+[; <" DMA1CON0 equ 03BFCh ;# ">
+"16408
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 16408: __asm("DMA1CON1 equ 03BFDh");
+[; <" DMA1CON1 equ 03BFDh ;# ">
+"16452
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 16452: __asm("DMA1AIRQ equ 03BFEh");
+[; <" DMA1AIRQ equ 03BFEh ;# ">
+"16568
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 16568: __asm("DMA1SIRQ equ 03BFFh");
+[; <" DMA1SIRQ equ 03BFFh ;# ">
+"16684
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 16684: __asm("CLC4CON equ 03C56h");
+[; <" CLC4CON equ 03C56h ;# ">
+"16812
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 16812: __asm("CLC4POL equ 03C57h");
+[; <" CLC4POL equ 03C57h ;# ">
+"16890
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 16890: __asm("CLC4SEL0 equ 03C58h");
+[; <" CLC4SEL0 equ 03C58h ;# ">
+"17018
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 17018: __asm("CLC4SEL1 equ 03C59h");
+[; <" CLC4SEL1 equ 03C59h ;# ">
+"17146
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 17146: __asm("CLC4SEL2 equ 03C5Ah");
+[; <" CLC4SEL2 equ 03C5Ah ;# ">
+"17274
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 17274: __asm("CLC4SEL3 equ 03C5Bh");
+[; <" CLC4SEL3 equ 03C5Bh ;# ">
+"17402
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 17402: __asm("CLC4GLS0 equ 03C5Ch");
+[; <" CLC4GLS0 equ 03C5Ch ;# ">
+"17514
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 17514: __asm("CLC4GLS1 equ 03C5Dh");
+[; <" CLC4GLS1 equ 03C5Dh ;# ">
+"17626
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 17626: __asm("CLC4GLS2 equ 03C5Eh");
+[; <" CLC4GLS2 equ 03C5Eh ;# ">
+"17738
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 17738: __asm("CLC4GLS3 equ 03C5Fh");
+[; <" CLC4GLS3 equ 03C5Fh ;# ">
+"17850
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 17850: __asm("CLC3CON equ 03C60h");
+[; <" CLC3CON equ 03C60h ;# ">
+"17978
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 17978: __asm("CLC3POL equ 03C61h");
+[; <" CLC3POL equ 03C61h ;# ">
+"18056
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 18056: __asm("CLC3SEL0 equ 03C62h");
+[; <" CLC3SEL0 equ 03C62h ;# ">
+"18184
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 18184: __asm("CLC3SEL1 equ 03C63h");
+[; <" CLC3SEL1 equ 03C63h ;# ">
+"18312
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 18312: __asm("CLC3SEL2 equ 03C64h");
+[; <" CLC3SEL2 equ 03C64h ;# ">
+"18440
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 18440: __asm("CLC3SEL3 equ 03C65h");
+[; <" CLC3SEL3 equ 03C65h ;# ">
+"18568
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 18568: __asm("CLC3GLS0 equ 03C66h");
+[; <" CLC3GLS0 equ 03C66h ;# ">
+"18680
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 18680: __asm("CLC3GLS1 equ 03C67h");
+[; <" CLC3GLS1 equ 03C67h ;# ">
+"18792
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 18792: __asm("CLC3GLS2 equ 03C68h");
+[; <" CLC3GLS2 equ 03C68h ;# ">
+"18904
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 18904: __asm("CLC3GLS3 equ 03C69h");
+[; <" CLC3GLS3 equ 03C69h ;# ">
+"19016
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 19016: __asm("CLC2CON equ 03C6Ah");
+[; <" CLC2CON equ 03C6Ah ;# ">
+"19144
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 19144: __asm("CLC2POL equ 03C6Bh");
+[; <" CLC2POL equ 03C6Bh ;# ">
+"19222
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 19222: __asm("CLC2SEL0 equ 03C6Ch");
+[; <" CLC2SEL0 equ 03C6Ch ;# ">
+"19350
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 19350: __asm("CLC2SEL1 equ 03C6Dh");
+[; <" CLC2SEL1 equ 03C6Dh ;# ">
+"19478
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 19478: __asm("CLC2SEL2 equ 03C6Eh");
+[; <" CLC2SEL2 equ 03C6Eh ;# ">
+"19606
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 19606: __asm("CLC2SEL3 equ 03C6Fh");
+[; <" CLC2SEL3 equ 03C6Fh ;# ">
+"19734
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 19734: __asm("CLC2GLS0 equ 03C70h");
+[; <" CLC2GLS0 equ 03C70h ;# ">
+"19846
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 19846: __asm("CLC2GLS1 equ 03C71h");
+[; <" CLC2GLS1 equ 03C71h ;# ">
+"19958
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 19958: __asm("CLC2GLS2 equ 03C72h");
+[; <" CLC2GLS2 equ 03C72h ;# ">
+"20070
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 20070: __asm("CLC2GLS3 equ 03C73h");
+[; <" CLC2GLS3 equ 03C73h ;# ">
+"20182
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 20182: __asm("CLC1CON equ 03C74h");
+[; <" CLC1CON equ 03C74h ;# ">
+"20310
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 20310: __asm("CLC1POL equ 03C75h");
+[; <" CLC1POL equ 03C75h ;# ">
+"20388
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 20388: __asm("CLC1SEL0 equ 03C76h");
+[; <" CLC1SEL0 equ 03C76h ;# ">
+"20516
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 20516: __asm("CLC1SEL1 equ 03C77h");
+[; <" CLC1SEL1 equ 03C77h ;# ">
+"20644
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 20644: __asm("CLC1SEL2 equ 03C78h");
+[; <" CLC1SEL2 equ 03C78h ;# ">
+"20772
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 20772: __asm("CLC1SEL3 equ 03C79h");
+[; <" CLC1SEL3 equ 03C79h ;# ">
+"20900
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 20900: __asm("CLC1GLS0 equ 03C7Ah");
+[; <" CLC1GLS0 equ 03C7Ah ;# ">
+"21012
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 21012: __asm("CLC1GLS1 equ 03C7Bh");
+[; <" CLC1GLS1 equ 03C7Bh ;# ">
+"21124
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 21124: __asm("CLC1GLS2 equ 03C7Ch");
+[; <" CLC1GLS2 equ 03C7Ch ;# ">
+"21236
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 21236: __asm("CLC1GLS3 equ 03C7Dh");
+[; <" CLC1GLS3 equ 03C7Dh ;# ">
+"21348
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 21348: __asm("CLCDATA0 equ 03C7Eh");
+[; <" CLCDATA0 equ 03C7Eh ;# ">
+"21386
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 21386: __asm("CLKRCON equ 03CE5h");
+[; <" CLKRCON equ 03CE5h ;# ">
+"21472
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 21472: __asm("CLKRCLK equ 03CE6h");
+[; <" CLKRCLK equ 03CE6h ;# ">
+"21552
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 21552: __asm("MD1CON0 equ 03CFAh");
+[; <" MD1CON0 equ 03CFAh ;# ">
+"21620
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 21620: __asm("MD1CON1 equ 03CFBh");
+[; <" MD1CON1 equ 03CFBh ;# ">
+"21686
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 21686: __asm("MD1SRC equ 03CFCh");
+[; <" MD1SRC equ 03CFCh ;# ">
+"21778
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 21778: __asm("MD1CARL equ 03CFDh");
+[; <" MD1CARL equ 03CFDh ;# ">
+"21870
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 21870: __asm("MD1CARH equ 03CFEh");
+[; <" MD1CARH equ 03CFEh ;# ">
+"21962
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 21962: __asm("SPI1RXB equ 03D10h");
+[; <" SPI1RXB equ 03D10h ;# ">
+"22032
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 22032: __asm("SPI1TXB equ 03D11h");
+[; <" SPI1TXB equ 03D11h ;# ">
+"22102
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 22102: __asm("SPI1TCNT equ 03D12h");
+[; <" SPI1TCNT equ 03D12h ;# ">
+"22109
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 22109: __asm("SPI1TCNTL equ 03D12h");
+[; <" SPI1TCNTL equ 03D12h ;# ">
+"22129
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 22129: __asm("SPI1TCNTH equ 03D13h");
+[; <" SPI1TCNTH equ 03D13h ;# ">
+"22149
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 22149: __asm("SPI1CON0 equ 03D14h");
+[; <" SPI1CON0 equ 03D14h ;# ">
+"22215
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 22215: __asm("SPI1CON1 equ 03D15h");
+[; <" SPI1CON1 equ 03D15h ;# ">
+"22317
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 22317: __asm("SPI1CON2 equ 03D16h");
+[; <" SPI1CON2 equ 03D16h ;# ">
+"22395
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 22395: __asm("SPI1STATUS equ 03D17h");
+[; <" SPI1STATUS equ 03D17h ;# ">
+"22477
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 22477: __asm("SPI1TWIDTH equ 03D18h");
+[; <" SPI1TWIDTH equ 03D18h ;# ">
+"22517
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 22517: __asm("SPI1BAUD equ 03D19h");
+[; <" SPI1BAUD equ 03D19h ;# ">
+"22587
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 22587: __asm("SPI1INTF equ 03D1Ah");
+[; <" SPI1INTF equ 03D1Ah ;# ">
+"22679
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 22679: __asm("SPI1INTE equ 03D1Bh");
+[; <" SPI1INTE equ 03D1Bh ;# ">
+"22771
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 22771: __asm("SPI1CLK equ 03D1Ch");
+[; <" SPI1CLK equ 03D1Ch ;# ">
+"22851
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 22851: __asm("I2C2RXB equ 03D54h");
+[; <" I2C2RXB equ 03D54h ;# ">
+"22871
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 22871: __asm("I2C2TXB equ 03D55h");
+[; <" I2C2TXB equ 03D55h ;# ">
+"22891
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 22891: __asm("I2C2CNT equ 03D56h");
+[; <" I2C2CNT equ 03D56h ;# ">
+"22961
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 22961: __asm("I2C2ADB0 equ 03D57h");
+[; <" I2C2ADB0 equ 03D57h ;# ">
+"22981
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 22981: __asm("I2C2ADB1 equ 03D58h");
+[; <" I2C2ADB1 equ 03D58h ;# ">
+"23001
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 23001: __asm("I2C2ADR0 equ 03D59h");
+[; <" I2C2ADR0 equ 03D59h ;# ">
+"23021
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 23021: __asm("I2C2ADR1 equ 03D5Ah");
+[; <" I2C2ADR1 equ 03D5Ah ;# ">
+"23042
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 23042: __asm("I2C2ADR2 equ 03D5Bh");
+[; <" I2C2ADR2 equ 03D5Bh ;# ">
+"23062
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 23062: __asm("I2C2ADR3 equ 03D5Ch");
+[; <" I2C2ADR3 equ 03D5Ch ;# ">
+"23083
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 23083: __asm("I2C2CON0 equ 03D5Dh");
+[; <" I2C2CON0 equ 03D5Dh ;# ">
+"23160
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 23160: __asm("I2C2CON1 equ 03D5Eh");
+[; <" I2C2CON1 equ 03D5Eh ;# ">
+"23217
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 23217: __asm("I2C2CON2 equ 03D5Fh");
+[; <" I2C2CON2 equ 03D5Fh ;# ">
+"23293
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 23293: __asm("I2C2ERR equ 03D60h");
+[; <" I2C2ERR equ 03D60h ;# ">
+"23383
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 23383: __asm("I2C2STAT0 equ 03D61h");
+[; <" I2C2STAT0 equ 03D61h ;# ">
+"23473
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 23473: __asm("I2C2STAT1 equ 03D62h");
+[; <" I2C2STAT1 equ 03D62h ;# ">
+"23520
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 23520: __asm("I2C2PIR equ 03D63h");
+[; <" I2C2PIR equ 03D63h ;# ">
+"23622
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 23622: __asm("I2C2PIE equ 03D64h");
+[; <" I2C2PIE equ 03D64h ;# ">
+"23724
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 23724: __asm("I2C2CLK equ 03D65h");
+[; <" I2C2CLK equ 03D65h ;# ">
+"23804
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 23804: __asm("I2C2BTO equ 03D66h");
+[; <" I2C2BTO equ 03D66h ;# ">
+"23872
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 23872: __asm("I2C1RXB equ 03D6Ah");
+[; <" I2C1RXB equ 03D6Ah ;# ">
+"23892
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 23892: __asm("I2C1TXB equ 03D6Bh");
+[; <" I2C1TXB equ 03D6Bh ;# ">
+"23912
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 23912: __asm("I2C1CNT equ 03D6Ch");
+[; <" I2C1CNT equ 03D6Ch ;# ">
+"23982
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 23982: __asm("I2C1ADB0 equ 03D6Dh");
+[; <" I2C1ADB0 equ 03D6Dh ;# ">
+"24002
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 24002: __asm("I2C1ADB1 equ 03D6Eh");
+[; <" I2C1ADB1 equ 03D6Eh ;# ">
+"24022
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 24022: __asm("I2C1ADR0 equ 03D6Fh");
+[; <" I2C1ADR0 equ 03D6Fh ;# ">
+"24042
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 24042: __asm("I2C1ADR1 equ 03D70h");
+[; <" I2C1ADR1 equ 03D70h ;# ">
+"24063
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 24063: __asm("I2C1ADR2 equ 03D71h");
+[; <" I2C1ADR2 equ 03D71h ;# ">
+"24083
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 24083: __asm("I2C1ADR3 equ 03D72h");
+[; <" I2C1ADR3 equ 03D72h ;# ">
+"24104
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 24104: __asm("I2C1CON0 equ 03D73h");
+[; <" I2C1CON0 equ 03D73h ;# ">
+"24181
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 24181: __asm("I2C1CON1 equ 03D74h");
+[; <" I2C1CON1 equ 03D74h ;# ">
+"24238
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 24238: __asm("I2C1CON2 equ 03D75h");
+[; <" I2C1CON2 equ 03D75h ;# ">
+"24314
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 24314: __asm("I2C1ERR equ 03D76h");
+[; <" I2C1ERR equ 03D76h ;# ">
+"24404
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 24404: __asm("I2C1STAT0 equ 03D77h");
+[; <" I2C1STAT0 equ 03D77h ;# ">
+"24494
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 24494: __asm("I2C1STAT1 equ 03D78h");
+[; <" I2C1STAT1 equ 03D78h ;# ">
+"24541
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 24541: __asm("I2C1PIR equ 03D79h");
+[; <" I2C1PIR equ 03D79h ;# ">
+"24643
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 24643: __asm("I2C1PIE equ 03D7Ah");
+[; <" I2C1PIE equ 03D7Ah ;# ">
+"24745
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 24745: __asm("I2C1CLK equ 03D7Bh");
+[; <" I2C1CLK equ 03D7Bh ;# ">
+"24825
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 24825: __asm("I2C1BTO equ 03D7Ch");
+[; <" I2C1BTO equ 03D7Ch ;# ">
+"24893
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 24893: __asm("U2RXB equ 03DD0h");
+[; <" U2RXB equ 03DD0h ;# ">
+"24898
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 24898: __asm("U2RXBL equ 03DD0h");
+[; <" U2RXBL equ 03DD0h ;# ">
+"24931
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 24931: __asm("U2TXB equ 03DD2h");
+[; <" U2TXB equ 03DD2h ;# ">
+"24936
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 24936: __asm("U2TXBL equ 03DD2h");
+[; <" U2TXBL equ 03DD2h ;# ">
+"24969
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 24969: __asm("U2P1 equ 03DD4h");
+[; <" U2P1 equ 03DD4h ;# ">
+"24976
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 24976: __asm("U2P1L equ 03DD4h");
+[; <" U2P1L equ 03DD4h ;# ">
+"24996
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 24996: __asm("U2P2 equ 03DD6h");
+[; <" U2P2 equ 03DD6h ;# ">
+"25003
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 25003: __asm("U2P2L equ 03DD6h");
+[; <" U2P2L equ 03DD6h ;# ">
+"25023
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 25023: __asm("U2P3 equ 03DD8h");
+[; <" U2P3 equ 03DD8h ;# ">
+"25030
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 25030: __asm("U2P3L equ 03DD8h");
+[; <" U2P3L equ 03DD8h ;# ">
+"25050
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 25050: __asm("U2CON0 equ 03DDAh");
+[; <" U2CON0 equ 03DDAh ;# ">
+"25166
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 25166: __asm("U2CON1 equ 03DDBh");
+[; <" U2CON1 equ 03DDBh ;# ">
+"25246
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 25246: __asm("U2CON2 equ 03DDCh");
+[; <" U2CON2 equ 03DDCh ;# ">
+"25378
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 25378: __asm("U2BRG equ 03DDDh");
+[; <" U2BRG equ 03DDDh ;# ">
+"25385
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 25385: __asm("U2BRGL equ 03DDDh");
+[; <" U2BRGL equ 03DDDh ;# ">
+"25405
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 25405: __asm("U2BRGH equ 03DDEh");
+[; <" U2BRGH equ 03DDEh ;# ">
+"25425
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 25425: __asm("U2FIFO equ 03DDFh");
+[; <" U2FIFO equ 03DDFh ;# ">
+"25555
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 25555: __asm("U2UIR equ 03DE0h");
+[; <" U2UIR equ 03DE0h ;# ">
+"25611
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 25611: __asm("U2ERRIR equ 03DE1h");
+[; <" U2ERRIR equ 03DE1h ;# ">
+"25723
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 25723: __asm("U2ERRIE equ 03DE2h");
+[; <" U2ERRIE equ 03DE2h ;# ">
+"25835
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 25835: __asm("U1RXB equ 03DE8h");
+[; <" U1RXB equ 03DE8h ;# ">
+"25840
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 25840: __asm("U1RXBL equ 03DE8h");
+[; <" U1RXBL equ 03DE8h ;# ">
+"25873
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 25873: __asm("U1RXCHK equ 03DE9h");
+[; <" U1RXCHK equ 03DE9h ;# ">
+"25893
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 25893: __asm("U1TXB equ 03DEAh");
+[; <" U1TXB equ 03DEAh ;# ">
+"25898
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 25898: __asm("U1TXBL equ 03DEAh");
+[; <" U1TXBL equ 03DEAh ;# ">
+"25931
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 25931: __asm("U1TXCHK equ 03DEBh");
+[; <" U1TXCHK equ 03DEBh ;# ">
+"25951
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 25951: __asm("U1P1 equ 03DECh");
+[; <" U1P1 equ 03DECh ;# ">
+"25958
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 25958: __asm("U1P1L equ 03DECh");
+[; <" U1P1L equ 03DECh ;# ">
+"25978
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 25978: __asm("U1P1H equ 03DEDh");
+[; <" U1P1H equ 03DEDh ;# ">
+"25998
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 25998: __asm("U1P2 equ 03DEEh");
+[; <" U1P2 equ 03DEEh ;# ">
+"26005
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 26005: __asm("U1P2L equ 03DEEh");
+[; <" U1P2L equ 03DEEh ;# ">
+"26025
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 26025: __asm("U1P2H equ 03DEFh");
+[; <" U1P2H equ 03DEFh ;# ">
+"26045
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 26045: __asm("U1P3 equ 03DF0h");
+[; <" U1P3 equ 03DF0h ;# ">
+"26052
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 26052: __asm("U1P3L equ 03DF0h");
+[; <" U1P3L equ 03DF0h ;# ">
+"26072
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 26072: __asm("U1P3H equ 03DF1h");
+[; <" U1P3H equ 03DF1h ;# ">
+"26092
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 26092: __asm("U1CON0 equ 03DF2h");
+[; <" U1CON0 equ 03DF2h ;# ">
+"26220
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 26220: __asm("U1CON1 equ 03DF3h");
+[; <" U1CON1 equ 03DF3h ;# ">
+"26300
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 26300: __asm("U1CON2 equ 03DF4h");
+[; <" U1CON2 equ 03DF4h ;# ">
+"26442
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 26442: __asm("U1BRG equ 03DF5h");
+[; <" U1BRG equ 03DF5h ;# ">
+"26449
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 26449: __asm("U1BRGL equ 03DF5h");
+[; <" U1BRGL equ 03DF5h ;# ">
+"26469
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 26469: __asm("U1BRGH equ 03DF6h");
+[; <" U1BRGH equ 03DF6h ;# ">
+"26489
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 26489: __asm("U1FIFO equ 03DF7h");
+[; <" U1FIFO equ 03DF7h ;# ">
+"26619
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 26619: __asm("U1UIR equ 03DF8h");
+[; <" U1UIR equ 03DF8h ;# ">
+"26675
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 26675: __asm("U1ERRIR equ 03DF9h");
+[; <" U1ERRIR equ 03DF9h ;# ">
+"26787
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 26787: __asm("U1ERRIE equ 03DFAh");
+[; <" U1ERRIE equ 03DFAh ;# ">
+"26899
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 26899: __asm("DAC1CON1 equ 03E9Ch");
+[; <" DAC1CON1 equ 03E9Ch ;# ">
+"26959
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 26959: __asm("DAC1CON0 equ 03E9Eh");
+[; <" DAC1CON0 equ 03E9Eh ;# ">
+"27060
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 27060: __asm("CM2CON0 equ 03EB8h");
+[; <" CM2CON0 equ 03EB8h ;# ">
+"27140
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 27140: __asm("CM2CON1 equ 03EB9h");
+[; <" CM2CON1 equ 03EB9h ;# ">
+"27180
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 27180: __asm("CM2NCH equ 03EBAh");
+[; <" CM2NCH equ 03EBAh ;# ">
+"27240
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 27240: __asm("CM2PCH equ 03EBBh");
+[; <" CM2PCH equ 03EBBh ;# ">
+"27300
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 27300: __asm("CM1CON0 equ 03EBCh");
+[; <" CM1CON0 equ 03EBCh ;# ">
+"27380
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 27380: __asm("CM1CON1 equ 03EBDh");
+[; <" CM1CON1 equ 03EBDh ;# ">
+"27420
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 27420: __asm("CM1NCH equ 03EBEh");
+[; <" CM1NCH equ 03EBEh ;# ">
+"27480
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 27480: __asm("CM1PCH equ 03EBFh");
+[; <" CM1PCH equ 03EBFh ;# ">
+"27540
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 27540: __asm("CMOUT equ 03EC0h");
+[; <" CMOUT equ 03EC0h ;# ">
+"27566
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 27566: __asm("FVRCON equ 03EC1h");
+[; <" FVRCON equ 03EC1h ;# ">
+"27655
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 27655: __asm("ZCDCON equ 03EC3h");
+[; <" ZCDCON equ 03EC3h ;# ">
+"27735
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 27735: __asm("HLVDCON0 equ 03EC9h");
+[; <" HLVDCON0 equ 03EC9h ;# ">
+"27815
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 27815: __asm("HLVDCON1 equ 03ECAh");
+[; <" HLVDCON1 equ 03ECAh ;# ">
+"27887
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 27887: __asm("ADCP equ 03ED7h");
+[; <" ADCP equ 03ED7h ;# ">
+"27938
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 27938: __asm("ADLTH equ 03EDEh");
+[; <" ADLTH equ 03EDEh ;# ">
+"27945
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 27945: __asm("ADLTHL equ 03EDEh");
+[; <" ADLTHL equ 03EDEh ;# ">
+"28073
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 28073: __asm("ADLTHH equ 03EDFh");
+[; <" ADLTHH equ 03EDFh ;# ">
+"28201
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 28201: __asm("ADUTH equ 03EE0h");
+[; <" ADUTH equ 03EE0h ;# ">
+"28208
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 28208: __asm("ADUTHL equ 03EE0h");
+[; <" ADUTHL equ 03EE0h ;# ">
+"28336
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 28336: __asm("ADUTHH equ 03EE1h");
+[; <" ADUTHH equ 03EE1h ;# ">
+"28464
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 28464: __asm("ADERR equ 03EE2h");
+[; <" ADERR equ 03EE2h ;# ">
+"28471
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 28471: __asm("ADERRL equ 03EE2h");
+[; <" ADERRL equ 03EE2h ;# ">
+"28599
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 28599: __asm("ADERRH equ 03EE3h");
+[; <" ADERRH equ 03EE3h ;# ">
+"28727
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 28727: __asm("ADSTPT equ 03EE4h");
+[; <" ADSTPT equ 03EE4h ;# ">
+"28734
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 28734: __asm("ADSTPTL equ 03EE4h");
+[; <" ADSTPTL equ 03EE4h ;# ">
+"28862
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 28862: __asm("ADSTPTH equ 03EE5h");
+[; <" ADSTPTH equ 03EE5h ;# ">
+"28990
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 28990: __asm("ADFLTR equ 03EE6h");
+[; <" ADFLTR equ 03EE6h ;# ">
+"28997
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 28997: __asm("ADFLTRL equ 03EE6h");
+[; <" ADFLTRL equ 03EE6h ;# ">
+"29125
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 29125: __asm("ADFLTRH equ 03EE7h");
+[; <" ADFLTRH equ 03EE7h ;# ">
+"29255
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 29255: __asm("ADACC equ 03EE8h");
+[; <" ADACC equ 03EE8h ;# ">
+"29262
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 29262: __asm("ADACCL equ 03EE8h");
+[; <" ADACCL equ 03EE8h ;# ">
+"29390
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 29390: __asm("ADACCH equ 03EE9h");
+[; <" ADACCH equ 03EE9h ;# ">
+"29518
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 29518: __asm("ADACCU equ 03EEAh");
+[; <" ADACCU equ 03EEAh ;# ">
+"29646
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 29646: __asm("ADCNT equ 03EEBh");
+[; <" ADCNT equ 03EEBh ;# ">
+"29774
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 29774: __asm("ADRPT equ 03EECh");
+[; <" ADRPT equ 03EECh ;# ">
+"29902
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 29902: __asm("ADPREV equ 03EEDh");
+[; <" ADPREV equ 03EEDh ;# ">
+"29909
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 29909: __asm("ADPREVL equ 03EEDh");
+[; <" ADPREVL equ 03EEDh ;# ">
+"30037
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 30037: __asm("ADPREVH equ 03EEEh");
+[; <" ADPREVH equ 03EEEh ;# ">
+"30165
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 30165: __asm("ADRES equ 03EEFh");
+[; <" ADRES equ 03EEFh ;# ">
+"30172
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 30172: __asm("ADRESL equ 03EEFh");
+[; <" ADRESL equ 03EEFh ;# ">
+"30300
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 30300: __asm("ADRESH equ 03EF0h");
+[; <" ADRESH equ 03EF0h ;# ">
+"30420
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 30420: __asm("ADPCH equ 03EF1h");
+[; <" ADPCH equ 03EF1h ;# ">
+"30524
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 30524: __asm("ADACQ equ 03EF3h");
+[; <" ADACQ equ 03EF3h ;# ">
+"30531
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 30531: __asm("ADACQL equ 03EF3h");
+[; <" ADACQL equ 03EF3h ;# ">
+"30659
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 30659: __asm("ADACQH equ 03EF4h");
+[; <" ADACQH equ 03EF4h ;# ">
+"30751
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 30751: __asm("ADCAP equ 03EF5h");
+[; <" ADCAP equ 03EF5h ;# ">
+"30843
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 30843: __asm("ADPRE equ 03EF6h");
+[; <" ADPRE equ 03EF6h ;# ">
+"30850
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 30850: __asm("ADPREL equ 03EF6h");
+[; <" ADPREL equ 03EF6h ;# ">
+"30978
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 30978: __asm("ADPREH equ 03EF7h");
+[; <" ADPREH equ 03EF7h ;# ">
+"31070
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 31070: __asm("ADCON0 equ 03EF8h");
+[; <" ADCON0 equ 03EF8h ;# ">
+"31188
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 31188: __asm("ADCON1 equ 03EF9h");
+[; <" ADCON1 equ 03EF9h ;# ">
+"31254
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 31254: __asm("ADCON2 equ 03EFAh");
+[; <" ADCON2 equ 03EFAh ;# ">
+"31432
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 31432: __asm("ADCON3 equ 03EFBh");
+[; <" ADCON3 equ 03EFBh ;# ">
+"31562
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 31562: __asm("ADSTAT equ 03EFCh");
+[; <" ADSTAT equ 03EFCh ;# ">
+"31687
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 31687: __asm("ADREF equ 03EFDh");
+[; <" ADREF equ 03EFDh ;# ">
+"31769
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 31769: __asm("ADACT equ 03EFEh");
+[; <" ADACT equ 03EFEh ;# ">
+"31861
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 31861: __asm("ADCLK equ 03EFFh");
+[; <" ADCLK equ 03EFFh ;# ">
+"31967
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 31967: __asm("SMT1TMR equ 03F12h");
+[; <" SMT1TMR equ 03F12h ;# ">
+"31974
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 31974: __asm("SMT1TMRL equ 03F12h");
+[; <" SMT1TMRL equ 03F12h ;# ">
+"32102
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 32102: __asm("SMT1TMRH equ 03F13h");
+[; <" SMT1TMRH equ 03F13h ;# ">
+"32230
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 32230: __asm("SMT1TMRU equ 03F14h");
+[; <" SMT1TMRU equ 03F14h ;# ">
+"32360
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 32360: __asm("SMT1CPR equ 03F15h");
+[; <" SMT1CPR equ 03F15h ;# ">
+"32367
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 32367: __asm("SMT1CPRL equ 03F15h");
+[; <" SMT1CPRL equ 03F15h ;# ">
+"32495
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 32495: __asm("SMT1CPRH equ 03F16h");
+[; <" SMT1CPRH equ 03F16h ;# ">
+"32623
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 32623: __asm("SMT1CPRU equ 03F17h");
+[; <" SMT1CPRU equ 03F17h ;# ">
+"32753
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 32753: __asm("SMT1CPW equ 03F18h");
+[; <" SMT1CPW equ 03F18h ;# ">
+"32760
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 32760: __asm("SMT1CPWL equ 03F18h");
+[; <" SMT1CPWL equ 03F18h ;# ">
+"32888
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 32888: __asm("SMT1CPWH equ 03F19h");
+[; <" SMT1CPWH equ 03F19h ;# ">
+"33016
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 33016: __asm("SMT1CPWU equ 03F1Ah");
+[; <" SMT1CPWU equ 03F1Ah ;# ">
+"33146
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 33146: __asm("SMT1PR equ 03F1Bh");
+[; <" SMT1PR equ 03F1Bh ;# ">
+"33153
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 33153: __asm("SMT1PRL equ 03F1Bh");
+[; <" SMT1PRL equ 03F1Bh ;# ">
+"33281
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 33281: __asm("SMT1PRH equ 03F1Ch");
+[; <" SMT1PRH equ 03F1Ch ;# ">
+"33409
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 33409: __asm("SMT1PRU equ 03F1Dh");
+[; <" SMT1PRU equ 03F1Dh ;# ">
+"33537
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 33537: __asm("SMT1CON0 equ 03F1Eh");
+[; <" SMT1CON0 equ 03F1Eh ;# ">
+"33655
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 33655: __asm("SMT1CON1 equ 03F1Fh");
+[; <" SMT1CON1 equ 03F1Fh ;# ">
+"33735
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 33735: __asm("SMT1STAT equ 03F20h");
+[; <" SMT1STAT equ 03F20h ;# ">
+"33834
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 33834: __asm("SMT1CLK equ 03F21h");
+[; <" SMT1CLK equ 03F21h ;# ">
+"33902
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 33902: __asm("SMT1SIG equ 03F22h");
+[; <" SMT1SIG equ 03F22h ;# ">
+"33994
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 33994: __asm("SMT1WIN equ 03F23h");
+[; <" SMT1WIN equ 03F23h ;# ">
+"34088
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 34088: __asm("NCO1ACC equ 03F38h");
+[; <" NCO1ACC equ 03F38h ;# ">
+"34095
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 34095: __asm("NCO1ACCL equ 03F38h");
+[; <" NCO1ACCL equ 03F38h ;# ">
+"34223
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 34223: __asm("NCO1ACCH equ 03F39h");
+[; <" NCO1ACCH equ 03F39h ;# ">
+"34351
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 34351: __asm("NCO1ACCU equ 03F3Ah");
+[; <" NCO1ACCU equ 03F3Ah ;# ">
+"34433
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 34433: __asm("NCO1INC equ 03F3Bh");
+[; <" NCO1INC equ 03F3Bh ;# ">
+"34440
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 34440: __asm("NCO1INCL equ 03F3Bh");
+[; <" NCO1INCL equ 03F3Bh ;# ">
+"34568
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 34568: __asm("NCO1INCH equ 03F3Ch");
+[; <" NCO1INCH equ 03F3Ch ;# ">
+"34696
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 34696: __asm("NCO1INCU equ 03F3Dh");
+[; <" NCO1INCU equ 03F3Dh ;# ">
+"34776
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 34776: __asm("NCO1CON equ 03F3Eh");
+[; <" NCO1CON equ 03F3Eh ;# ">
+"34844
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 34844: __asm("NCO1CLK equ 03F3Fh");
+[; <" NCO1CLK equ 03F3Fh ;# ">
+"34976
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 34976: __asm("CWG3CLK equ 03F40h");
+[; <" CWG3CLK equ 03F40h ;# ">
+"34981
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 34981: __asm("CWG3CLKCON equ 03F40h");
+[; <" CWG3CLKCON equ 03F40h ;# ">
+"35030
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 35030: __asm("CWG3ISM equ 03F41h");
+[; <" CWG3ISM equ 03F41h ;# ">
+"35035
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 35035: __asm("CWG3DAT equ 03F41h");
+[; <" CWG3DAT equ 03F41h ;# ">
+"35148
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 35148: __asm("CWG3DBR equ 03F42h");
+[; <" CWG3DBR equ 03F42h ;# ">
+"35252
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 35252: __asm("CWG3DBF equ 03F43h");
+[; <" CWG3DBF equ 03F43h ;# ">
+"35356
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 35356: __asm("CWG3CON0 equ 03F44h");
+[; <" CWG3CON0 equ 03F44h ;# ">
+"35457
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 35457: __asm("CWG3CON1 equ 03F45h");
+[; <" CWG3CON1 equ 03F45h ;# ">
+"35535
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 35535: __asm("CWG3AS0 equ 03F46h");
+[; <" CWG3AS0 equ 03F46h ;# ">
+"35697
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 35697: __asm("CWG3AS1 equ 03F47h");
+[; <" CWG3AS1 equ 03F47h ;# ">
+"35753
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 35753: __asm("CWG3STR equ 03F48h");
+[; <" CWG3STR equ 03F48h ;# ">
+"35865
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 35865: __asm("CWG2CLK equ 03F49h");
+[; <" CWG2CLK equ 03F49h ;# ">
+"35870
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 35870: __asm("CWG2CLKCON equ 03F49h");
+[; <" CWG2CLKCON equ 03F49h ;# ">
+"35919
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 35919: __asm("CWG2ISM equ 03F4Ah");
+[; <" CWG2ISM equ 03F4Ah ;# ">
+"35924
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 35924: __asm("CWG2DAT equ 03F4Ah");
+[; <" CWG2DAT equ 03F4Ah ;# ">
+"36037
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 36037: __asm("CWG2DBR equ 03F4Bh");
+[; <" CWG2DBR equ 03F4Bh ;# ">
+"36141
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 36141: __asm("CWG2DBF equ 03F4Ch");
+[; <" CWG2DBF equ 03F4Ch ;# ">
+"36245
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 36245: __asm("CWG2CON0 equ 03F4Dh");
+[; <" CWG2CON0 equ 03F4Dh ;# ">
+"36346
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 36346: __asm("CWG2CON1 equ 03F4Eh");
+[; <" CWG2CON1 equ 03F4Eh ;# ">
+"36424
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 36424: __asm("CWG2AS0 equ 03F4Fh");
+[; <" CWG2AS0 equ 03F4Fh ;# ">
+"36586
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 36586: __asm("CWG2AS1 equ 03F50h");
+[; <" CWG2AS1 equ 03F50h ;# ">
+"36642
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 36642: __asm("CWG2STR equ 03F51h");
+[; <" CWG2STR equ 03F51h ;# ">
+"36754
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 36754: __asm("CWG1CLK equ 03F52h");
+[; <" CWG1CLK equ 03F52h ;# ">
+"36759
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 36759: __asm("CWG1CLKCON equ 03F52h");
+[; <" CWG1CLKCON equ 03F52h ;# ">
+"36808
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 36808: __asm("CWG1ISM equ 03F53h");
+[; <" CWG1ISM equ 03F53h ;# ">
+"36813
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 36813: __asm("CWG1DAT equ 03F53h");
+[; <" CWG1DAT equ 03F53h ;# ">
+"36926
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 36926: __asm("CWG1DBR equ 03F54h");
+[; <" CWG1DBR equ 03F54h ;# ">
+"37030
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 37030: __asm("CWG1DBF equ 03F55h");
+[; <" CWG1DBF equ 03F55h ;# ">
+"37134
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 37134: __asm("CWG1CON0 equ 03F56h");
+[; <" CWG1CON0 equ 03F56h ;# ">
+"37235
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 37235: __asm("CWG1CON1 equ 03F57h");
+[; <" CWG1CON1 equ 03F57h ;# ">
+"37313
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 37313: __asm("CWG1AS0 equ 03F58h");
+[; <" CWG1AS0 equ 03F58h ;# ">
+"37475
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 37475: __asm("CWG1AS1 equ 03F59h");
+[; <" CWG1AS1 equ 03F59h ;# ">
+"37531
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 37531: __asm("CWG1STR equ 03F5Ah");
+[; <" CWG1STR equ 03F5Ah ;# ">
+"37643
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 37643: __asm("CCPTMRS0 equ 03F5Eh");
+[; <" CCPTMRS0 equ 03F5Eh ;# ">
+"37731
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 37731: __asm("CCPTMRS1 equ 03F5Fh");
+[; <" CCPTMRS1 equ 03F5Fh ;# ">
+"37819
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 37819: __asm("PWM8DC equ 03F60h");
+[; <" PWM8DC equ 03F60h ;# ">
+"37826
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 37826: __asm("PWM8DCL equ 03F60h");
+[; <" PWM8DCL equ 03F60h ;# ">
+"37892
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 37892: __asm("PWM8DCH equ 03F61h");
+[; <" PWM8DCH equ 03F61h ;# ">
+"38062
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 38062: __asm("PWM8CON equ 03F62h");
+[; <" PWM8CON equ 03F62h ;# ">
+"38118
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 38118: __asm("PWM7DC equ 03F64h");
+[; <" PWM7DC equ 03F64h ;# ">
+"38125
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 38125: __asm("PWM7DCL equ 03F64h");
+[; <" PWM7DCL equ 03F64h ;# ">
+"38191
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 38191: __asm("PWM7DCH equ 03F65h");
+[; <" PWM7DCH equ 03F65h ;# ">
+"38361
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 38361: __asm("PWM7CON equ 03F66h");
+[; <" PWM7CON equ 03F66h ;# ">
+"38417
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 38417: __asm("PWM6DC equ 03F68h");
+[; <" PWM6DC equ 03F68h ;# ">
+"38424
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 38424: __asm("PWM6DCL equ 03F68h");
+[; <" PWM6DCL equ 03F68h ;# ">
+"38490
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 38490: __asm("PWM6DCH equ 03F69h");
+[; <" PWM6DCH equ 03F69h ;# ">
+"38660
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 38660: __asm("PWM6CON equ 03F6Ah");
+[; <" PWM6CON equ 03F6Ah ;# ">
+"38716
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 38716: __asm("PWM5DC equ 03F6Ch");
+[; <" PWM5DC equ 03F6Ch ;# ">
+"38723
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 38723: __asm("PWM5DCL equ 03F6Ch");
+[; <" PWM5DCL equ 03F6Ch ;# ">
+"38789
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 38789: __asm("PWM5DCH equ 03F6Dh");
+[; <" PWM5DCH equ 03F6Dh ;# ">
+"38959
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 38959: __asm("PWM5CON equ 03F6Eh");
+[; <" PWM5CON equ 03F6Eh ;# ">
+"39015
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 39015: __asm("CCPR4 equ 03F70h");
+[; <" CCPR4 equ 03F70h ;# ">
+"39022
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 39022: __asm("CCPR4L equ 03F70h");
+[; <" CCPR4L equ 03F70h ;# ">
+"39042
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 39042: __asm("CCPR4H equ 03F71h");
+[; <" CCPR4H equ 03F71h ;# ">
+"39062
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 39062: __asm("CCP4CON equ 03F72h");
+[; <" CCP4CON equ 03F72h ;# ">
+"39180
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 39180: __asm("CCP4CAP equ 03F73h");
+[; <" CCP4CAP equ 03F73h ;# ">
+"39248
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 39248: __asm("CCPR3 equ 03F74h");
+[; <" CCPR3 equ 03F74h ;# ">
+"39255
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 39255: __asm("CCPR3L equ 03F74h");
+[; <" CCPR3L equ 03F74h ;# ">
+"39275
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 39275: __asm("CCPR3H equ 03F75h");
+[; <" CCPR3H equ 03F75h ;# ">
+"39295
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 39295: __asm("CCP3CON equ 03F76h");
+[; <" CCP3CON equ 03F76h ;# ">
+"39413
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 39413: __asm("CCP3CAP equ 03F77h");
+[; <" CCP3CAP equ 03F77h ;# ">
+"39481
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 39481: __asm("CCPR2 equ 03F78h");
+[; <" CCPR2 equ 03F78h ;# ">
+"39488
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 39488: __asm("CCPR2L equ 03F78h");
+[; <" CCPR2L equ 03F78h ;# ">
+"39508
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 39508: __asm("CCPR2H equ 03F79h");
+[; <" CCPR2H equ 03F79h ;# ">
+"39528
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 39528: __asm("CCP2CON equ 03F7Ah");
+[; <" CCP2CON equ 03F7Ah ;# ">
+"39646
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 39646: __asm("CCP2CAP equ 03F7Bh");
+[; <" CCP2CAP equ 03F7Bh ;# ">
+"39714
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 39714: __asm("CCPR1 equ 03F7Ch");
+[; <" CCPR1 equ 03F7Ch ;# ">
+"39721
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 39721: __asm("CCPR1L equ 03F7Ch");
+[; <" CCPR1L equ 03F7Ch ;# ">
+"39741
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 39741: __asm("CCPR1H equ 03F7Dh");
+[; <" CCPR1H equ 03F7Dh ;# ">
+"39761
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 39761: __asm("CCP1CON equ 03F7Eh");
+[; <" CCP1CON equ 03F7Eh ;# ">
+"39879
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 39879: __asm("CCP1CAP equ 03F7Fh");
+[; <" CCP1CAP equ 03F7Fh ;# ">
+"39947
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 39947: __asm("T6TMR equ 03F92h");
+[; <" T6TMR equ 03F92h ;# ">
+"39952
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 39952: __asm("TMR6 equ 03F92h");
+[; <" TMR6 equ 03F92h ;# ">
+"39985
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 39985: __asm("T6PR equ 03F93h");
+[; <" T6PR equ 03F93h ;# ">
+"39990
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 39990: __asm("PR6 equ 03F93h");
+[; <" PR6 equ 03F93h ;# ">
+"40023
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 40023: __asm("T6CON equ 03F94h");
+[; <" T6CON equ 03F94h ;# ">
+"40169
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 40169: __asm("T6HLT equ 03F95h");
+[; <" T6HLT equ 03F95h ;# ">
+"40297
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 40297: __asm("T6CLKCON equ 03F96h");
+[; <" T6CLKCON equ 03F96h ;# ">
+"40302
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 40302: __asm("T6CLK equ 03F96h");
+[; <" T6CLK equ 03F96h ;# ">
+"40455
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 40455: __asm("T6RST equ 03F97h");
+[; <" T6RST equ 03F97h ;# ">
+"40547
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 40547: __asm("TMR5 equ 03F98h");
+[; <" TMR5 equ 03F98h ;# ">
+"40554
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 40554: __asm("TMR5L equ 03F98h");
+[; <" TMR5L equ 03F98h ;# ">
+"40674
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 40674: __asm("TMR5H equ 03F99h");
+[; <" TMR5H equ 03F99h ;# ">
+"40794
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 40794: __asm("T5CON equ 03F9Ah");
+[; <" T5CON equ 03F9Ah ;# ">
+"40799
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 40799: __asm("TMR5CON equ 03F9Ah");
+[; <" TMR5CON equ 03F9Ah ;# ">
+"41016
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 41016: __asm("T5GCON equ 03F9Bh");
+[; <" T5GCON equ 03F9Bh ;# ">
+"41021
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 41021: __asm("TMR5GCON equ 03F9Bh");
+[; <" TMR5GCON equ 03F9Bh ;# ">
+"41302
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 41302: __asm("T5GATE equ 03F9Ch");
+[; <" T5GATE equ 03F9Ch ;# ">
+"41307
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 41307: __asm("TMR5GATE equ 03F9Ch");
+[; <" TMR5GATE equ 03F9Ch ;# ">
+"41468
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 41468: __asm("T5CLK equ 03F9Dh");
+[; <" T5CLK equ 03F9Dh ;# ">
+"41473
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 41473: __asm("TMR5CLK equ 03F9Dh");
+[; <" TMR5CLK equ 03F9Dh ;# ">
+"41477
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 41477: __asm("PR5 equ 03F9Dh");
+[; <" PR5 equ 03F9Dh ;# ">
+"41714
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 41714: __asm("T4TMR equ 03F9Eh");
+[; <" T4TMR equ 03F9Eh ;# ">
+"41719
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 41719: __asm("TMR4 equ 03F9Eh");
+[; <" TMR4 equ 03F9Eh ;# ">
+"41752
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 41752: __asm("T4PR equ 03F9Fh");
+[; <" T4PR equ 03F9Fh ;# ">
+"41757
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 41757: __asm("PR4 equ 03F9Fh");
+[; <" PR4 equ 03F9Fh ;# ">
+"41790
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 41790: __asm("T4CON equ 03FA0h");
+[; <" T4CON equ 03FA0h ;# ">
+"41936
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 41936: __asm("T4HLT equ 03FA1h");
+[; <" T4HLT equ 03FA1h ;# ">
+"42064
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 42064: __asm("T4CLKCON equ 03FA2h");
+[; <" T4CLKCON equ 03FA2h ;# ">
+"42069
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 42069: __asm("T4CLK equ 03FA2h");
+[; <" T4CLK equ 03FA2h ;# ">
+"42222
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 42222: __asm("T4RST equ 03FA3h");
+[; <" T4RST equ 03FA3h ;# ">
+"42314
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 42314: __asm("TMR3 equ 03FA4h");
+[; <" TMR3 equ 03FA4h ;# ">
+"42321
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 42321: __asm("TMR3L equ 03FA4h");
+[; <" TMR3L equ 03FA4h ;# ">
+"42441
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 42441: __asm("TMR3H equ 03FA5h");
+[; <" TMR3H equ 03FA5h ;# ">
+"42561
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 42561: __asm("T3CON equ 03FA6h");
+[; <" T3CON equ 03FA6h ;# ">
+"42566
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 42566: __asm("TMR3CON equ 03FA6h");
+[; <" TMR3CON equ 03FA6h ;# ">
+"42783
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 42783: __asm("T3GCON equ 03FA7h");
+[; <" T3GCON equ 03FA7h ;# ">
+"42788
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 42788: __asm("TMR3GCON equ 03FA7h");
+[; <" TMR3GCON equ 03FA7h ;# ">
+"43069
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 43069: __asm("T3GATE equ 03FA8h");
+[; <" T3GATE equ 03FA8h ;# ">
+"43074
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 43074: __asm("TMR3GATE equ 03FA8h");
+[; <" TMR3GATE equ 03FA8h ;# ">
+"43235
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 43235: __asm("T3CLK equ 03FA9h");
+[; <" T3CLK equ 03FA9h ;# ">
+"43240
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 43240: __asm("TMR3CLK equ 03FA9h");
+[; <" TMR3CLK equ 03FA9h ;# ">
+"43244
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 43244: __asm("PR3 equ 03FA9h");
+[; <" PR3 equ 03FA9h ;# ">
+"43481
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 43481: __asm("T2TMR equ 03FAAh");
+[; <" T2TMR equ 03FAAh ;# ">
+"43486
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 43486: __asm("TMR2 equ 03FAAh");
+[; <" TMR2 equ 03FAAh ;# ">
+"43519
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 43519: __asm("T2PR equ 03FABh");
+[; <" T2PR equ 03FABh ;# ">
+"43524
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 43524: __asm("PR2 equ 03FABh");
+[; <" PR2 equ 03FABh ;# ">
+"43557
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 43557: __asm("T2CON equ 03FACh");
+[; <" T2CON equ 03FACh ;# ">
+"43703
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 43703: __asm("T2HLT equ 03FADh");
+[; <" T2HLT equ 03FADh ;# ">
+"43831
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 43831: __asm("T2CLKCON equ 03FAEh");
+[; <" T2CLKCON equ 03FAEh ;# ">
+"43836
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 43836: __asm("T2CLK equ 03FAEh");
+[; <" T2CLK equ 03FAEh ;# ">
+"43989
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 43989: __asm("T2RST equ 03FAFh");
+[; <" T2RST equ 03FAFh ;# ">
+"44081
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 44081: __asm("TMR1 equ 03FB0h");
+[; <" TMR1 equ 03FB0h ;# ">
+"44088
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 44088: __asm("TMR1L equ 03FB0h");
+[; <" TMR1L equ 03FB0h ;# ">
+"44208
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 44208: __asm("TMR1H equ 03FB1h");
+[; <" TMR1H equ 03FB1h ;# ">
+"44328
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 44328: __asm("T1CON equ 03FB2h");
+[; <" T1CON equ 03FB2h ;# ">
+"44333
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 44333: __asm("TMR1CON equ 03FB2h");
+[; <" TMR1CON equ 03FB2h ;# ">
+"44550
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 44550: __asm("T1GCON equ 03FB3h");
+[; <" T1GCON equ 03FB3h ;# ">
+"44555
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 44555: __asm("TMR1GCON equ 03FB3h");
+[; <" TMR1GCON equ 03FB3h ;# ">
+"44836
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 44836: __asm("T1GATE equ 03FB4h");
+[; <" T1GATE equ 03FB4h ;# ">
+"44841
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 44841: __asm("TMR1GATE equ 03FB4h");
+[; <" TMR1GATE equ 03FB4h ;# ">
+"45002
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 45002: __asm("T1CLK equ 03FB5h");
+[; <" T1CLK equ 03FB5h ;# ">
+"45007
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 45007: __asm("TMR1CLK equ 03FB5h");
+[; <" TMR1CLK equ 03FB5h ;# ">
+"45011
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 45011: __asm("PR1 equ 03FB5h");
+[; <" PR1 equ 03FB5h ;# ">
+"45248
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 45248: __asm("TMR0L equ 03FB6h");
+[; <" TMR0L equ 03FB6h ;# ">
+"45253
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 45253: __asm("TMR0 equ 03FB6h");
+[; <" TMR0 equ 03FB6h ;# ">
+"45386
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 45386: __asm("TMR0H equ 03FB7h");
+[; <" TMR0H equ 03FB7h ;# ">
+"45391
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 45391: __asm("PR0 equ 03FB7h");
+[; <" PR0 equ 03FB7h ;# ">
+"45640
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 45640: __asm("T0CON0 equ 03FB8h");
+[; <" T0CON0 equ 03FB8h ;# ">
+"45764
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 45764: __asm("T0CON1 equ 03FB9h");
+[; <" T0CON1 equ 03FB9h ;# ">
+"45906
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 45906: __asm("LATA equ 03FBAh");
+[; <" LATA equ 03FBAh ;# ">
+"46018
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 46018: __asm("LATB equ 03FBBh");
+[; <" LATB equ 03FBBh ;# ">
+"46130
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 46130: __asm("LATC equ 03FBCh");
+[; <" LATC equ 03FBCh ;# ">
+"46242
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 46242: __asm("LATD equ 03FBDh");
+[; <" LATD equ 03FBDh ;# ">
+"46354
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 46354: __asm("LATE equ 03FBEh");
+[; <" LATE equ 03FBEh ;# ">
+"46406
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 46406: __asm("TRISA equ 03FC2h");
+[; <" TRISA equ 03FC2h ;# ">
+"46468
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 46468: __asm("TRISB equ 03FC3h");
+[; <" TRISB equ 03FC3h ;# ">
+"46530
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 46530: __asm("TRISC equ 03FC4h");
+[; <" TRISC equ 03FC4h ;# ">
+"46592
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 46592: __asm("TRISD equ 03FC5h");
+[; <" TRISD equ 03FC5h ;# ">
+"46654
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 46654: __asm("TRISE equ 03FC6h");
+[; <" TRISE equ 03FC6h ;# ">
+"46686
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 46686: __asm("PORTA equ 03FCAh");
+[; <" PORTA equ 03FCAh ;# ">
+"46748
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 46748: __asm("PORTB equ 03FCBh");
+[; <" PORTB equ 03FCBh ;# ">
+"46810
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 46810: __asm("PORTC equ 03FCCh");
+[; <" PORTC equ 03FCCh ;# ">
+"46872
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 46872: __asm("PORTD equ 03FCDh");
+[; <" PORTD equ 03FCDh ;# ">
+"46934
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 46934: __asm("PORTE equ 03FCEh");
+[; <" PORTE equ 03FCEh ;# ">
+"46972
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 46972: __asm("INTCON0 equ 03FD2h");
+[; <" INTCON0 equ 03FD2h ;# ">
+"47032
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 47032: __asm("INTCON1 equ 03FD3h");
+[; <" INTCON1 equ 03FD3h ;# ">
+"47068
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 47068: __asm("IVTLOCK equ 03FD4h");
+[; <" IVTLOCK equ 03FD4h ;# ">
+"47090
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 47090: __asm("IVTBASE equ 03FD5h");
+[; <" IVTBASE equ 03FD5h ;# ">
+"47097
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 47097: __asm("IVTBASEL equ 03FD5h");
+[; <" IVTBASEL equ 03FD5h ;# ">
+"47159
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 47159: __asm("IVTBASEH equ 03FD6h");
+[; <" IVTBASEH equ 03FD6h ;# ">
+"47221
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 47221: __asm("IVTBASEU equ 03FD7h");
+[; <" IVTBASEU equ 03FD7h ;# ">
+"47265
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 47265: __asm("STATUS equ 03FD8h");
+[; <" STATUS equ 03FD8h ;# ">
+"47381
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 47381: __asm("FSR2 equ 03FD9h");
+[; <" FSR2 equ 03FD9h ;# ">
+"47388
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 47388: __asm("FSR2L equ 03FD9h");
+[; <" FSR2L equ 03FD9h ;# ">
+"47408
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 47408: __asm("FSR2H equ 03FDAh");
+[; <" FSR2H equ 03FDAh ;# ">
+"47428
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 47428: __asm("PLUSW2 equ 03FDBh");
+[; <" PLUSW2 equ 03FDBh ;# ">
+"47448
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 47448: __asm("PREINC2 equ 03FDCh");
+[; <" PREINC2 equ 03FDCh ;# ">
+"47468
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 47468: __asm("POSTDEC2 equ 03FDDh");
+[; <" POSTDEC2 equ 03FDDh ;# ">
+"47488
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 47488: __asm("POSTINC2 equ 03FDEh");
+[; <" POSTINC2 equ 03FDEh ;# ">
+"47508
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 47508: __asm("INDF2 equ 03FDFh");
+[; <" INDF2 equ 03FDFh ;# ">
+"47528
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 47528: __asm("BSR equ 03FE0h");
+[; <" BSR equ 03FE0h ;# ">
+"47548
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 47548: __asm("FSR1 equ 03FE1h");
+[; <" FSR1 equ 03FE1h ;# ">
+"47555
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 47555: __asm("FSR1L equ 03FE1h");
+[; <" FSR1L equ 03FE1h ;# ">
+"47575
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 47575: __asm("FSR1H equ 03FE2h");
+[; <" FSR1H equ 03FE2h ;# ">
+"47595
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 47595: __asm("PLUSW1 equ 03FE3h");
+[; <" PLUSW1 equ 03FE3h ;# ">
+"47615
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 47615: __asm("PREINC1 equ 03FE4h");
+[; <" PREINC1 equ 03FE4h ;# ">
+"47635
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 47635: __asm("POSTDEC1 equ 03FE5h");
+[; <" POSTDEC1 equ 03FE5h ;# ">
+"47655
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 47655: __asm("POSTINC1 equ 03FE6h");
+[; <" POSTINC1 equ 03FE6h ;# ">
+"47675
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 47675: __asm("INDF1 equ 03FE7h");
+[; <" INDF1 equ 03FE7h ;# ">
+"47695
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 47695: __asm("WREG equ 03FE8h");
+[; <" WREG equ 03FE8h ;# ">
+"47733
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 47733: __asm("FSR0 equ 03FE9h");
+[; <" FSR0 equ 03FE9h ;# ">
+"47740
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 47740: __asm("FSR0L equ 03FE9h");
+[; <" FSR0L equ 03FE9h ;# ">
+"47760
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 47760: __asm("FSR0H equ 03FEAh");
+[; <" FSR0H equ 03FEAh ;# ">
+"47780
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 47780: __asm("PLUSW0 equ 03FEBh");
+[; <" PLUSW0 equ 03FEBh ;# ">
+"47800
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 47800: __asm("PREINC0 equ 03FECh");
+[; <" PREINC0 equ 03FECh ;# ">
+"47820
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 47820: __asm("POSTDEC0 equ 03FEDh");
+[; <" POSTDEC0 equ 03FEDh ;# ">
+"47840
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 47840: __asm("POSTINC0 equ 03FEEh");
+[; <" POSTINC0 equ 03FEEh ;# ">
+"47860
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 47860: __asm("INDF0 equ 03FEFh");
+[; <" INDF0 equ 03FEFh ;# ">
+"47880
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 47880: __asm("PCON0 equ 03FF0h");
+[; <" PCON0 equ 03FF0h ;# ">
+"48033
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 48033: __asm("PCON1 equ 03FF1h");
+[; <" PCON1 equ 03FF1h ;# ">
+"48072
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 48072: __asm("PROD equ 03FF3h");
+[; <" PROD equ 03FF3h ;# ">
+"48079
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 48079: __asm("PRODL equ 03FF3h");
+[; <" PRODL equ 03FF3h ;# ">
+"48099
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 48099: __asm("PRODH equ 03FF4h");
+[; <" PRODH equ 03FF4h ;# ">
+"48119
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 48119: __asm("TABLAT equ 03FF5h");
+[; <" TABLAT equ 03FF5h ;# ">
+"48141
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 48141: __asm("TBLPTR equ 03FF6h");
+[; <" TBLPTR equ 03FF6h ;# ">
+"48148
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 48148: __asm("TBLPTRL equ 03FF6h");
+[; <" TBLPTRL equ 03FF6h ;# ">
+"48168
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 48168: __asm("TBLPTRH equ 03FF7h");
+[; <" TBLPTRH equ 03FF7h ;# ">
+"48188
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 48188: __asm("TBLPTRU equ 03FF8h");
+[; <" TBLPTRU equ 03FF8h ;# ">
+"48210
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 48210: __asm("PCLAT equ 03FF9h");
+[; <" PCLAT equ 03FF9h ;# ">
+"48217
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 48217: __asm("PCL equ 03FF9h");
+[; <" PCL equ 03FF9h ;# ">
+"48237
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 48237: __asm("PCLATH equ 03FFAh");
+[; <" PCLATH equ 03FFAh ;# ">
+"48257
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 48257: __asm("PCLATU equ 03FFBh");
+[; <" PCLATU equ 03FFBh ;# ">
+"48277
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 48277: __asm("STKPTR equ 03FFCh");
+[; <" STKPTR equ 03FFCh ;# ">
+"48363
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 48363: __asm("TOS equ 03FFDh");
+[; <" TOS equ 03FFDh ;# ">
+"48370
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 48370: __asm("TOSL equ 03FFDh");
+[; <" TOSL equ 03FFDh ;# ">
+"48390
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 48390: __asm("TOSH equ 03FFEh");
+[; <" TOSH equ 03FFEh ;# ">
+"48410
+[; ;C:/Users/jackj/.mchp_packs/Microchip/PIC18F-K_DFP/1.16.308/xc8\pic\include\proc/pic18f47k42.h: 48410: __asm("TOSU equ 03FFFh");
+[; <" TOSU equ 03FFFh ;# ">
+"40 mcc_generated_files/system/src/system.c
+[; ;mcc_generated_files/system/src/system.c: 40: void SYSTEM_Initialize(void)
+[v _SYSTEM_Initialize `(v ~T0 @X0 1 ef ]
+"41
+[; ;mcc_generated_files/system/src/system.c: 41: {
+{
+[e :U _SYSTEM_Initialize ]
+[f ]
+"42
+[; ;mcc_generated_files/system/src/system.c: 42:     CLOCK_Initialize();
+[e ( _CLOCK_Initialize ..  ]
+"43
+[; ;mcc_generated_files/system/src/system.c: 43:     PIN_MANAGER_Initialize();
+[e ( _PIN_MANAGER_Initialize ..  ]
+"44
+[; ;mcc_generated_files/system/src/system.c: 44:     ADC_Initialize();
+[e ( _ADC_Initialize ..  ]
+"45
+[; ;mcc_generated_files/system/src/system.c: 45:     UART2_Initialize();
+[e ( _UART2_Initialize ..  ]
+"46
+[; ;mcc_generated_files/system/src/system.c: 46:     INTERRUPT_Initialize();
+[e ( _INTERRUPT_Initialize ..  ]
+"47
+[; ;mcc_generated_files/system/src/system.c: 47: }
+[e :UE 2267 ]
+}
